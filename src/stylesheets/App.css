@@ -1,7 +1,8 @@
 .main-container {
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-gap: 10px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 50% 50% 50% 50%;
+    grid-gap: 20px;
     background-color: #fff;
     color: #444;
 }
@@ -9,6 +10,6 @@
 .box {
     background-color: #444;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     font-size: 150%;
 }
