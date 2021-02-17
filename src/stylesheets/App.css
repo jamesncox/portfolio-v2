@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
@@ -47,6 +47,10 @@ body.dark {
     --description-color: var(--white)
 }
 
+.App {
+    margin: 1rem;
+}
+
 .navbar-wrapper {
     display: flex;
     justify-content: space-between;
@@ -55,13 +59,14 @@ body.dark {
 .my-name {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
-    /* font-weight: bold; */
     color: var(--name-color);
-    margin-left: 1rem;
 }
 
 .menu-links {
-    font-family: 'Euphoria Script', cursive;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Architects Daughter', cursive;
+    color: var(--menu-color)
 }
 
 .description {

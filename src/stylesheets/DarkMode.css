@@ -1,7 +1,6 @@
 #darkMode {
     background: transparent url("../assets/images/sun.png") no-repeat center;
     background-size: 30px 30px;
-    margin-right: 1rem;
     margin-top: .5rem;
     width: 40px;
     height: 40px;
@@ -21,7 +20,6 @@
   #darkMode.clicked {
     background: transparent url("../assets/images/moon.png") no-repeat center;
     background-size: 30px 30px;
-    margin-right: 1rem;
     margin-top: .5rem;
     width: 40px;
     height: 40px;
