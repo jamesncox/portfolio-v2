@@ -19,7 +19,14 @@
   }
   
   #darkMode.clicked {
+    background: transparent url("../assets/images/moon.png") no-repeat center;
+    background-size: 30px 30px;
+    margin-right: 1rem;
+    margin-top: .5rem;
+    width: 40px;
+    height: 40px;
     /* filter: none !important; */
-    filter: grayscale(100%);
+    filter: grayscale(50%);
+    /* filter: brightness(0) invert(1); */
     /* background-color: var(--sky-blue); */
   }
