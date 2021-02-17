@@ -12,7 +12,7 @@ body {
     --black: black;
     --white: white;
     --off-white: rgb(245, 245, 245);
-    --gray: #495057;
+    --gray: #5b636b;
 
     /* reds */
     --brick-red: #a61e4d;
@@ -20,6 +20,9 @@ body {
     /* blues */
     --slate-blue: rgb(41, 41, 49);
     --sky-blue: rgb(80, 156, 255);
+
+    --bold: bold;
+    --weight-400: 400;
 
     /* transition */
    --theme-transition: background-color .4s ease-in-out, color .8s ease-in-out;
@@ -34,6 +37,7 @@ body.light {
     --hightlighted-menu-color: var(--brick-red);
     --menu-color: var(--gray);
     --description-color: var(--gray);
+    --font-weight: var(--bold);
 }
 
 body.dark {
@@ -44,7 +48,8 @@ body.dark {
     --name-color: var(--off-white);
     --hightlighted-menu-color: var(--sky-blue);
     --menu-color: var(--white);
-    --description-color: var(--white)
+    --description-color: var(--white);
+    --font-weight: var(--weight-400);
 }
 
 .App {
@@ -59,6 +64,7 @@ body.dark {
 .my-name {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
+    font-weight: var(--font-weight);
     color: var(--name-color);
 }
 
@@ -69,12 +75,17 @@ body.dark {
 
 .menu-buttons {
     font-family: 'Share Tech Mono', monospace;
+    font-size: 1rem;
+    font-weight: var(--font-weight);
     color: var(--menu-color);
     border: none;
     background: none;
-    font-size: 1rem;
     margin-left: -.25rem;
 }
+
+menu-buttons:active {
+    border-bottom: 3px solid red;
+  }
 
 .description {
     font-family: 'Roboto', sans-serif;
