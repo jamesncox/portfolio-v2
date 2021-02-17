@@ -5,9 +5,12 @@ import NavBar from './components/layout/NavBar'
 
 function App() {
   return (
-    <div className="main-container">
-      <NavBar />
-    </div>
+    <>
+    <NavBar />
+      <div className="main-container">
+        
+      </div>
+    </>
   );
 }
 

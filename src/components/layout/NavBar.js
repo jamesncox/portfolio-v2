@@ -3,8 +3,8 @@ import React from 'react'
 function NavBar() {
 
     return (
-        <div className="navbar">
-            <p>James</p>
+        <div className="navbar-wrapper">
+            <p className="my-name">James</p>
         </div>  
     )
 }
