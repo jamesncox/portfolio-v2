@@ -16,6 +16,10 @@ body {
     /* reds */
     --brick-red: #a61e4d;
 
+    /* blues */
+    --slate-blue: rgb(40, 40, 54);
+    --sky-blue: rgb(34, 70, 230);
+
     /* transition */
    --theme-transition: background-color .4s ease-in-out, color .8s ease-in-out;
 }
