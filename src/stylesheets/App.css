@@ -35,6 +35,17 @@ body.light {
     --description-color: var(--gray)
 }
 
+body.dark {
+    /* body */
+    --background-color: var(--slate-blue);
+
+    /* titles, headers and text */
+    --name-color: var(--white);
+    --hightlighted-menu-color: var(--sky-blue);
+    --menu-color: var(--white);
+    --description-color: var(--white)
+}
+
 .navbar-wrapper {
  margin-left: 1rem;
 }
