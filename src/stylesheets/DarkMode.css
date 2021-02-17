@@ -8,7 +8,7 @@
     /* filter: grayscale(100%); */
     border: none;
     border-radius: 50%;
-    transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
+    transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
   }
   
   #darkMode:hover,
@@ -29,4 +29,5 @@
     filter: grayscale(50%);
     /* filter: brightness(0) invert(1); */
     /* background-color: var(--sky-blue); */
+    transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
   }
