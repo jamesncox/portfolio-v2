@@ -53,6 +53,7 @@ body.dark {
 .my-name {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
+    color: var(--name-color);
 }
 
 .menu-links {
