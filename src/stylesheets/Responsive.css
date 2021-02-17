@@ -1,0 +1,27 @@
+@media only screen and (min-width: 700px) {
+    .App {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .App {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .App {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .App {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}

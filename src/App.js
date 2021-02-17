@@ -1,5 +1,6 @@
 import React from 'react'
 import './stylesheets/App.css'
+import './stylesheets/Responsive.css'
 
 import Header from './components/layout/Header'
 
