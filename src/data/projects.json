@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "THE BOREDINATOR",
+        "image": "boredinator-portfolio-alt.jpg",
+        "summary": "Activities and inspiration to stave off boredom",
+        "description": "Feeling bored? Don't know what to do? Let The Boredinator inspire you to try new and fun activities. Find an activity by category or get a totally random activity, if you're feeling brave! Featuring: Light/Dark theme toggle with localStorage to save user's preference on page reload; CSS variables for efficient light and dark theme management; State management with Redux; CSS-only design, no CSS libraries; Custom, reusable Hook called ImageLoad to lazy load images; Custom JSON data objects, simulating a local API; Separate and reusable components",
+        "github": "https://github.com/jamesncox/the-boredinator",
+        "url": "https://boredinator.netlify.app/",
+        "technologies": [
+            "React",
+            "JavaScript",
+            "Redux",
+            "CSS"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "GIF FIT",
+        "image": "gif fit resized collage.jpg",
+        "github": "https://github.com/jamesncox/gif-fit",
+        "url": "https://gif-fit.netlify.app/",
+        "summary": "Home workouts made easy!",
+        "description": "Gif Fit builds randomized workouts for you that you can do without any equipment in your home. Select how many exercises you want to perform, how long each one lasts, the rest period in between and total number of rounds. Gif Fit will keep track of each move for you and let you know when to rest and prepare for the next exercise. Features a React front-end, Redux to manage state, and Material UI for styling. Gifs are sourced from Giphy.com (special thanks and credit to 8fit for uploading so many awesome exercises). Made with love to genuinely help others during these stressful and challenging times.",
+        "technologies": [
+            "React",
+            "JavaScript",
+            "Redux",
+            "Material UI"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "DO DID DONE",
+        "image": "do did done collage.jpg",
+        "github": "https://github.com/jamesncox/do-did-done-react",
+        "url": "https://do-did-done.netlify.app/",
+        "summary": "Keep track of your todos by category",
+        "description": "Do Did Done allows a user to create an account and select several categories to manage their tasks. Do Did Done is made with a React frontend and a Rails API backend. The React frontend features Material UI components, React router, Redux and local state management, functional components and React hooks and a thoughtful design for improved UI and UX. The frontend consumes the Rails API with full CRUD functionality. The Rails API backend is hosted on Heroku and features a PostgreSQL database. It handles sessions, cookies, CRUD functionality, separation of concerns and MVC structure.",
+        "technologies": [
+            "React",
+            "Rails",
+            "JavaScript",
+            "Redux"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "BUY / WHERE",
+        "image": "buy where collage.jpg",
+        "github": "https://github.com/jamesncox/what-where-react",
+        "url": "https://buy-where.netlify.app/",
+        "summary": "Track your spending at stores you love",
+        "description": "Want to keep track of what you purchase at the stores and retailers you love to shop at? Buy / Where helps you do that! Featuring a React frontend that showcases Redux for state management, functional components that make use of modern hooks, and thoughtful use of reusable components. Designed with the Material UI library almost exclusively, delivering a clean aesthetic, responsiveness on all devices and improved accessibility. Data is managed by a Rails API backend hosted on Heroku, that handles model relationships and keeps the data logic separate from the front end.",
+        "technologies": [
+            "React",
+            "Rails",
+            "JavaScript",
+            "Redux"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "MEMES VS GIFS",
+        "image": "mvg new ss.jpg",
+        "summary": "(Desktop only) A meme and gif generator",
+        "description": "This app is my take on a meme or gif generator. A user can either sign up or log in if they already have an account, afterwhich they are given their own profile. A user can create combinations of their favorite randomly-generated memes or gifs and captions. The created meme or gif and caption combo is saved to the database and displayed in the user's profile page, as well as the designated meme or gif show page for everyone's memes and gifs. Gifs are provided by Giphy.com. A user can also create their own caption, which gets saved to the database, and that caption is available for selection by anyone. Captions can be sorted by ratings, NSFW, PG or viewing all ratings simultaneously. A created caption must be given a rating to persist to the database. This app utilizes a Rails API back-end with a postgreSQL database, as well as a React.js front-end.",
+        "github": "https://github.com/jamesncox/memes-vs-gifs-react",
+        "url": "https://memes-vs-gifs.netlify.app/",
+        "technologies": [
+            "React",
+            "Rails",
+            "JavaScript",
+            "CSS"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "MATH MASTER",
+        "image": "new math master ss.jpg",
+        "summary": "Math app for elementary students",
+        "description": "Math Master is a React single page application built for my daughter, Ellie. It generates random addition, subtraction, multiplication and division equations. It features a points system for correct or incorrect answers. Featuring responsive CSS media queries, managing state with Redux, and separation of concerns with container and presentational components.",
+        "github": "https://github.com/jamesncox/math-master",
+        "url": "https://mathmaster.netlify.app/",
+        "technologies": [
+            "React",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "KIDTIONARY",
+        "image": "kidtionary large ss.jpg",
+        "summary": "Dictionary designed for young readers",
+        "description": "Kidtionary features a React front end, state managed by Redux, responsive design for all devices and logic to handle errors, misspelling, blank fields and un-recognized queries.",
+        "github": "https://github.com/jamesncox/kidtionary",
+        "url": "https://kidtionary.netlify.app/",
+        "technologies": [
+            "React",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
+    }
+]
