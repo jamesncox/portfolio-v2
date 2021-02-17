@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
-a {
+#menu-style {
     font-family: 'Share Tech Mono', monospace;
     text-decoration: none;
     position: relative;
@@ -9,14 +9,14 @@ a {
     transition: color 0.1s, background-color 0.1s;
     color: var(--menu-color);
   }
-  a:hover {
+  #menu-style:hover {
     color: var(--hightlighted-menu-color);
   }
-  a:focus, a:active {
+  #menu-style:focus, #menu-style:active {
     color: var(--hightlighted-menu-color);
   }
   
-  a::before {
+  #menu-style::before {
     content: '';
     /* display: block; */
     position: absolute;
@@ -33,12 +33,12 @@ a {
     transition: color 0.1s, transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
   }
   
-  a:active::before {
+  #menu-style:active::before {
     background-color: var(--hightlighted-menu-color);
   }
   
-  a:hover::before,
-  a:focus::before {
+  #menu-style:hover::before,
+  #menu-style:focus::before {
     -webkit-transform-origin: center top;
             transform-origin: center top;
     -webkit-transform: scale(1, 1);

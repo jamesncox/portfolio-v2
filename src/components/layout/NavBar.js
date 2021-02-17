@@ -7,12 +7,12 @@ function NavBar() {
     return (
         <nav className="menu-wrapper">
             {/* <RouterLink to="/"> */}
-                <a>About</a>
+                <button className="menu-buttons">About</button>
             {/* </RouterLink> */}
 
-            <a>Portfolio</a>
-            <a>Blog</a>
-            <a>Contact</a>
+            <button className="menu-buttons">Portfolio</button>
+            <button className="menu-buttons">Blog</button>
+            <button className="menu-buttons">Contact</button>
         </nav>
     )
 }
