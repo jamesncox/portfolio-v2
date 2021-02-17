@@ -65,7 +65,7 @@ body.dark {
 .menu-links {
     display: flex;
     justify-content: space-between;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Share Tech Mono', monospace;
     color: var(--menu-color)
 }
 
