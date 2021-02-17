@@ -62,11 +62,18 @@ body.dark {
     color: var(--name-color);
 }
 
-.menu-links {
+.menu-wrapper {
     display: flex;
     justify-content: space-between;
+}
+
+.menu-buttons {
     font-family: 'Share Tech Mono', monospace;
-    color: var(--menu-color)
+    color: var(--menu-color);
+    border: none;
+    background: none;
+    font-size: 1rem;
+    margin-left: -.25rem;
 }
 
 .description {
