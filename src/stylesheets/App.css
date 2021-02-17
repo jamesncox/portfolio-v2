@@ -73,7 +73,7 @@ body.dark {
     justify-content: space-between;
 }
 
-.menu-buttons {
+/* .menu-buttons {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1rem;
     font-weight: var(--font-weight);
@@ -81,11 +81,7 @@ body.dark {
     border: none;
     background: none;
     margin-left: -.25rem;
-}
-
-menu-buttons:active {
-    border-bottom: 3px solid red;
-  }
+} */
 
 .description {
     font-family: 'Roboto', sans-serif;
