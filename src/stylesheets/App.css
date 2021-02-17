@@ -19,7 +19,7 @@ body {
 
     /* blues */
     --slate-blue: rgb(16, 16, 43);
-    --sky-blue: rgb(34, 70, 230);
+    --sky-blue: rgb(80, 156, 255);
 
     /* transition */
    --theme-transition: background-color .4s ease-in-out, color .8s ease-in-out;
@@ -55,6 +55,7 @@ body.dark {
 .my-name {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
+    /* font-weight: bold; */
     color: var(--name-color);
     margin-left: 1rem;
 }

@@ -1,11 +1,11 @@
 #darkMode {
-    background: transparent url("../assets/images/moon-in-sun.png") no-repeat center;
+    background: transparent url("../assets/images/sun.png") no-repeat center;
     background-size: 30px 30px;
     margin-right: 1rem;
     margin-top: .5rem;
     width: 40px;
     height: 40px;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     border: none;
     border-radius: 50%;
     transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
@@ -14,11 +14,12 @@
   #darkMode:hover,
   #darkMode:focus {
     filter: none;
-    background-color: var(--light-purple);
+    /* background-color: var(--light-purple); */
     cursor: pointer;
   }
   
   #darkMode.clicked {
-    filter: none !important;
-    background-color: var(--full-purple);
+    /* filter: none !important; */
+    filter: grayscale(100%);
+    /* background-color: var(--sky-blue); */
   }
