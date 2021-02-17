@@ -11,13 +11,14 @@ body {
     /* neutrals */
     --black: black;
     --white: white;
+    --off-white: rgb(245, 245, 245);
     --gray: #495057;
 
     /* reds */
     --brick-red: #a61e4d;
 
     /* blues */
-    --slate-blue: rgb(40, 40, 54);
+    --slate-blue: rgb(16, 16, 43);
     --sky-blue: rgb(34, 70, 230);
 
     /* transition */
@@ -32,7 +33,7 @@ body.light {
     --name-color: var(--black);
     --hightlighted-menu-color: var(--brick-red);
     --menu-color: var(--gray);
-    --description-color: var(--gray)
+    --description-color: var(--gray);
 }
 
 body.dark {
@@ -40,20 +41,22 @@ body.dark {
     --background-color: var(--slate-blue);
 
     /* titles, headers and text */
-    --name-color: var(--white);
+    --name-color: var(--off-white);
     --hightlighted-menu-color: var(--sky-blue);
     --menu-color: var(--white);
     --description-color: var(--white)
 }
 
 .navbar-wrapper {
- margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .my-name {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
     color: var(--name-color);
+    margin-left: 1rem;
 }
 
 .menu-links {

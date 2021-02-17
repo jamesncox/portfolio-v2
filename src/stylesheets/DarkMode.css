@@ -1,8 +1,10 @@
 #darkMode {
     background: transparent url("../assets/images/moon-in-sun.png") no-repeat center;
     background-size: 30px 30px;
-    width: 45px;
-    height: 45px;
+    margin-right: 1rem;
+    margin-top: .5rem;
+    width: 40px;
+    height: 40px;
     filter: grayscale(100%);
     border: none;
     border-radius: 50%;

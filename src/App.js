@@ -1,15 +1,12 @@
 import React from 'react'
 import './stylesheets/App.css'
 
-import NavBar from './components/layout/NavBar'
+import Header from './components/layout/Header'
 
 function App() {
   return (
     <>
-    <NavBar />
-      <div className="main-container">
-        
-      </div>
+      <Header />
     </>
   );
 }
