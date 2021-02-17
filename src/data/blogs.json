@@ -1,0 +1,66 @@
+[
+    {
+        "id": 201,
+        "logo": "devto.png",
+        "name": "React Hooks Series: useState",
+        "image": "useState screenshot.jpg",
+        "summary": "Part one in my React Hooks Series. I examine the useState hook in a basic timer app with examples from Codesandbox.",
+        "url": "https://dev.to/jamesncox/react-hooks-series-usestate-12ne"
+    },
+    {
+        "id": 202,
+        "logo": "devto.png",
+        "name": "React Hooks Series: useEffect",
+        "image": "useEffect screenshot.jpg",
+        "summary": "Part two in my React Hooks Series takes a look at the useEffect hook and how I implememnt in a small timer app I created in Codesandbox.",
+        "url": "https://dev.to/jamesncox/react-hook-series-useeffect-in2"
+    },
+    {
+        "id": 203,
+        "logo": "devto.png",
+        "name": "React Hooks Series: useRef",
+        "image": "useRef screenshot.jpg",
+        "summary": "Part three in the React Hooks Series talks about my personal favorite hook: useRef. We look at how useRef solves a problem with pausing and starting the timer in my Codesandbox example.",
+        "url": "https://dev.to/jamesncox/react-hooks-series-useref-27mk"
+    },
+    {
+        "id": 204,
+        "logo": "devto.png",
+        "name": "React Patterns: Local API",
+        "image": "powerful people ss.jpg",
+        "summary": "A new series on my personal React patterns, where I talk about how and why I simulate a local JSON API in my React applications. What is An API? What is JSON? Find out in this article!",
+        "url": "https://dev.to/jamesncox/react-patterns-local-api-495j"
+    },
+    {
+        "id": 205,
+        "logo": "devto.png",
+        "name": "Flexbox Rocks!",
+        "image": "excalidraw card rows mockup.jpg",
+        "summary": "I explore how I use Flexbox to create a simple card layout and display the cards in either rows or a column depending on the screen size, highlighting how to use CSS media queries.",
+        "url": "https://dev.to/jamesncox/flexbox-rocks-2bf9"
+    },
+    {
+        "id": 206,
+        "logo": "devto.png",
+        "name": "Home 'Office'",
+        "image": "home office.jpg",
+        "summary": "Are you working from home? If you are like me, you don't have an awesome setup (YET) and you are making the best with what you've got. And that is okay!",
+        "url": "https://dev.to/jamesncox/home-office-5kn"
+    },
+    {
+        "id": 207,
+        "logo": "mediumlogo.png",
+        "name": "Keeping A User In Session",
+        "image": "reactrails.jpg",
+        "summary": "My solution for keeping a user in session (not having to resign in every time), even when the page is refreshed, for a Rails backend and React frontend application.",
+        "url": "https://medium.com/@jamesncox/keeping-a-user-in-session-with-react-and-rails-c62e37a495c2"
+    },
+    {
+        "id": 208,
+        "logo": "mediumlogo.png",
+        "name": "My Embarrasing Rails CORS Story",
+        "image": "CORS errors screenshot cropped.jpg",
+        "summary": "You have probably already encountered one of every developer's worst nightmares: BLOCKED BY CORS. I detail how I spent hours trying to figure out why my Rails API kept blocking and the embarrasing reason.",
+        "url": "https://medium.com/@jamesncox/my-embarrasing-rails-cors-story-e66a8db2c5e6"
+    }
+]
