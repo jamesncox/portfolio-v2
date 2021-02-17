@@ -5,6 +5,19 @@ body {
     transition: var(--theme-transition);
 }
 
+:root {
+    /* neutrals */
+    --black: black;
+    --white: white;
+    --gray: #495057;
+
+    /* reds */
+    --brick-red: #a61e4d;
+
+    /* transition */
+   --theme-transition: background-color .4s ease-in-out, color .8s ease-in-out;
+}
+
 .navbar-wrapper {
  margin-left: 1rem;
 }
