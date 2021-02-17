@@ -24,6 +24,17 @@ body {
    --theme-transition: background-color .4s ease-in-out, color .8s ease-in-out;
 }
 
+body.light {
+    /* body */
+    --background-color: var(--white);
+
+    /* titles, headers and text */
+    --name-color: var(--black);
+    --hightlighted-menu-color: var(--brick-red);
+    --menu-color: var(--gray);
+    --description-color: var(--gray)
+}
+
 .navbar-wrapper {
  margin-left: 1rem;
 }
