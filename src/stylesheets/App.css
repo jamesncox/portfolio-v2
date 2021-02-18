@@ -97,22 +97,30 @@ body.dark {
 .bio-menu-wrapper {
     /* margin-top: 1rem; */
     display: flex;
-    justify-content: space-between; 
+    /* justify-content: space-between;  */
 }
 
 .bio-menu {
     font-family: 'Architects Daughter', cursive;
     color: var(--description-color);
     transition: var(--theme-transition);
+    margin-right: .6rem;
     cursor: pointer;
 }
 
 .selected-bio {
     font-family: 'Architects Daughter', cursive;
     font-weight: var(--bold);
+    margin-right: .6rem;
     color: var(--hightlighted-menu-color);
     transition: var(--theme-transition);
     cursor: pointer;
+}
+
+.bio-text {
+    font-family: 'Roboto', sans-serif;
+    color: var(--description-color);
+    transition: var(--theme-transition);
 }
 
 /* practice scroll styles */

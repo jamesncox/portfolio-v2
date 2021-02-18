@@ -8,7 +8,7 @@ function BioSelect() {
                 <p className="selected-bio">short</p>
                 <p className="bio-menu">medium</p>
                 <p className="bio-menu">long</p>
-                <p className="bio-menu">stalk much?</p>
+                <p className="bio-menu">stalker?</p>
             </nav>
         </>
     )

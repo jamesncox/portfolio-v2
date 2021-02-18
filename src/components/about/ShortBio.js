@@ -3,7 +3,7 @@ import React from 'react'
 function ShortBio() {
 
     return (
-        <p>I code things.</p>
+        <p className="bio-text">I code things.</p>
     )
 }
 
