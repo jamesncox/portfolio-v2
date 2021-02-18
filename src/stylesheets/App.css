@@ -65,6 +65,7 @@ body.dark {
     margin-right: .5rem;
 }
 
+/* NavBar styles */
 .nav-parent {
     position: sticky;
     top: 0;
@@ -92,9 +93,7 @@ body.dark {
     justify-content: space-between;
 }
 
-.description {
-    font-family: 'Roboto', sans-serif;
-}
+/* SelectBio styles */
 
 /* practice scroll styles */
 .practice-scroll {
@@ -109,4 +108,8 @@ body.dark {
     font-family: 'Architects Daughter', cursive;
     color: var(--hightlighted-menu-color);
     transition: var(--theme-transition);
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
 }
