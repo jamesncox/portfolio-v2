@@ -1,49 +1,15 @@
-import React, {useState } from 'react'
+import React from 'react'
 import {Link} from 'react-scroll'
 
 function NavBar() {
 
-    const [aboutActive, setAboutActive] = useState(true)
-    const [projectsActive, setProjectsActive] = useState(false)
-    const [blogActive, setBlogActive] = useState(false)
-    const [contactActive, setContactActive] = useState(false)
-
-    const handleAboutActive = () => {
-        setAboutActive(true)
-        setProjectsActive(false)
-        setBlogActive(false)
-        setContactActive(false)
-    }
-
-    const handleProjectsActive = () => {
-        setAboutActive(false)
-        setProjectsActive(true)
-        setBlogActive(false)
-        setContactActive(false)
-    }
-
-    const handleBlogActive = () => {
-        setAboutActive(false)
-        setProjectsActive(false)
-        setBlogActive(true)
-        setContactActive(false)
-    }
-
-    const handleContactActive = () => {
-        setAboutActive(false)
-        setProjectsActive(false)
-        setBlogActive(false)
-        setContactActive(true)
-    }
-
     return (
       <nav className="menu-wrapper">
         <div
-          className={aboutActive ? "selected-menu" : "menu"}
+          className="menu"
         >
           <Link
-          onClick={(e) => handleAboutActive(e)}
-            activeClass="active"
+            activeClass="selected-menu"
             to="about"
             spy={true}
             smooth={true}
@@ -54,11 +20,10 @@ function NavBar() {
           </Link>
         </div>
         <div
-          className={projectsActive ? "selected-menu" : "menu"}
+          className="menu"
         >
           <Link
-          onClick={(e) => handleProjectsActive(e)}
-            activeClass="active"
+            activeClass="selected-menu"
             to="projects"
             spy={true}
             smooth={true}
@@ -69,11 +34,10 @@ function NavBar() {
           </Link>
         </div>
         <div 
-          className={blogActive ? "selected-menu" : "menu"}
+          className="menu"
         >
           <Link
-          onClick={(e) => handleBlogActive(e)}
-            activeClass="active"
+            activeClass="selected-menu"
             to="blog"
             spy={true}
             smooth={true}
@@ -84,11 +48,10 @@ function NavBar() {
           </Link>
         </div>
         <div
-          className={contactActive ? "selected-menu" : "menu"}
+          className="menu"
         >
           <Link
-          onClick={(e) => handleContactActive(e)}
-            activeClass="active"
+            activeClass="selected-menu"
             to="contact"
             spy={true}
             smooth={true}
