@@ -11,7 +11,7 @@ function NavBar() {
             to="about"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-120}
             duration={400}
           >
             About
@@ -23,7 +23,7 @@ function NavBar() {
             to="projects"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-120}
             duration={400}
           >
             Projects
@@ -35,7 +35,7 @@ function NavBar() {
             to="blog"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-120}
             duration={400}
           >
             Blog
@@ -47,7 +47,7 @@ function NavBar() {
             to="contact"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-120}
             duration={400}
           >
             Contact
