@@ -69,7 +69,7 @@ body.dark {
     position: sticky;
     top: 0;
     background-color: var(--background-color);
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 2px solid var(--border-color);
     padding-bottom: .5em;
     transition: var(--theme-transition);
   }
@@ -100,9 +100,9 @@ body.dark {
     border: none;
     background: none;
     margin-left: -.25rem;
-    transition: var(--theme-transition);
     outline: none;
     cursor: pointer;
+    transition: var(--theme-transition);
 }
 
 .description {

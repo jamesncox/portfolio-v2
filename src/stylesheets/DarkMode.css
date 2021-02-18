@@ -4,7 +4,6 @@
     margin-top: .5rem;
     width: 40px;
     height: 40px;
-    /* filter: grayscale(100%); */
     border: none;
     border-radius: 50%;
     transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
@@ -13,7 +12,6 @@
   #darkMode:hover,
   #darkMode:focus {
     filter: none;
-    /* background-color: var(--light-purple); */
     cursor: pointer;
   }
   
@@ -23,9 +21,6 @@
     margin-top: .5rem;
     width: 40px;
     height: 40px;
-    /* filter: none !important; */
     filter: grayscale(50%);
-    /* filter: brightness(0) invert(1); */
-    /* background-color: var(--sky-blue); */
     transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
   }
