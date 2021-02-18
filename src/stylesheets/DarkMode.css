@@ -6,7 +6,8 @@
     height: 40px;
     border: none;
     border-radius: 50%;
-    transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
+    transition: 0.4s ease-in-out, filter 0.8s ease-in-out;
+    outline: none;
   }
   
   #darkMode:hover,
@@ -22,5 +23,6 @@
     width: 40px;
     height: 40px;
     filter: grayscale(50%);
-    transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
+    transition: 0.4s ease-in-out, filter 0.8s ease-in-out;
+    outline: none;
   }
