@@ -94,6 +94,26 @@ body.dark {
 }
 
 /* SelectBio styles */
+.bio-menu-wrapper {
+    /* margin-top: 1rem; */
+    display: flex;
+    justify-content: space-between; 
+}
+
+.bio-menu {
+    font-family: 'Architects Daughter', cursive;
+    color: var(--description-color);
+    transition: var(--theme-transition);
+    cursor: pointer;
+}
+
+.selected-bio {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: var(--bold);
+    color: var(--hightlighted-menu-color);
+    transition: var(--theme-transition);
+    cursor: pointer;
+}
 
 /* practice scroll styles */
 .practice-scroll {
@@ -104,7 +124,7 @@ body.dark {
     transition: var(--theme-transition);
 }
 
-.selected-section {
+.section-title {
     font-family: 'Architects Daughter', cursive;
     color: var(--hightlighted-menu-color);
     transition: var(--theme-transition);
