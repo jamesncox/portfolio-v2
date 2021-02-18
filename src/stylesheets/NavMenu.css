@@ -1,6 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
-.menu-style {
+.selected-menu {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    outline: none;
+    font-weight: var(--font-weight);
+    color: var(--hightlighted-menu-color);
+    margin-left: -.25rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: var(--theme-transition);
+}
+
+.selected-menu::before {
+  content: '';
+  position: absolute;
+  margin-left: -.15rem;
+  top: 97%;
+  height: 5px;
+  width: 70px;
+  background-color: var(--hightlighted-menu-color);
+  transition: var(--theme-transition);
+}
+
+.menu {
     font-family: 'Share Tech Mono', monospace;
     position: relative;
     cursor: pointer;
@@ -15,22 +40,22 @@
     margin-left: -.25rem;
   }
   
-  .menu-style:hover {
-    color: var(--hightlighted-menu-color);
+  .menu:hover {
+    color: var(--description-color);
   }
 
-  .menu-style:focus, .menu-style:active {
-    color: var(--hightlighted-menu-color);
+  .menu:focus, .menu:active {
+    color: var(--description-color);
   }
   
-  .menu-style::before {
+  .menu::before {
     content: '';
     position: absolute;
     margin-left: -.15rem;
     top: 125%;
     height: 5px;
-    width: 95%;
-    background-color: var(--hightlighted-menu-color);
+    width: 70px;
+    background-color: var(--description-color);
     -webkit-transform-origin: center top;
             transform-origin: center top;
     -webkit-transform: scale(0, 1);
@@ -40,12 +65,12 @@
     transition: color 0.1s, transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
   }
   
-  .menu-style:active::before {
-    background-color: var(--hightlighted-menu-color);
+  .menu:active::before {
+    background-color: var(--description-color);
   }
   
-  .menu-style:hover::before,
-  .menu-style:focus::before {
+  .menu:hover::before,
+  .menu:focus::before {
     -webkit-transform-origin: center top;
             transform-origin: center top;
     -webkit-transform: scale(1, 1);

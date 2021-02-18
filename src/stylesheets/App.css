@@ -63,6 +63,7 @@ body.dark {
 .App {
     margin-left: 1rem;
     margin-right: 1rem;
+    /* border: 1px solid black; */
 }
 
 .nav-parent {
@@ -121,7 +122,7 @@ body.dark {
     transition: var(--theme-transition);
 }
 
-.selected-menu {
+.selected-section {
     font-family: 'Architects Daughter', cursive;
     color: var(--hightlighted-menu-color);
     transition: var(--theme-transition);
