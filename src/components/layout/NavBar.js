@@ -5,10 +5,10 @@ function NavBar() {
 
     return (
         <nav className="menu-wrapper">
-            <button className="menu-buttons"><Link activeClass="active" to="about" spy={true} smooth={true}>About</Link></button>
-            <button className="menu-buttons"><Link activeClass="active" to="projects" spy={true} smooth={true}>Projects</Link></button>
-            <button className="menu-buttons"><Link activeClass="active" to="blog" spy={true} smooth={true}>Blog</Link></button>
-            <button className="menu-buttons"><Link activeClass="active" to="contact" spy={true} smooth={true}>Contact</Link></button>
+            <button className="menu-buttons"><Link activeClass="active" to="about" spy={true} smooth={true} offset={-100}>About</Link></button>
+            <button className="menu-buttons"><Link activeClass="active" to="projects" spy={true} smooth={true} offset={-100}>Projects</Link></button>
+            <button className="menu-buttons"><Link activeClass="active" to="blog" spy={true} smooth={true} offset={-100}>Blog</Link></button>
+            <button className="menu-buttons"><Link activeClass="active" to="contact" spy={true} smooth={true} offset={-100}>Contact</Link></button>
         </nav>
     )
 }

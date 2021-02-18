@@ -13,6 +13,7 @@ body {
     --white: white;
     --off-white: rgb(245, 245, 245);
     --gray: #5b636b;
+    --light-gray: rgb(128, 128, 128);
 
     /* reds */
     --brick-red: #a61e4d;
@@ -38,6 +39,9 @@ body.light {
     --menu-color: var(--gray);
     --description-color: var(--gray);
     --font-weight: var(--bold);
+
+    /* features */
+    --border-color: var(--light-gray);
 }
 
 body.dark {
@@ -50,13 +54,29 @@ body.dark {
     --menu-color: var(--white);
     --description-color: var(--white);
     --font-weight: var(--weight-400);
+
+    /* features */
+    --border-color: var(--off-white);
 }
 
 .App {
     margin: 1rem;
 }
 
+.nav-parent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-right: 1rem;
+    width: 100%;
+    background-color: var(--background-color);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: .5em;
+    transition: var(--theme-transition);
+  }
+
 .navbar-wrapper {
+    /* position: fixed; */
     display: flex;
     justify-content: space-between;
 }
@@ -66,9 +86,11 @@ body.dark {
     font-size: 1.25rem;
     font-weight: var(--font-weight);
     color: var(--name-color);
+    transition: var(--theme-transition);
 }
 
 .menu-wrapper {
+    /* position: fixed; */
     display: flex;
     justify-content: space-between;
 }
@@ -81,38 +103,25 @@ body.dark {
     border: none;
     background: none;
     margin-left: -.25rem;
+    transition: var(--theme-transition);
 }
 
 .description {
     font-family: 'Roboto', sans-serif;
 }
 
-.main-container {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 50% 50% 50% 50%;
-    grid-gap: 20px;
-    background-color: #fff;
-    color: #444;
-}
-
-.box {
-    background-color: #444;
-    color: #fff;
-    padding: 10px;
-    font-size: 150%;
-}
-
 /* practice scroll styles */
 
 .practice-scroll {
-    margin-top: 2rem;
+    margin-top: 100px;
     height: 1000px;
     color: var(--description-color);
     font-family: 'Roboto', sans-serif;
+    transition: var(--theme-transition);
 }
 
 .selected-menu {
     font-family: 'Architects Daughter', cursive;
-    color: var(--hightlighted-menu-color)
+    color: var(--hightlighted-menu-color);
+    transition: var(--theme-transition);
 }
