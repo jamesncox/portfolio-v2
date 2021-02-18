@@ -45,7 +45,7 @@ body.dark {
     --background-color: var(--slate-blue);
 
     /* titles, headers and text */
-    --name-color: var(--off-white);
+    --name-color: var(--sky-blue);
     --hightlighted-menu-color: var(--sky-blue);
     --menu-color: var(--white);
     --description-color: var(--white);
