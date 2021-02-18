@@ -105,6 +105,10 @@ body.dark {
     transition: var(--theme-transition);
 }
 
+.menu-buttons .current {
+    color: var(--hightlighted-menu-color);
+}
+
 .description {
     font-family: 'Roboto', sans-serif;
 }
