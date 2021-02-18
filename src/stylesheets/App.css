@@ -109,6 +109,7 @@ body.dark {
     margin-top: 2rem;
     height: 1000px;
     color: var(--description-color);
+    font-family: 'Roboto', sans-serif;
 }
 
 .selected-menu {
