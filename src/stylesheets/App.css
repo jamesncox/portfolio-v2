@@ -53,7 +53,7 @@ body.dark {
     --name-color: var(--sky-blue);
     --menu-color: var(--white);
     --description-color: var(--white);
-    --font-weight: var(--weight-400);
+    --font-weight: var(--bold);
     --hightlighted-menu-color: var(--sky-blue);
 
     /* features */

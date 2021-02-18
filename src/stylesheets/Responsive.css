@@ -37,10 +37,10 @@
   .menu::before {
     content: '';
     position: absolute;
-    margin-left: -.15rem;
+    /* margin-left: -.15rem; */
     top: 125%;
     height: 5px;
-    width: 70px;
+    width: 60px;
     background-color: var(--description-color);
     -webkit-transform-origin: center top;
             transform-origin: center top;

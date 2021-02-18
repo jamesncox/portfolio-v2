@@ -38,8 +38,7 @@ function NavBar() {
 
     return (
       <nav className="menu-wrapper">
-        <button
-          
+        <div
           className={aboutActive ? "selected-menu" : "menu"}
         >
           <Link
@@ -53,9 +52,8 @@ function NavBar() {
           >
             About
           </Link>
-        </button>
-        <button
-          
+        </div>
+        <div
           className={projectsActive ? "selected-menu" : "menu"}
         >
           <Link
@@ -69,9 +67,8 @@ function NavBar() {
           >
             Projects
           </Link>
-        </button>
-        <button
-          
+        </div>
+        <div 
           className={blogActive ? "selected-menu" : "menu"}
         >
           <Link
@@ -85,9 +82,8 @@ function NavBar() {
           >
             Blog
           </Link>
-        </button>
-        <button
-          
+        </div>
+        <div
           className={contactActive ? "selected-menu" : "menu"}
         >
           <Link
@@ -101,7 +97,7 @@ function NavBar() {
           >
             Contact
           </Link>
-        </button>
+        </div>
       </nav>
     );
 }
