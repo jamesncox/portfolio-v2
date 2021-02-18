@@ -37,6 +37,6 @@
     border: none;
     background: none;
     outline: none;
-    margin-left: -.25rem;
+    margin-left: -.35rem;
     transition: var(--theme-transition);
   }
