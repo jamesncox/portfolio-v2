@@ -40,7 +40,7 @@
     margin-left: -.25rem;
   }
   
-  .menu:hover {
+  /* .menu:hover {
     color: var(--description-color);
   }
 
@@ -75,4 +75,4 @@
             transform-origin: center top;
     -webkit-transform: scale(1, 1);
             transform: scale(1, 1);
-  }
+  } */
