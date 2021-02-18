@@ -22,6 +22,7 @@ body {
     --slate-blue: rgb(32, 43, 53);
     --sky-blue: rgb(80, 156, 255);
 
+    /* fonts */
     --bold: bold;
     --weight-400: 400;
 
@@ -35,10 +36,10 @@ body.light {
 
     /* titles, headers and text */
     --name-color: var(--black);
-    --hightlighted-menu-color: var(--brick-red);
     --menu-color: var(--gray);
     --description-color: var(--gray);
     --font-weight: var(--bold);
+    --hightlighted-menu-color: var(--brick-red);
 
     /* features */
     --border-color: var(--light-gray);
@@ -50,10 +51,10 @@ body.dark {
 
     /* titles, headers and text */
     --name-color: var(--sky-blue);
-    --hightlighted-menu-color: var(--sky-blue);
     --menu-color: var(--white);
     --description-color: var(--white);
     --font-weight: var(--weight-400);
+    --hightlighted-menu-color: var(--sky-blue);
 
     /* features */
     --border-color: var(--off-white);
