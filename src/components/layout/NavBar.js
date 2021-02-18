@@ -5,7 +5,7 @@ function NavBar() {
 
     return (
       <nav className="menu-wrapper">
-        <button id="menu-style" className="current">
+        <button id="menu-style">
           <Link
             activeClass="active"
             to="about"
