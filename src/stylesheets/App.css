@@ -106,6 +106,12 @@ body.dark {
 /* practice scroll styles */
 
 .practice-scroll {
+    margin-top: 2rem;
     height: 1000px;
     color: var(--description-color);
+}
+
+.selected-menu {
+    font-family: 'Architects Daughter', cursive;
+    color: var(--hightlighted-menu-color)
 }
