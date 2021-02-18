@@ -18,7 +18,7 @@
   position: absolute;
   top: 128%;
   height: 5px;
-  width: 61px;
+  width: 100%;
   background-color: var(--hightlighted-menu-color);
   transition: var(--theme-transition);
 }
