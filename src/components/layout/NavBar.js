@@ -5,7 +5,7 @@ function NavBar() {
 
     return (
       <nav className="menu-wrapper">
-        <button className="menu-buttons">
+        <button id="menu-style">
           <Link
             activeClass="active"
             to="about"
@@ -17,7 +17,7 @@ function NavBar() {
             About
           </Link>
         </button>
-        <button className="menu-buttons">
+        <button id="menu-style">
           <Link
             activeClass="active"
             to="projects"
@@ -29,7 +29,7 @@ function NavBar() {
             Projects
           </Link>
         </button>
-        <button className="menu-buttons">
+        <button id="menu-style">
           <Link
             activeClass="active"
             to="blog"
@@ -41,7 +41,7 @@ function NavBar() {
             Blog
           </Link>
         </button>
-        <button className="menu-buttons">
+        <button id="menu-style">
           <Link
             activeClass="active"
             to="contact"
