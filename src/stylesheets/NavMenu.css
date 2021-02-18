@@ -2,7 +2,6 @@
 
 #menu-style {
     font-family: 'Share Tech Mono', monospace;
-    text-decoration: none;
     position: relative;
     cursor: pointer;
     text-transform: uppercase;
@@ -13,7 +12,7 @@
     border: none;
     background: none;
     outline: none;
-    margin-left: -.4rem;
+    margin-left: -.25rem;
   }
   
   #menu-style:hover {
@@ -27,9 +26,10 @@
   #menu-style::before {
     content: '';
     position: absolute;
+    margin-left: -.15rem;
     top: 125%;
     height: 5px;
-    width: 91.5%;
+    width: 95%;
     background-color: var(--hightlighted-menu-color);
     -webkit-transform-origin: center top;
             transform-origin: center top;
