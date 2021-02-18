@@ -12,15 +12,16 @@
     text-transform: uppercase;
     cursor: pointer;
     transition: var(--theme-transition);
+    margin-left: -.35rem;
 }
 
 .selected-menu::before {
   content: '';
   position: absolute;
-  margin-left: -.15rem;
+  /* margin-left: -.15rem; */
   top: 96.7%;
   height: 5px;
-  width: 70px;
+  width: 67px;
   background-color: var(--hightlighted-menu-color);
   transition: var(--theme-transition);
 }
@@ -30,7 +31,6 @@
     position: relative;
     cursor: pointer;
     text-transform: uppercase;
-    transition: color 0.1s, background-color 0.1s;
     font-size: 1rem;
     font-weight: var(--font-weight);
     color: var(--menu-color);
@@ -38,41 +38,5 @@
     background: none;
     outline: none;
     margin-left: -.25rem;
+    transition: var(--theme-transition);
   }
-  
-  /* .menu:hover {
-    color: var(--description-color);
-  }
-
-  .menu:focus, .menu:active {
-    color: var(--description-color);
-  }
-  
-  .menu::before {
-    content: '';
-    position: absolute;
-    margin-left: -.15rem;
-    top: 125%;
-    height: 5px;
-    width: 70px;
-    background-color: var(--description-color);
-    -webkit-transform-origin: center top;
-            transform-origin: center top;
-    -webkit-transform: scale(0, 1);
-            transform: scale(0, 1);
-    transition: color 0.1s, -webkit-transform 0.2s ease-out;
-    transition: color 0.1s, transform 0.2s ease-out;
-    transition: color 0.1s, transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
-  }
-  
-  .menu:active::before {
-    background-color: var(--description-color);
-  }
-  
-  .menu:hover::before,
-  .menu:focus::before {
-    -webkit-transform-origin: center top;
-            transform-origin: center top;
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
-  } */
