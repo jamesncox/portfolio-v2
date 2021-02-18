@@ -63,7 +63,6 @@ body.dark {
 .App {
     margin-left: .5rem;
     margin-right: .5rem;
-    /* border: 1px solid black; */
 }
 
 .nav-parent {
@@ -92,19 +91,6 @@ body.dark {
     display: flex;
     justify-content: space-between;
 }
-
-/* .menu-buttons {
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 1rem;
-    font-weight: var(--font-weight);
-    color: var(--menu-color);
-    border: none;
-    background: none;
-    margin-left: -.25rem;
-    outline: none;
-    cursor: pointer;
-    transition: var(--theme-transition);
-} */
 
 .description {
     font-family: 'Roboto', sans-serif;
