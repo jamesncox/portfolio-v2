@@ -14,7 +14,8 @@ function NavBar() {
             spy={true}
             smooth={true}
             offset={-120}
-            duration={400}
+            // duration={400}
+            isDynamic={true}
           >
             About
           </Link>
@@ -28,7 +29,8 @@ function NavBar() {
             spy={true}
             smooth={true}
             offset={-120}
-            duration={400}
+            // duration={400}
+            isDynamic={true}
           >
             Projects
           </Link>
@@ -42,7 +44,8 @@ function NavBar() {
             spy={true}
             smooth={true}
             offset={-120}
-            duration={400}
+            // duration={400}
+            isDynamic={true}
           >
             Blog
           </Link>
@@ -56,7 +59,8 @@ function NavBar() {
             spy={true}
             smooth={true}
             offset={-120}
-            duration={400}
+            // duration={400}
+            isDynamic={true}
           >
             Contact
           </Link>
