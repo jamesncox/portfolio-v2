@@ -10,18 +10,17 @@
     color: var(--hightlighted-menu-color);
     text-transform: uppercase;
     cursor: pointer;
-    transition: color 0.1s, -webkit-transform 0.2s ease-out;
+    transition: var(--theme-transition);
 }
 
 .selected-menu::before {
   content: '';
   position: absolute;
-  /* margin-left: -.15rem; */
   top: 125%;
   height: 5px;
   width: 60px;
   background-color: var(--hightlighted-menu-color);
-  transition: color 0.1s, -webkit-transform 0.2s ease-out;
+  transition: var(--theme-transition);
 }
 
 .menu {
@@ -35,6 +34,5 @@
     border: none;
     background: none;
     outline: none;
-    /* margin-left: -.35rem; */
-    transition: color 0.1s, -webkit-transform 0.2s ease-out;
+    transition: var(--theme-transition);
   }
