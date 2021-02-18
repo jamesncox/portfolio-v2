@@ -102,3 +102,10 @@ body.dark {
     padding: 10px;
     font-size: 150%;
 }
+
+/* practice scroll styles */
+
+.practice-scroll {
+    height: 1000px;
+    color: var(--description-color);
+}
