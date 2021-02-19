@@ -24,7 +24,7 @@ body {
     --sky-blue: rgb(80, 156, 255);
 
     /* greens */
-    --green: rgb(145, 255, 0);
+    --green: rgba(255, 255, 187, 0.979);
 
     /* fonts */
     --bold: bold;
@@ -104,6 +104,7 @@ body.dark {
 
 /* SelectBio styles */
 .bio-menu-wrapper {
+    margin-top: 1rem;
     margin-bottom: -1.5rem;
     display: flex;
     /* justify-content: space-between;  */
