@@ -54,7 +54,7 @@ body.dark {
     --background-color: var(--slate-blue);
 
     /* titles, headers and text */
-    --name-color: var(--brick-red);
+    --name-color: var(--orange);
     --menu-color: var(--white);
     --description-color: var(--white);
     --font-weight: var(--bold);

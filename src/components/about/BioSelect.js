@@ -41,7 +41,7 @@ function BioSelect() {
 
     return (
         <>
-            <nav id="about" className="bio-menu-wrapper">
+            <nav className="bio-menu-wrapper">
                 <p 
                     className={short ? "selected-bio" : "bio-menu"}
                     onClick={(e) => handleShort(e)}
