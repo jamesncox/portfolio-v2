@@ -152,11 +152,12 @@ body.dark {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-    width: 100%;
 }
 
 .image {
    /* height: 10rem; */
-   height: 10rem;
-   border-radius: 5px;
+   width: 50%;
+   border-radius: 10px;
+   border: 2px solid var(--hightlighted-menu-color);
+   transition: var(--theme-transition);
 }

@@ -1,4 +1,3 @@
 [ZoneTransfer]
 ZoneId=3
-ReferrerUrl=https://mail.yahoo.com/
-HostUrl=https://dl-mail.ymail.com/ws/download/mailboxes/@.id==VjN-Ymu85twDRFSc-U-TcHXxtGXpUJM3MS62XA_qohHQhcbHyB1ODZ2048ATYUx-QUkWUWhjIv2uHVC2R0Wv8Q9VgQ/messages/@.id==AM5MqqgsdQ17YC_VugQPECtCo3M/content/parts/@.id==2/raw?appid=YMailNorrinLaunch&ymreqid=f222b48b-055a-60cd-1c36-53000001c600&token=MK4UuPc4mvPZ8dG3w0W5Cs7b3trvGvY3b-V7DKUHM8LGxJWKseqfALeVJdgPBQERAKMhBIAVhU3w9yV_Zjf200px00ZE-Dyhn-YoLMHMSEyldJA8i3vzfiNePJFcLA02&error=https%3A%2F%2Fmail.yahoo.com%2Fd%2Fiframemsg%3Fid%3Ddownload-3791059092
+HostUrl=about:internet
