@@ -161,9 +161,9 @@ body.dark {
 .image {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 10px;
-    border: 2px solid var(--picture-border-color);
+    border: 3px solid var(--picture-border-color);
     transition: var(--theme-transition);
     z-index: -1;
 }
