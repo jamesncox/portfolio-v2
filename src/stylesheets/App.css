@@ -88,6 +88,8 @@ body.dark {
 }
 
 .my-name {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.44rem;
     font-weight: var(--font-weight);
@@ -102,7 +104,7 @@ body.dark {
 
 /* SelectBio styles */
 .bio-menu-wrapper {
-    /* margin-top: 1.5rem; */
+    margin-bottom: -1.5rem;
     display: flex;
     /* justify-content: space-between;  */
 }
@@ -133,18 +135,21 @@ body.dark {
     transition: var(--theme-transition);
 }
 
+
+.section-title {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.15rem;
+    font-weight: var(--bold);
+    color: var(--hightlighted-menu-color);
+    transition: var(--theme-transition);
+}
+
 /* practice scroll styles */
 .practice-scroll {
     margin-top: 1.5rem;
     height: 1000px;
     color: var(--description-color);
     font-family: 'Roboto', sans-serif;
-    transition: var(--theme-transition);
-}
-
-.section-title {
-    font-family: 'Architects Daughter', cursive;
-    color: var(--hightlighted-menu-color);
     transition: var(--theme-transition);
 }
 
