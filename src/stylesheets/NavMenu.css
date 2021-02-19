@@ -17,7 +17,7 @@
   content: '';
   position: absolute;
   top: 1.45rem;
-  height: .3rem;
+  height: .35rem;
   width: 100%;
   background-color: var(--hightlighted-menu-color);
   transition: var(--theme-transition);
