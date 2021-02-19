@@ -46,7 +46,8 @@ body.light {
     --hightlighted-menu-color: var(--brick-red);
 
     /* features */
-    --border-color: var(--light-gray);
+    --bottom-border-color: var(--light-gray);
+    --picture-border-color: var(--light-gray);
 }
 
 body.dark {
@@ -61,7 +62,8 @@ body.dark {
     --hightlighted-menu-color: var(--sky-blue);
 
     /* features */
-    --border-color: var(--off-white);
+    --bottom-border-color: var(--off-white);
+    --picture-border-color: var(--sky-blue);
 }
 
 .App {
@@ -75,7 +77,7 @@ body.dark {
     position: sticky;
     top: 0;
     background-color: var(--background-color);
-    border-bottom: 2px solid var(--border-color);
+    border-bottom: 2px solid var(--bottom-border-color);
     padding-bottom: .5em;
     transition: var(--theme-transition);
   }
@@ -161,6 +163,6 @@ body.dark {
     height: 100%;
     object-fit: contain;
     border-radius: 10px;
-    border: 2px solid var(--hightlighted-menu-color);
+    border: 2px solid var(--picture-border-color);
     transition: var(--theme-transition);
 }
