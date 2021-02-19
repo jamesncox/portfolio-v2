@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import ShortBio from './ShortBio'
 import MediumBio from './MediumBio'
 import LongBio from './LongBio'
+import StalkerBio from './StalkerBio'
 
 function BioSelect() {
 
@@ -66,6 +67,7 @@ function BioSelect() {
             {short ? <ShortBio /> : null}
             {medium ? <MediumBio /> : null}
             {long ? <LongBio /> : null}
+            {stalker ? <StalkerBio /> : null}
         </>
     )
 }
