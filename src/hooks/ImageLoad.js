@@ -21,7 +21,7 @@ const ImageLoad = React.memo(({ src, placeholder, alt = "", className }) => {
             src={currentSrc}
             style={{
                 opacity: loading ? 0.5 : 1,
-                transition: "opacity ease-in 500ms",
+                transition: "opacity ease-in 1000ms",
                 clipPath: "inset(0)"
             }}
             alt={alt}
