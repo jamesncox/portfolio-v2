@@ -147,7 +147,6 @@ body.dark {
 }
 
 /* images */
-
 .image-wrapper {
     display: flex;
     justify-content: center;
@@ -155,7 +154,6 @@ body.dark {
 }
 
 .image {
-   /* height: 10rem; */
    width: 50%;
    border-radius: 10px;
    border: 2px solid var(--hightlighted-menu-color);

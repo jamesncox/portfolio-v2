@@ -1,7 +1,7 @@
 import React from 'react'
-import ImageLoad from '../../hooks/ImageLoad'
+// import ImageLoad from '../../hooks/ImageLoad'
 import Dempsey from '../../assets/images/Dempsey.jpg'
-import DempseyTiny from '../../assets/images/Dempsey-tiny.jpg'
+// import DempseyTiny from '../../assets/images/Dempsey-tiny.jpg'
 
 export default function MediumBio() {
 
