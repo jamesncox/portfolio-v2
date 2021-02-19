@@ -61,7 +61,7 @@ function BioSelect() {
                 <p 
                     className={stalker ? "selected-bio" : "bio-menu"} 
                     onClick={(e) => handleStalker(e)}>
-                    stalker?
+                    stalking?
                 </p>
             </nav>
             {short ? <ShortBio /> : null}
