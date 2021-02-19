@@ -16,7 +16,7 @@
 .selected-menu::before {
   content: '';
   position: absolute;
-  top: 23px;
+  top: 24px;
   height: 6px;
   width: 100%;
   background-color: var(--hightlighted-menu-color);
