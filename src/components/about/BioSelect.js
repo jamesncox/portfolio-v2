@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ShortBio from './ShortBio'
+import MediumBio from './MediumBio'
 
 function BioSelect() {
 
@@ -62,6 +63,7 @@ function BioSelect() {
                 </p>
             </nav>
             {short ? <ShortBio /> : null}
+            {medium ? <MediumBio /> : null}
         </>
     )
 }
