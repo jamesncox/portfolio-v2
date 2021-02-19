@@ -17,7 +17,7 @@ const ImageLoad = React.memo(({ src, placeholder, alt = "" }) => {
 
     return (
         <img
-            className="activity-image"
+            className="image"
             src={currentSrc}
             style={{
                 opacity: loading ? 0.5 : 1,
