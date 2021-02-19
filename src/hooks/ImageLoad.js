@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const ImageLoad = React.memo(({ src, placeholder, alt = "" }) => {
+const ImageLoad = React.memo(({ src, placeholder, alt = "", className }) => {
     const [loading, setLoading] = useState(true);
     const [currentSrc, updateSrc] = useState(placeholder);
 
@@ -17,11 +17,10 @@ const ImageLoad = React.memo(({ src, placeholder, alt = "" }) => {
 
     return (
         <img
-            className="image"
+            className={className}
             src={currentSrc}
             style={{
                 opacity: loading ? 0.5 : 1,
-                // transition: "opacity .25s linear",
                 transition: "opacity ease-in 500ms",
                 clipPath: "inset(0)"
             }}
