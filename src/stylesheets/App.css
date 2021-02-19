@@ -95,7 +95,7 @@ body.dark {
 
 /* SelectBio styles */
 .bio-menu-wrapper {
-    /* margin-top: 1rem; */
+    margin-top: 2rem;
     display: flex;
     /* justify-content: space-between;  */
 }
@@ -117,7 +117,7 @@ body.dark {
     cursor: pointer;
 }
 
-.bio-text {
+.text {
     font-family: 'Roboto', sans-serif;
     color: var(--description-color);
     transition: var(--theme-transition);
