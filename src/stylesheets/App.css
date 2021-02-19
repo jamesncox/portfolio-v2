@@ -112,7 +112,7 @@ body.dark {
 
 .bio-menu {
     font-family: 'Architects Daughter', cursive;
-    font-size: 1rem;
+    font-size: 1.15rem;
     color: var(--description-color);
     transition: var(--theme-transition);
     margin-right: .6rem;
@@ -121,7 +121,7 @@ body.dark {
 
 .selected-bio {
     font-family: 'Architects Daughter', cursive;
-    font-size: 1rem;
+    font-size: 1.15rem;
     font-weight: var(--bold);
     margin-right: .6rem;
     color: var(--hightlighted-menu-color);
@@ -139,7 +139,7 @@ body.dark {
 
 .section-title {
     font-family: 'Architects Daughter', cursive;
-    font-size: 1rem;
+    font-size: 1.15rem;
     font-weight: var(--bold);
     color: var(--hightlighted-menu-color);
     transition: var(--theme-transition);
