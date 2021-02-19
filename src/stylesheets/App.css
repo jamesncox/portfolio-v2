@@ -23,8 +23,8 @@ body {
     --slate-blue: rgb(32, 43, 53);
     --sky-blue: rgb(80, 156, 255);
 
-    /* oranges */
-    --orange: rgb(255, 102, 14);
+    /* greens */
+    --green: rgb(145, 255, 0);
 
     /* fonts */
     --bold: bold;
@@ -54,7 +54,7 @@ body.dark {
     --background-color: var(--slate-blue);
 
     /* titles, headers and text */
-    --name-color: var(--orange);
+    --name-color: var(--green);
     --menu-color: var(--white);
     --description-color: var(--white);
     --font-weight: var(--bold);
