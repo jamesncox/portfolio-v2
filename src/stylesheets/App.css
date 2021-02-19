@@ -145,3 +145,18 @@ body.dark {
 .description {
     font-family: 'Roboto', sans-serif;
 }
+
+/* images */
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.image {
+   /* height: 10rem; */
+   height: 10rem;
+   border-radius: 5px;
+}
