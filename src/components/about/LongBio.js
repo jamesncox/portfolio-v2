@@ -21,7 +21,8 @@ export default function LongBio() {
                     alt="Gif of balls navigating a maze"
                 />
             </div>
-            <p className="text">I am transitioning from a restaurant background. From putting out literal fires 🔥 to squashing bugs 🐛, I am used to rolling up my sleeves, and doing the dirty work.</p>
+            <p className="text">Having transitioned from the restaurant industry to software development, I went from putting out literal fires 🔥 to squashing bugs 🐛.</p>
+            <p className="text">I enjoy rolling up my sleeves, and doing the dirty work.</p>
             <div className="image-wrapper">
                 <ImageLoad
                     className="gif"
