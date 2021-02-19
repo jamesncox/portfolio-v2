@@ -163,7 +163,7 @@ body.dark {
     height: 100%;
     object-fit: contain;
     border-radius: 10px;
-    border: 2px solid var(--picture-border-color);
+    border: 3px solid var(--picture-border-color);
     transition: var(--theme-transition);
     z-index: -1;
 }
