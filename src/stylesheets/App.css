@@ -149,14 +149,16 @@ body.dark {
 /* images */
 .image-wrapper {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     width: 50%;
+    height: 100%;
     margin-top: 2rem;
 }
 
 .image {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     border-radius: 10px;
     border: 2px solid var(--hightlighted-menu-color);
     transition: var(--theme-transition);
