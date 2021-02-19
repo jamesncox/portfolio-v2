@@ -151,12 +151,11 @@ body.dark {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-    /* height: 20rem; */
+    width: 50%;
 }
 
 .image {
-   /* width: 50%; */
-   height: 10rem;
+   width: 100%;
    border-radius: 10px;
    border: 2px solid var(--hightlighted-menu-color);
    transition: var(--theme-transition);
