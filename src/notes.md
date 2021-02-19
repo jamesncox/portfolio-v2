@@ -1,4 +1,8 @@
 
+# Todos
+
+# Completed Todos
+
 # Removed from 1300px media query
 
 This bit of code had an hover/underline affect on desktop. I thought it was too clunky. Keeping here for backup.
