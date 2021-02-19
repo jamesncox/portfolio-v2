@@ -89,7 +89,7 @@ body.dark {
 
 .my-name {
     font-family: 'Share Tech Mono', monospace;
-    font-size: 1.25rem;
+    font-size: 1.44rem;
     font-weight: var(--font-weight);
     color: var(--name-color);
     transition: var(--theme-transition);
@@ -109,6 +109,7 @@ body.dark {
 
 .bio-menu {
     font-family: 'Architects Daughter', cursive;
+    font-size: 1.15rem;
     color: var(--description-color);
     transition: var(--theme-transition);
     margin-right: .6rem;
@@ -117,6 +118,7 @@ body.dark {
 
 .selected-bio {
     font-family: 'Architects Daughter', cursive;
+    font-size: 1.15rem;
     font-weight: var(--bold);
     margin-right: .6rem;
     color: var(--hightlighted-menu-color);
@@ -126,6 +128,7 @@ body.dark {
 
 .text {
     font-family: 'Roboto', sans-serif;
+    font-size: 1.15rem;
     color: var(--description-color);
     transition: var(--theme-transition);
 }
