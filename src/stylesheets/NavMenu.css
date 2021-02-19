@@ -16,8 +16,8 @@
 .selected-menu::before {
   content: '';
   position: absolute;
-  top: 23.4px;
-  height: 5px;
+  top: 23px;
+  height: 6px;
   width: 100%;
   background-color: var(--hightlighted-menu-color);
   transition: var(--theme-transition);
