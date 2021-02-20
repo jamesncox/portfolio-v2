@@ -248,7 +248,7 @@ body.dark {
 }
 
 .projects-card {
-    /* padding: 1rem; */
+    padding: 1rem;
 }
 
 .project-title {
@@ -259,7 +259,7 @@ body.dark {
 }
 
 .project-image {
-    width: 50%;
+    width: 100%;
     object-fit: cover;
     z-index: -1;
     border-bottom: solid 1px var(--description-color);
