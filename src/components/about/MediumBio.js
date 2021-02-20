@@ -11,7 +11,7 @@ export default function MediumBio() {
             <p className="text">You absolutely can consider me a "full stack" developer. I enjoy coding backends and working with databases. But my first love is the front end.</p>
             <p className="text">FUN FACT:</p>
             <p className="text">I have a new puppy. 🐶 His name is Dempsey, and he is the goodest boy.</p>
-            <div className="image-wrapper">
+            <div className="image-wrapper" style={{marginBottom: "-1rem"}}>
                 <ImageLoad
                     className="image"
                     src={Dempsey}
