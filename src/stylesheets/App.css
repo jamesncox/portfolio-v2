@@ -254,6 +254,7 @@ body.dark {
     border: solid 1px var(--card-border);
     border-radius: 5px;
     padding: 1rem;
+    transition: var(--theme-transition);
 }
 
 .project-title {
@@ -262,6 +263,7 @@ body.dark {
     color: var(--name-color);
     margin-bottom: 0;
     margin-top: 0;
+    transition: var(--theme-transition);
 }
 
 .project-image {
@@ -270,6 +272,7 @@ body.dark {
     z-index: -1;
     padding-bottom: 1rem;
     border-bottom: solid 1px var(--card-border);
+    transition: var(--theme-transition);
 }
 
 .project-subtitle {
@@ -277,10 +280,12 @@ body.dark {
     color: var(--description-color);
     border-bottom: solid 1px var(--card-border);
     padding-bottom: 1rem;
+    transition: var(--theme-transition);
 }
 
 .project-description {
     font-family: 'Roboto', sans-serif;
     color: var(--description-color);
     margin-bottom: 0;
+    transition: var(--theme-transition);
 }
