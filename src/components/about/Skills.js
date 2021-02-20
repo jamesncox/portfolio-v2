@@ -4,7 +4,7 @@ export default function Skills() {
 
     return (
         <>
-            <p style={{marginTop: "3rem"}} className="section-title">work</p>
+            <p className="section-title" style={{height: "800px"}} >skills</p>
         </>
     )
 }

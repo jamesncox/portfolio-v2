@@ -1,6 +1,7 @@
 import React from 'react'
 import BioSelect from './BioSelect'
 import Work from './Work'
+import Skills from './Skills'
 
 export default function About() {
 
@@ -8,6 +9,7 @@ export default function About() {
       <div id="about">
         <BioSelect />
         <Work />
+        <Skills />
       </div>
     );
 }

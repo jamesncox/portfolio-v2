@@ -138,6 +138,7 @@ body.dark {
 
 
 .section-title {
+    margin-top: 2rem;
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.15rem;
     font-weight: var(--bold);
