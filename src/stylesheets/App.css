@@ -63,7 +63,7 @@ body.dark {
 
     /* features */
     --bottom-border-color: var(--lightest-gray);
-    --picture-border-color: var(--sky-blue);
+    --picture-border-color: var(--gray);
 }
 
 .App {
