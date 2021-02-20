@@ -217,5 +217,6 @@ body.dark {
 .skills-description {
     font-family: 'Roboto', sans-serif;
     font-size: .75rem;
+    font-weight: lighter;
     color: var(--name-color)
 }
