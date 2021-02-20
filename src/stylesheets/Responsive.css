@@ -25,4 +25,12 @@
       margin-left: 30%;
       margin-right: 30%;
   }
+
+  .projects-wrapper {
+      align-items: center;
+  }
+
+  .projects-card {
+      width: 70%;
+  }
 }

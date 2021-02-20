@@ -250,6 +250,7 @@ body.dark {
 }
 
 .projects-card {
+    margin-bottom: 1rem;
     border: solid 1px var(--card-border);
     border-radius: 5px;
     padding: 1rem;
@@ -267,6 +268,7 @@ body.dark {
     width: 100%;
     object-fit: cover;
     z-index: -1;
+    padding-bottom: 1rem;
     border-bottom: solid 1px var(--card-border);
 }
 
