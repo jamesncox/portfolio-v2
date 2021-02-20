@@ -13,7 +13,9 @@ body {
     --white: white;
     --off-white: rgb(245, 245, 245);
     --gray: #5b636b;
+    --dark-gray: #37393b;
     --light-gray: rgb(128, 128, 128);
+    --lightest-gray:  rgb(165, 165, 165);
 
     /* reds */
     --brick-red: #a61e4d;
@@ -52,17 +54,17 @@ body.light {
 
 body.dark {
     /* body */
-    --background-color: var(--slate-blue);
+    --background-color: var(--dark-gray);
 
     /* titles, headers and text */
     --name-color: var(--yellow);
-    --menu-color: var(--white);
-    --description-color: var(--white);
+    --menu-color: var(--lightest-gray);
+    --description-color: var(--lightest-gray);
     --font-weight: var(--bold);
     --hightlighted-menu-color: var(--sky-blue);
 
     /* features */
-    --bottom-border-color: var(--off-white);
+    --bottom-border-color: var(--lightest-gray);
     --picture-border-color: var(--sky-blue);
 }
 
