@@ -13,9 +13,9 @@ body {
     --white: white;
     --off-white: rgb(245, 245, 245);
     --gray: #5b636b;
-    --dark-gray: #37393b;
+    --dark-gray: #323436;
     --light-gray: rgb(128, 128, 128);
-    --lightest-gray:  rgb(165, 165, 165);
+    --lightest-gray:  rgb(185, 185, 185);
 
     /* reds */
     --brick-red: #a61e4d;
@@ -26,7 +26,7 @@ body {
     --sky-blue: rgb(80, 156, 255);
 
     /* yellows */
-    --yellow: rgba(255, 255, 187, 0.979);
+    --yellow: rgba(255, 118, 55, 0.89);
 
     /* fonts */
     --bold: bold;
@@ -113,7 +113,7 @@ body.dark {
 }
 
 .bio-menu {
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Share Tech Mono', monospace;
     font-size: 1.15rem;
     color: var(--description-color);
     transition: var(--theme-transition);
@@ -122,7 +122,7 @@ body.dark {
 }
 
 .selected-bio {
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Share Tech Mono', monospace;
     font-size: 1.15rem;
     font-weight: var(--bold);
     margin-right: .6rem;
