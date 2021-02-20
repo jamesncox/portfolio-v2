@@ -168,14 +168,6 @@ body.dark {
     margin-top: 2rem;
 }
 
-/* .gif-wrapper {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    margin-top: 2rem;
-} */
-
 .image {
     margin-bottom: 1rem;
     width: 50%;
@@ -196,4 +188,23 @@ body.dark {
     border: 2px solid var(--picture-border-color);
     transition: var(--theme-transition);
     z-index: -1;
+}
+
+/* skills grid */
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--menu-color);
+    font-weight: var(--font-weight);
+    background-color: var(--name-color);
+    height: 40px;
 }
