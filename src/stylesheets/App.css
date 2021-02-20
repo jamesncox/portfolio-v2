@@ -33,6 +33,10 @@ body {
 
     /* transition */
    --theme-transition: background-color .4s ease-in-out, color .8s ease-in-out;
+
+    /* shadows */
+    --black-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    --light-shadow: 0 4px 8px 1px var(--black);
 }
 
 body.light {
@@ -50,6 +54,9 @@ body.light {
     --bottom-border-color: var(--light-gray);
     --picture-border-color: var(--gray);
     --github-color: var(--black);
+
+    /* image */
+    --box-shadow: var(--black-shadow);
 }
 
 body.dark {
@@ -67,6 +74,9 @@ body.dark {
     --bottom-border-color: var(--lightest-gray);
     --picture-border-color: var(--gray);
     --github-color: var(--off-white);
+
+    /* image */
+    --box-shadow: var(--light-shadow);
 }
 
 .App {
@@ -118,7 +128,7 @@ body.dark {
     font-size: 1.15rem;
     color: var(--description-color);
     transition: var(--theme-transition);
-    margin-right: .6rem;
+    margin-right: 1rem;
     cursor: pointer;
 }
 
@@ -126,7 +136,7 @@ body.dark {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.15rem;
     font-weight: var(--bold);
-    margin-right: .6rem;
+    margin-right: 1rem;
     color: var(--hightlighted-menu-color);
     transition: var(--theme-transition);
     cursor: pointer;
@@ -177,9 +187,9 @@ body.dark {
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
-    border: 2px solid var(--picture-border-color);
-    transition: var(--theme-transition);
     z-index: -1;
+    box-shadow: var(--box-shadow);
+    transition: var(--theme-transition);
 }
 
 .gif {
@@ -188,9 +198,9 @@ body.dark {
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
-    border: 2px solid var(--picture-border-color);
-    transition: var(--theme-transition);
     z-index: -1;
+    box-shadow: var(--box-shadow);
+    transition: var(--theme-transition);
 }
 
 /* skills grid */
@@ -198,7 +208,7 @@ body.dark {
 .skill-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 15px;
 }
 
 .skills {
@@ -207,7 +217,6 @@ body.dark {
     justify-content: center;
     align-items: center;
     font-weight: var(--font-weight);
-    /* background-color: var(--picture-border-color); */
     height: 80px;
     padding: 5px;
     transition: var(--theme-transition);
