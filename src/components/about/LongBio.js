@@ -18,7 +18,7 @@ export default function LongBio() {
                     alt="Gif of a man on the same hills from The Sound of Music dancing in a similar fashion as Julie Andrews"
                 />
             </div>
-            <p className="text">My favorite language is Ruby. My favorite library is React. JavaScript and I have a tumultuous past, but we've come to a mutual understanding.</p>
+            <p className="text">My favorite language is Ruby. My favorite library is React. JavaScript and I have a tumultuous past, but we've come to a mutual understanding, despite its idiosyncrasies.</p>
             <p className="text">Next, I plan on learning PHP, at least the core concepts by the end of this year.</p>
         </>
  )
