@@ -203,8 +203,19 @@ body.dark {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: var(--menu-color);
     font-weight: var(--font-weight);
-    background-color: var(--name-color);
-    height: 40px;
+    /* background-color: var(--picture-border-color); */
+    height: 80px;
+    padding: 5px;
+    transition: var(--theme-transition);
+}
+
+.react-icon {
+    fill: var(--sky-blue);
+}
+
+.skills-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: .75rem;
+    color: var(--name-color)
 }
