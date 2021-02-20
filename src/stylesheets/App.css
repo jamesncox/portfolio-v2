@@ -47,7 +47,7 @@ body.light {
 
     /* features */
     --bottom-border-color: var(--light-gray);
-    --picture-border-color: var(--light-gray);
+    --picture-border-color: var(--gray);
 }
 
 body.dark {
