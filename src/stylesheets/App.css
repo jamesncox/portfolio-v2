@@ -25,6 +25,7 @@ body {
     /* blues */
     --slate-blue: rgb(32, 43, 53);
     --sky-blue: rgb(80, 156, 255);
+    --react-color: #61DBFB;
 
     /* fonts */
     --bold: bold;
@@ -48,6 +49,7 @@ body.light {
     /* features */
     --bottom-border-color: var(--light-gray);
     --picture-border-color: var(--gray);
+    --github-color: var(--black);
 }
 
 body.dark {
@@ -64,6 +66,7 @@ body.dark {
     /* features */
     --bottom-border-color: var(--lightest-gray);
     --picture-border-color: var(--gray);
+    --github-color: var(--off-white);
 }
 
 .App {
@@ -210,13 +213,17 @@ body.dark {
     transition: var(--theme-transition);
 }
 
-.react-icon {
-    fill: var(--sky-blue);
-}
-
 .skills-description {
     font-family: 'Roboto', sans-serif;
     font-size: .75rem;
     font-weight: lighter;
-    color: var(--name-color)
+    color: var(--name-color);
+}
+
+.react-icon {
+    fill: var(--react-color);
+}
+
+.github-icon {
+    fill: var(--github-color);
 }
