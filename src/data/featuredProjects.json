@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "THE BOREDINATOR",
+        "image": "boredinator-portfolio-alt.jpg",
+        "summary": "Activities and inspiration to stave off boredom",
+        "description": "Feeling bored? Don't know what to do? Let The Boredinator inspire you to try new and fun activities. Find an activity by category or get a totally random activity, if you're feeling brave! Featuring: Light/Dark theme toggle with localStorage to save user's preference on page reload; CSS variables for efficient light and dark theme management; State management with Redux; CSS-only design, no CSS libraries; Custom, reusable Hook called ImageLoad to lazy load images; Custom JSON data objects, simulating a local API; Separate and reusable components",
+        "github": "https://github.com/jamesncox/the-boredinator",
+        "url": "https://boredinator.netlify.app/",
+        "technologies": [
+            "React",
+            "JavaScript",
+            "Redux",
+            "CSS"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "GIF FIT",
+        "image": "gif fit resized collage.jpg",
+        "github": "https://github.com/jamesncox/gif-fit",
+        "url": "https://gif-fit.netlify.app/",
+        "summary": "Home workouts made easy!",
+        "description": "Gif Fit builds randomized workouts for you that you can do without any equipment in your home. Select how many exercises you want to perform, how long each one lasts, the rest period in between and total number of rounds. Gif Fit will keep track of each move for you and let you know when to rest and prepare for the next exercise. Features a React front-end, Redux to manage state, and Material UI for styling. Gifs are sourced from Giphy.com (special thanks and credit to 8fit for uploading so many awesome exercises). Made with love to genuinely help others during these stressful and challenging times.",
+        "technologies": [
+            "React",
+            "JavaScript",
+            "Redux",
+            "Material UI"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "DO DID DONE",
+        "image": "do did done collage.jpg",
+        "github": "https://github.com/jamesncox/do-did-done-react",
+        "url": "https://do-did-done.netlify.app/",
+        "summary": "Keep track of your todos by category",
+        "description": "Do Did Done allows a user to create an account and select several categories to manage their tasks. Do Did Done is made with a React frontend and a Rails API backend. The React frontend features Material UI components, React router, Redux and local state management, functional components and React hooks and a thoughtful design for improved UI and UX. The frontend consumes the Rails API with full CRUD functionality. The Rails API backend is hosted on Heroku and features a PostgreSQL database. It handles sessions, cookies, CRUD functionality, separation of concerns and MVC structure.",
+        "technologies": [
+            "React",
+            "Rails",
+            "JavaScript",
+            "Redux"
+        ]
+    }
+]
