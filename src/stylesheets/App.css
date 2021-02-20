@@ -180,7 +180,7 @@ body.dark {
     width: 50%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 2px solid var(--picture-border-color);
     transition: var(--theme-transition);
     z-index: -1;
@@ -191,7 +191,7 @@ body.dark {
     width: 50%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 2px solid var(--picture-border-color);
     transition: var(--theme-transition);
     z-index: -1;
