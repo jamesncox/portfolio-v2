@@ -1,9 +1,5 @@
 import React from 'react'
 import ImageLoad from '../../hooks/ImageLoad'
-import Maze from '../../assets/images/maze.gif'
-import MazeTiny from '../../assets/images/maze-tiny.jpg'
-import Sleeves from '../../assets/images/sleeves.gif'
-import SleevesTiny from '../../assets/images/sleeves-tiny.jpg'
 import Dancing from '../../assets/images/dancing.gif'
 import DancingTiny from '../../assets/images/dancing-tiny.jpg'
 
@@ -12,27 +8,8 @@ export default function LongBio() {
     return (
         <>
             <p className="text">My journey to becoming a software developer has been long and winding.</p>
-            <div className="image-wrapper">
-                <ImageLoad
-                    className="gif"
-                    style={{justifySelf: "start"}}
-                    src={Maze}
-                    placeholder={MazeTiny}
-                    alt="Gif of balls navigating a maze"
-                />
-            </div>
             <p className="text">Having transitioned from the restaurant industry to software development, I went from putting out literal fires 🔥 to squashing bugs 🐛.</p>
-            <p className="text">I enjoy rolling up my sleeves, and doing the dirty work.</p>
-            <div className="image-wrapper">
-                <ImageLoad
-                    className="gif"
-                    src={Sleeves}
-                    placeholder={SleevesTiny}
-                    alt="Gif of a man rolling up his sleeves and then rubbing his hands together."
-                />
-            </div>
-            <p className="text">But I digress.</p>
-            <p className="text">I learned to code because I want to satisfy my creative urges, provide for my family, and when the time is right, build a log home in the mountains and work from our wooded retreat.</p>
+            <p className="text">I learned to code because I want to satisfy my creative urges, provide for my family, and when the time is right, build a log home in the mountains and work remotely from our wooded retreat.</p>
             <div className="image-wrapper">
                 <ImageLoad
                     className="gif"
@@ -41,6 +18,8 @@ export default function LongBio() {
                     alt="Gif of a man on the same hills from The Sound of Music dancing in a similar fashion as Julie Andrews"
                 />
             </div>
+            <p className="text">My favorite language is Ruby. My favorite library is React. JavaScript and I have a tumultuous past, but we've come to a mutual understanding.</p>
+            <p className="text">Next, I plan on learning PHP, at least the core concepts by the end of this year.</p>
         </>
  )
 }
