@@ -88,9 +88,9 @@ body.dark {
 }
 
 .my-name {
+    font-family: 'Share Tech Mono', monospace;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    font-family: 'Share Tech Mono', monospace;
     font-size: 1.15rem;
     font-weight: var(--font-weight);
     color: var(--name-color);
@@ -138,7 +138,7 @@ body.dark {
 
 
 .section-title {
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Share Tech Mono', monospace;
     font-size: 1.15rem;
     font-weight: var(--bold);
     color: var(--hightlighted-menu-color);
