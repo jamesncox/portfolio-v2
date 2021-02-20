@@ -227,4 +227,5 @@ body.dark {
 
 .github-icon {
     fill: var(--github-color);
+    transition: fill .8s ease-in-out;
 }
