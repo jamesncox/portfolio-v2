@@ -218,6 +218,7 @@ body.dark {
     font-size: .75rem;
     font-weight: lighter;
     color: var(--name-color);
+    transition: var(--theme-transition);
 }
 
 .react-icon {
