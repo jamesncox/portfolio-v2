@@ -178,26 +178,26 @@ body.dark {
     justify-content: center;
     width: 100%;
     height: 100%;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 .image {
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     width: 50%;
     height: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 5px;
     z-index: -1;
     box-shadow: var(--box-shadow);
     transition: var(--theme-transition);
 }
 
 .gif {
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     width: 50%;
     height: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 5px;
     z-index: -1;
     box-shadow: var(--box-shadow);
     transition: var(--theme-transition);
@@ -237,4 +237,41 @@ body.dark {
 .github-icon {
     fill: var(--github-color);
     transition: fill .8s ease-in-out;
+}
+
+/* projects */
+
+.projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.projects-card {
+    /* padding: 1rem; */
+}
+
+.project-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: var(--font-weight);
+    color: var(--name-color);
+    margin-bottom: -.5rem;
+}
+
+.project-image {
+    width: 50%;
+    object-fit: cover;
+    z-index: -1;
+    border-bottom: solid 1px var(--description-color);
+}
+
+.project-subtitle {
+    font-family: 'Roboto', sans-serif;
+    color: var(--description-color);
+    /* border-bottom: solid 1px var(--description-color); */
+}
+
+.project-description {
+    font-family: 'Roboto', sans-serif;
+    color: var(--description-color);
 }
