@@ -13,20 +13,18 @@ body {
     --white: white;
     --off-white: rgb(245, 245, 245);
     --gray: #5b636b;
-    --dark-gray: #323436;
+    --dark-gray: #1f2124;
     --light-gray: rgb(128, 128, 128);
     --lightest-gray:  rgb(185, 185, 185);
 
     /* reds */
     --brick-red: #a61e4d;
-    --red: rgb(194, 39, 93);
+    --rose: rgb(194, 39, 93);
+    --coral-red: rgba(255, 66, 66, 0.9);
 
     /* blues */
     --slate-blue: rgb(32, 43, 53);
     --sky-blue: rgb(80, 156, 255);
-
-    /* yellows */
-    --yellow: rgba(255, 118, 55, 0.89);
 
     /* fonts */
     --bold: bold;
@@ -57,7 +55,7 @@ body.dark {
     --background-color: var(--dark-gray);
 
     /* titles, headers and text */
-    --name-color: var(--yellow);
+    --name-color: var(--coral-red);
     --menu-color: var(--lightest-gray);
     --description-color: var(--lightest-gray);
     --font-weight: var(--bold);
