@@ -291,3 +291,29 @@ body.dark {
     margin-bottom: 0;
     transition: var(--theme-transition);
 }
+
+.project-icon-link {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    /* justify-content: center; */
+    align-items: flex-end;
+    /* font-weight: var(--font-weight); */
+    height: 30px;
+    /* padding: 5px; */
+    transition: var(--theme-transition);
+}
+
+.github-link {
+    fill: var(--hightlighted-menu-color);
+    transition: fill .8s ease-in-out;
+}
+
+.link-text {
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: .85rem;
+    color: var(--description-color);
+    transition: var(--theme-transition);
+}
