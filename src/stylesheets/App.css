@@ -56,7 +56,7 @@ body.light {
     --picture-border-color: var(--gray);
     --github-color: var(--black);
     --card-border: var(--lightest-gray);
-    --icon-color: var(--medium-gray);
+    --icon-color: var(--gray);
 
     /* image */
     --box-shadow: var(--black-shadow);
