@@ -292,20 +292,19 @@ body.dark {
     transition: var(--theme-transition);
 }
 
-.project-icon-link {
+.project-icon-wrapper {
     margin-top: 1rem;
     display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    /* justify-content: center; */
-    align-items: flex-end;
-    /* font-weight: var(--font-weight); */
-    height: 30px;
-    /* padding: 5px; */
-    transition: var(--theme-transition);
+    justify-content: flex-end;
 }
 
-.github-link {
+.icons {
+    margin-left: 1rem;
+    width: 25px;
+    cursor: pointer;
+}
+
+.icon-link {
     fill: var(--hightlighted-menu-color);
     transition: fill .8s ease-in-out;
 }
