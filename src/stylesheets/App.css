@@ -130,7 +130,7 @@ body.dark {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.15rem;
     color: var(--description-color);
-    /* transition: var(--theme-transition); */
+    transition: var(--theme-transition);
     margin-right: 1rem;
     cursor: pointer;
 }
