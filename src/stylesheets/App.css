@@ -78,7 +78,7 @@ body.dark {
     --picture-border-color: var(--gray);
     --github-color: var(--off-white);
     --card-border: var(--gray);
-    --icon-color: var(--sky-blue);
+    --icon-color: var(--lightest-gray);
 
     /* image */
     --box-shadow: var(--light-shadow);
