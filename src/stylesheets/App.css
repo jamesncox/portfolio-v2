@@ -55,6 +55,7 @@ body.light {
     --picture-border-color: var(--gray);
     --github-color: var(--black);
     --card-border: var(--lightest-gray);
+    --icon-color: var(--brick-red);
 
     /* image */
     --box-shadow: var(--black-shadow);
@@ -76,6 +77,7 @@ body.dark {
     --picture-border-color: var(--gray);
     --github-color: var(--off-white);
     --card-border: var(--gray);
+    --icon-color: var(--sky-blue);
 
     /* image */
     --box-shadow: var(--light-shadow);
@@ -305,7 +307,7 @@ body.dark {
 }
 
 .icon-link {
-    fill: var(--hightlighted-menu-color);
+    fill: var(--icon-color);
     transition: fill .8s ease-in-out;
 }
 
