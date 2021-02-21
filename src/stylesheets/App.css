@@ -120,7 +120,7 @@ body.dark {
 
 /* SelectBio styles */
 .bio-menu-wrapper {
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: -1rem;
     display: flex;
     /* justify-content: space-between;  */
@@ -154,7 +154,7 @@ body.dark {
 
 
 .section-title {
-    margin-top: 2rem;
+    margin-top: 3rem;
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.15rem;
     font-weight: var(--bold);
@@ -243,7 +243,6 @@ body.dark {
 }
 
 /* projects */
-
 .projects-wrapper {
     display: flex;
     flex-direction: column;
@@ -251,7 +250,7 @@ body.dark {
 }
 
 .projects-card {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     border: solid 1px var(--card-border);
     border-radius: 5px;
     padding: 1rem;
