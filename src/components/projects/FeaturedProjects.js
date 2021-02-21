@@ -23,7 +23,7 @@ export default function FeaturedProjects() {
                         placeholder={TheBoredinatorTiny}
                         alt="Screenshot of The Boredinator home page"
                     />        
-                    <div className="wrap-collabsible">
+                    {/* <div className="wrap-collabsible"> */}
                         <input id="collapsible-boredinator" className="toggle" type="checkbox" />
                         <label htmlFor="collapsible-boredinator" className="lbl-toggle">More Info</label>
                         <div className="collapsible-content">
@@ -32,7 +32,7 @@ export default function FeaturedProjects() {
                                 <p className="project-description">Light/Dark theme toggle with localStorage to save user's preference on page reload; CSS variables for efficient light and dark theme management; State management with Redux; CSS-only design, no CSS libraries; Custom, reusable Hook called ImageLoad to lazy load images; Custom JSON data objects, simulating a local API; Separate and reusable components</p>
                             </div>
                         </div>
-                    </div>
+                    {/* </div> */}
                 </div>
 
                 <div className="projects-card">

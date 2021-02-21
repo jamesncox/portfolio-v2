@@ -95,6 +95,7 @@ body.dark {
     border-bottom: 2px solid var(--bottom-border-color);
     padding-bottom: .5em;
     transition: var(--theme-transition);
+    z-index: 1000;
   }
 
 .navbar-wrapper {
