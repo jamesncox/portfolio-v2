@@ -4,7 +4,7 @@ import ImageLoad from './ImageLoad'
 const DisplayProject = React.memo(({ title, subtitle, src, placeholder, alt, description, github, url}) => {
 
     return (
-      <>
+      <div className="projects-card">
         <p className="project-title">{title}</p>
         <p className="project-subtitle">{subtitle}</p>
         <ImageLoad
@@ -49,7 +49,7 @@ const DisplayProject = React.memo(({ title, subtitle, src, placeholder, alt, des
             </div>
           </div>
         </div>
-      </>
+      </div>
     );
 
 })

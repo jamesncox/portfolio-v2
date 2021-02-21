@@ -14,18 +14,16 @@ export default function FeaturedProjects() {
         <>
             <p className="section-title">featured projects</p>
             <div className="projects-wrapper">
-                <div className="projects-card">
-                    <DisplayProject
-                        title="The Boredinator"
-                        subtitle="Activities and inspiration to stave off boredom"
-                        src={TheBoredinator}
-                        placeholder={TheBoredinatorTiny}
-                        alt="Screenshot of The Boredinator home page"
-                        description="Light/Dark theme toggle with localStorage to save user's preference on page reload; CSS variables for efficient light and dark theme management; State management with Redux; CSS-only design, no CSS libraries; Custom, reusable Hook called ImageLoad to lazy load images; Custom JSON data objects, simulating a local API; Separate and reusable components"
-                        github="https://github.com/jamesncox/the-boredinator/"
-                        url="https://boredinator.netlify.app/"
-                    />
-                </div>
+                <DisplayProject
+                    title="The Boredinator"
+                    subtitle="Activities and inspiration to stave off boredom"
+                    src={TheBoredinator}
+                    placeholder={TheBoredinatorTiny}
+                    alt="Screenshot of The Boredinator home page"
+                    description="Light/Dark theme toggle with localStorage to save user's preference on page reload; CSS variables for efficient light and dark theme management; State management with Redux; CSS-only design, no CSS libraries; Custom, reusable Hook called ImageLoad to lazy load images; Custom JSON data objects, simulating a local API; Separate and reusable components"
+                    github="https://github.com/jamesncox/the-boredinator/"
+                    url="https://boredinator.netlify.app/"
+                />
 
                 <div className="projects-card">
                     <p className="project-title">GIF FIT</p>
