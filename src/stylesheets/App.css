@@ -18,8 +18,8 @@ body {
     --lightest-gray:  rgb(185, 185, 185);
 
     /* reds */
-    --brick-red: #a61e4d;
-    --rose: rgb(194, 39, 93);
+    --brick-red: #d42542;
+    --rose: rgb(192, 15, 77);
     --coral-red: rgba(255, 66, 66, 0.9);
 
     /* blues */
@@ -230,7 +230,7 @@ body.dark {
     font-family: 'Roboto', sans-serif;
     font-size: .75rem;
     font-weight: lighter;
-    color: var(--name-color);
+    color: var(--description-color);
     transition: var(--theme-transition);
 }
 
