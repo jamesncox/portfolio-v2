@@ -15,7 +15,7 @@ const DisplayProject = React.memo(({ title, subtitle, src, placeholder, id, alt,
         />
         <input id={id} className="toggle" type="checkbox" />
         <label htmlFor={id} className="lbl-toggle">
-          More Info
+          Info & Links
         </label>
         <div className="collapsible-content">
           <div className="content-inner">
@@ -41,7 +41,6 @@ const DisplayProject = React.memo(({ title, subtitle, src, placeholder, id, alt,
                   </svg>
                 </a>
               </div>
-              {/* <p className="icon-description">live</p> */}
               <div className="icons">
                 <a href={url} rel="noopener noreferrer" target="_blank">
                   <svg
