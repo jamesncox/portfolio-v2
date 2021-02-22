@@ -15,6 +15,7 @@ const DisplayBlog = React.memo(({ title, src, placeholder, alt, description, url
         />
         <p className="project-description">{description}</p>
         <div className="project-icon-wrapper">
+          <p className="icon-description">go</p>
             <div className="icons">
             <a href={url} rel="noopener noreferrer" target="_blank">
                 <svg

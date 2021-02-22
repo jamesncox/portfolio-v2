@@ -330,3 +330,12 @@ body.dark {
     transition: var(--theme-transition);
 }
 
+.icon-description {
+    font-family: 'Roboto', sans-serif;
+    color: var(--description-color);
+    transition: var(--theme-transition);
+    font-size: 1.25rem;
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
