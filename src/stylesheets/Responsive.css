@@ -26,13 +26,15 @@
         margin-right: 33%;
     }
 
-    /* .projects-wrapper {
-        align-items: center;
+    .projects-container {
+        margin: auto;
+        width: 70%;
     }
 
-    .projects-card {
-        width: 50%;
-    } */
+    .projects-wrapper {
+        justify-content: center;
+    }
+
 
     /* .blogs-wrapper {
         display: grid;

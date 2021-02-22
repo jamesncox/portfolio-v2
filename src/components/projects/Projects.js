@@ -5,10 +5,13 @@ import ProjectLink from './ProjectLink'
 function Projects() {
 
     return (
-      <div  id="projects">
-        <FeaturedProjects />
-        <ProjectLink />
-      </div>
+      <>
+        <p className="section-title">featured projects</p>
+        <div className="projects-container" id="projects">
+          <FeaturedProjects />
+          <ProjectLink />
+        </div>
+      </>
     )
 }
 

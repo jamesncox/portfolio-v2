@@ -14,7 +14,6 @@ export default function FeaturedProjects() {
 
     return (
       <>
-        <p className="section-title">featured projects</p>
         <div className="projects-wrapper">
           <DisplayProject
             title="The Boredinator"
