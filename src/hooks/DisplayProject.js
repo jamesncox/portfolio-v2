@@ -1,7 +1,7 @@
 import React from 'react'
 import ImageLoad from './ImageLoad'
 
-const DisplayProject = React.memo(({ title, subtitle, src, placeholder, id, alt, description, github, url}) => {
+const DisplayProject = React.memo(({ title, subtitle, src, placeholder, id, alt, features, description, github, url}) => {
 
     return (
       <div className="projects-card">
@@ -19,8 +19,15 @@ const DisplayProject = React.memo(({ title, subtitle, src, placeholder, id, alt,
         </label>
         <div className="collapsible-content">
           <div className="content-inner">
-            <p className="project-description">Featuring: </p>
-            <p className="project-description">{description}</p>
+            <p className="project-description">Featuring</p>
+            {features.map(feature => {
+              return (
+                <ul>
+                  <li className="project-description">{feature}</li>
+                </ul>
+              )
+            })}
+            {/* <p className="project-description">{description}</p> */}
             <div className="project-icon-wrapper">
               <div className="icons">
                 <a href={github} rel="noopener noreferrer" target="_blank">
