@@ -325,6 +325,10 @@ body.dark {
 }
 
 /* blogs */
+.blogs-container {
+    display: flex;
+    flex-direction: column;
+}
 
 .blogs-wrapper {
     display: flex;

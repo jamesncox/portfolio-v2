@@ -35,6 +35,15 @@
         justify-content: center;
     }
 
+    .blogs-container {
+        margin: auto;
+        width: 70%
+    }
+
+    .blogs-wrapper {
+        justify-content: center;
+    }
+
 
     /* .blogs-wrapper {
         display: grid;
