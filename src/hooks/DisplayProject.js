@@ -22,7 +22,7 @@ const DisplayProject = React.memo(({ title, subtitle, src, placeholder, id, alt,
             <p className="project-description">Featuring</p>
             {features.map((feature) => {
               return (
-                <ul>
+                <ul key={feature.id}>
                   <li key={feature.id} className="project-description">{feature.text}</li>
                 </ul>
               )
