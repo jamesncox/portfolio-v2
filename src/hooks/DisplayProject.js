@@ -1,7 +1,7 @@
 import React from 'react'
 import ImageLoad from './ImageLoad'
 
-const DisplayProject = React.memo(({ title, subtitle, src, placeholder, alt, description, github, url}) => {
+const DisplayProject = React.memo(({ title, subtitle, src, placeholder, id, alt, description, github, url}) => {
 
     return (
       <div className="projects-card">
@@ -13,8 +13,8 @@ const DisplayProject = React.memo(({ title, subtitle, src, placeholder, alt, des
           placeholder={placeholder}
           alt={alt}
         />
-        <input id="collapsible-gif-fit" className="toggle" type="checkbox" />
-        <label htmlFor="collapsible-gif-fit" className="lbl-toggle">
+        <input id={id} className="toggle" type="checkbox" />
+        <label htmlFor={id} className="lbl-toggle">
           More Info
         </label>
         <div className="collapsible-content">
