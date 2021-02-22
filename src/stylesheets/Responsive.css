@@ -4,12 +4,50 @@
         margin-left: 5%;
         margin-right: 5%;
     }
+
+    .projects-container {
+        margin: auto;
+        width: 60%;
+    }
+
+    .projects-wrapper {
+        justify-content: center;
+    }
+
+    .blogs-container {
+        margin: auto;
+        width: 60%
+    }
+
+    .blogs-wrapper {
+        justify-content: center;
+    }
+
+    .skill-grid {
+        margin: auto;
+        width: 80%;
+    }
 }
 
 @media only screen and (min-width: 800px) {
     .App {
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+    .projects-container {
+        margin: auto;
+        width: 65%;
+    }
+
+    .blogs-container {
+        margin: auto;
+        width: 65%
+    }
+
+    .skill-grid {
+        margin: auto;
+        width: 85%;
     }
 }
 
@@ -20,7 +58,7 @@
     }
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1400px) {
     .App {
         margin-left: 33%;
         margin-right: 33%;
@@ -31,17 +69,9 @@
         width: 70%;
     }
 
-    .projects-wrapper {
-        justify-content: center;
-    }
-
     .blogs-container {
         margin: auto;
         width: 70%
-    }
-
-    .blogs-wrapper {
-        justify-content: center;
     }
 
     .skill-grid {
