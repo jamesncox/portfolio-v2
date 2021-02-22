@@ -27,7 +27,6 @@ const DisplayProject = React.memo(({ title, subtitle, src, placeholder, id, alt,
                 </ul>
               )
             })}
-            {/* <p className="project-description">{description}</p> */}
             <div className="project-icon-wrapper">
               <div className="icons">
                 <a href={github} rel="noopener noreferrer" target="_blank">
