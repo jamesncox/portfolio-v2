@@ -6,7 +6,6 @@ const DisplayBlog = React.memo(({ title, src, placeholder, alt, description, url
     return (
       <div className="projects-card">
         <p className="blog-title">{title}</p>
-        {/* <p className="project-subtitle">{subtitle}</p> */}
         <ImageLoad
           className="project-image"
           src={src}
@@ -15,7 +14,7 @@ const DisplayBlog = React.memo(({ title, src, placeholder, alt, description, url
         />
         <p className="project-description">{description}</p>
         <div className="project-icon-wrapper">
-          <p className="icon-description">visit</p>
+          {/* <p className="icon-description">visit</p> */}
             <div className="icons">
             <a href={url} rel="noopener noreferrer" target="_blank">
                 <svg
