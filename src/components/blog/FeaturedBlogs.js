@@ -11,7 +11,7 @@ export default function FeaturedBlogs() {
     return (
         <>
             <p className="section-title">featured blog posts</p>
-            <div className="projects-wrapper">
+            <div >
                 <DisplayBlog
                     title="React Hooks Series: useState"
                     src={UseState}
@@ -22,7 +22,7 @@ export default function FeaturedBlogs() {
                 />
             </div>
 
-            <div className="projects-wrapper">
+            <div >
                 <DisplayBlog
                     title="React Hooks Series: useEffect"
                     src={UseEffect}
@@ -33,7 +33,7 @@ export default function FeaturedBlogs() {
                 />
             </div>
 
-            <div className="projects-wrapper">
+            <div >
                 <DisplayBlog
                     title="React Hooks Series: useRef"
                     src={UseRef}

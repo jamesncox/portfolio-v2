@@ -5,7 +5,7 @@ import BlogLink from './BlogLink'
 function Blog() {
 
     return (
-      <div  id="blog">
+      <div id="blog">
         <FeaturedBlogs />
         <BlogLink />
       </div>

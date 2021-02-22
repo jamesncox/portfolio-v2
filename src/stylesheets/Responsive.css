@@ -21,16 +21,22 @@
 }
 
 @media only screen and (min-width: 1300px) {
-  .App {
-      margin-left: 30%;
-      margin-right: 30%;
-  }
+    .App {
+        margin-left: 33%;
+        margin-right: 33%;
+    }
 
-  .projects-wrapper {
-      align-items: center;
-  }
+    /* .projects-wrapper {
+        align-items: center;
+    }
 
-  .projects-card {
-      width: 50%;
-  }
+    .projects-card {
+        width: 50%;
+    } */
+
+    /* .blogs-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    } */
 }
