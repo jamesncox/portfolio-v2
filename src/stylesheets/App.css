@@ -291,12 +291,10 @@ body.dark {
 .project-description {
     font-family: 'Roboto', sans-serif;
     color: var(--description-color);
-    margin-bottom: 0;
     transition: var(--theme-transition);
 }
 
 .project-icon-wrapper {
-    margin-top: 1rem;
     display: flex;
     justify-content: flex-end;
 }
