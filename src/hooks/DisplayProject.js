@@ -20,10 +20,10 @@ const DisplayProject = React.memo(({ title, subtitle, src, placeholder, id, alt,
         <div className="collapsible-content">
           <div className="content-inner">
             <p className="project-description">Featuring</p>
-            {features.map(feature => {
+            {features.map((feature) => {
               return (
                 <ul>
-                  <li className="project-description">{feature}</li>
+                  <li key={feature.id} className="project-description">{feature.text}</li>
                 </ul>
               )
             })}

@@ -6,18 +6,9 @@ import GifFit from '../../assets/images/GIF-FIT.jpg'
 import GifFitTiny from '../../assets/images/GIF-FIT-tiny.jpg'
 import DoDidDone from '../../assets/images/do-did-done.jpg'
 import DoDidDoneTiny from '../../assets/images/do-did-done-tiny.jpg'
+import BoredinatorFeatures from '../../data/boredinatorFeatures.json'
 
 export default function FeaturedProjects() {
-
-    const boredinatorFeatures = [
-        "Light/Dark theme toggle with localStorage to save user's preference on page reload", 
-        "CSS variables for efficient light and dark theme management",
-        "State management with Redux",
-        "CSS-only design, no CSS libraries",
-        "Custom, reusable Hook called ImageLoad to lazy load images",
-        "Custom JSON data objects, simulating a local API",
-        "Separate and reusable components"
-    ]
 
     return (
       <>
@@ -30,7 +21,7 @@ export default function FeaturedProjects() {
             placeholder={TheBoredinatorTiny}
             id="collapsible-boredinator"
             alt="Screenshot of The Boredinator home page"
-            features={boredinatorFeatures}
+            features={BoredinatorFeatures}
             description="Light/Dark theme toggle with localStorage to save user's preference on page reload; CSS variables for efficient light and dark theme management; State management with Redux; CSS-only design, no CSS libraries; Custom, reusable Hook called ImageLoad to lazy load images; Custom JSON data objects, simulating a local API; Separate and reusable components"
             github="https://github.com/jamesncox/the-boredinator/"
             url="https://boredinator.netlify.app/"
@@ -43,7 +34,7 @@ export default function FeaturedProjects() {
             placeholder={GifFitTiny}
             id="collapsible-gif-fit"
             alt="Screenshot of GIF FIT app"
-            features={boredinatorFeatures}
+            features={BoredinatorFeatures}
             description="React front-end, Redux to manage state, and Material UI for styling. Gifs are sourced from Giphy.com (special thanks and credit to 8fit for uploading so many awesome exercises). Made with love to genuinely help others during these stressful and challenging times."
             github="https://github.com/jamesncox/gif-fit/"
             url="https://gif-fit.netlify.app/"
@@ -56,7 +47,7 @@ export default function FeaturedProjects() {
             placeholder={DoDidDoneTiny}
             id="collapsible-do-did-done"
             alt="Screenshot of Do Did Done app"
-            features={boredinatorFeatures}
+            features={BoredinatorFeatures}
             description="React frontend and a Rails API backend. The React frontend features Material UI components, React router, Redux and local state management, functional components and React hooks and a thoughtful design for improved UI and UX. The frontend consumes the Rails API with full CRUD functionality. The Rails API backend is hosted on Heroku and features a PostgreSQL database. It handles sessions, cookies, CRUD functionality, separation of concerns and MVC structure."
             github="https://github.com/jamesncox/do-did-done-react/"
             url="https://do-did-done.netlify.app/"

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "text": "Light/Dark theme toggle with localStorage to save user's preference on page reload"
+    },
+    {
+        "id": 2,
+        "text": "CSS variables for efficient light and dark theme management"
+    },
+    {
+        "id": 3,
+        "text": "State management with Redux"
+    },
+    {
+        "id": 4,
+        "text": "CSS-only design, no CSS libraries"
+    },
+    {
+        "id": 5,
+        "text": "Custom, reusable Hook called ImageLoad to lazy load images"
+    },
+    {
+        "id": 6,
+        "text": "Custom JSON data objects, simulating a local API"
+    },
+    {
+        "id": 7,
+        "text": "Separate and reusable components"
+    }
+]
