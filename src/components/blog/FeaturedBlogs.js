@@ -10,7 +10,6 @@ import UseRefTiny from '../../assets/images/useRefTiny.jpg'
 export default function FeaturedBlogs() {
     return (
         <>
-            <p className="section-title">featured blog posts</p>
             <div >
                 <DisplayBlog
                     title="React Hooks Series: useState"

@@ -5,10 +5,13 @@ import BlogLink from './BlogLink'
 function Blog() {
 
     return (
-      <div id="blog">
-        <FeaturedBlogs />
-        <BlogLink />
+      <>
+        <p className="section-title">featured blog posts</p>
+        <div className="blogs-container" id="blog">
+          <FeaturedBlogs />
+          <BlogLink />
       </div>
+      </>
     )
 }
 
