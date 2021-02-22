@@ -1,5 +1,4 @@
 import React from 'react'
-import ImageLoad from '../../hooks/ImageLoad'
 import DisplayProject from '../../hooks/DisplayProject'
 import TheBoredinator from '../../assets/images/the-boredinator.jpg'
 import TheBoredinatorTiny from '../../assets/images/the-boredinator-tiny.jpg'
