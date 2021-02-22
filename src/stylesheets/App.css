@@ -340,3 +340,19 @@ body.dark {
     margin-left: 1rem;
 }
 
+.see-more-blogs {
+    display: flex;
+    text-decoration: none;
+    margin-top: -1rem;
+}
+
+.arrow-icon {
+    margin-left: .5rem;
+    margin-top: 12px;
+    width: 25px;
+    cursor: pointer;
+    stroke:  var(--icon-color);
+    stroke-width: .8;
+    transition: fill .8s ease-in-out;
+}
+
