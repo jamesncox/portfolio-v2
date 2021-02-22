@@ -8,6 +8,7 @@ import DoDidDone from '../../assets/images/do-did-done.jpg'
 import DoDidDoneTiny from '../../assets/images/do-did-done-tiny.jpg'
 import BoredinatorFeatures from '../../data/boredinatorFeatures.json'
 import GifFitFeatures from '../../data/gifFitFeatures.json'
+import DoDidDoneFeatures from '../../data/doDidDoneFeatures.json'
 
 export default function FeaturedProjects() {
 
@@ -46,8 +47,7 @@ export default function FeaturedProjects() {
             placeholder={DoDidDoneTiny}
             id="collapsible-do-did-done"
             alt="Screenshot of Do Did Done app"
-            features={BoredinatorFeatures}
-            description="React frontend and a Rails API backend. The React frontend features Material UI components, React router, Redux and local state management, functional components and React hooks and a thoughtful design for improved UI and UX. The frontend consumes the Rails API with full CRUD functionality. The Rails API backend is hosted on Heroku and features a PostgreSQL database. It handles sessions, cookies, CRUD functionality, separation of concerns and MVC structure."
+            features={DoDidDoneFeatures}
             github="https://github.com/jamesncox/do-did-done-react/"
             url="https://do-did-done.netlify.app/"
           />

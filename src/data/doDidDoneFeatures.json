@@ -1,0 +1,34 @@
+[
+    {
+        "id": 30,
+        "text": "React frontend and a Rails API backend"
+    },
+    {
+        "id": 31,
+        "text": "Material UI components"
+    },
+    {
+        "id": 32,
+        "text": "React router"
+    },
+    {
+        "id": 33,
+        "text": "Redux and local state management"
+    },
+    {
+        "id": 34,
+        "text": "Functional components and React hooks"
+    },
+    {
+        "id": 35,
+        "text": "The frontend consumes the Rails API with full CRUD functionality"
+    },
+    {
+        "id": 36,
+        "text": "Rails API backend is hosted on Heroku with a PostgreSQL database"
+    },
+    {
+        "id": 37,
+        "text": "Rails API handles sessions, cookies, CRUD functionality, separation of concerns and MVC structure"
+    }
+]
