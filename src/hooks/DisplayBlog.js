@@ -1,12 +1,12 @@
 import React from 'react'
 import ImageLoad from './ImageLoad'
 
-const DisplayBlog = React.memo(({ title, subtitle, src, placeholder, alt, description, url}) => {
+const DisplayBlog = React.memo(({ title, src, placeholder, alt, description, url}) => {
 
     return (
       <div className="projects-card">
         <p className="project-title">{title}</p>
-        <p className="project-subtitle">{subtitle}</p>
+        {/* <p className="project-subtitle">{subtitle}</p> */}
         <ImageLoad
           className="project-image"
           src={src}
