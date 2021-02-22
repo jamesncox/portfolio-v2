@@ -14,10 +14,8 @@ function NavBar() {
             spy={true}
             smooth={true}
             offset={-120}
-            // duration={400}
-            // isDynamic={true}
           >
-            About
+            ABOUT
           </Link>
         </div>
         <div
@@ -29,10 +27,8 @@ function NavBar() {
             spy={true}
             smooth={true}
             offset={-120}
-            // duration={400}
-            // isDynamic={true}
           >
-            Projects
+            PROJECTS
           </Link>
         </div>
         <div 
@@ -44,10 +40,8 @@ function NavBar() {
             spy={true}
             smooth={true}
             offset={-120}
-            // duration={400}
-            // isDynamic={true}
           >
-            Blog
+            BLOG
           </Link>
         </div>
         <div
@@ -59,10 +53,8 @@ function NavBar() {
             spy={true}
             smooth={true}
             offset={-120}
-            // duration={400}
-            // isDynamic={true}
           >
-            Contact
+            CONTACT
           </Link>
         </div>
       </nav>
