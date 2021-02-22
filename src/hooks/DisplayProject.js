@@ -1,7 +1,7 @@
 import React from 'react'
 import ImageLoad from './ImageLoad'
 
-const DisplayProject = React.memo(({ title, subtitle, src, placeholder, id, alt, features, description, github, url}) => {
+const DisplayProject = React.memo(({ title, subtitle, src, placeholder, id, alt, features, github, url}) => {
 
     return (
       <div className="projects-card">
