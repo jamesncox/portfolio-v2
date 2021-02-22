@@ -7,6 +7,7 @@ import GifFitTiny from '../../assets/images/GIF-FIT-tiny.jpg'
 import DoDidDone from '../../assets/images/do-did-done.jpg'
 import DoDidDoneTiny from '../../assets/images/do-did-done-tiny.jpg'
 import BoredinatorFeatures from '../../data/boredinatorFeatures.json'
+import GifFitFeatures from '../../data/gifFitFeatures.json'
 
 export default function FeaturedProjects() {
 
@@ -22,7 +23,6 @@ export default function FeaturedProjects() {
             id="collapsible-boredinator"
             alt="Screenshot of The Boredinator home page"
             features={BoredinatorFeatures}
-            description="Light/Dark theme toggle with localStorage to save user's preference on page reload; CSS variables for efficient light and dark theme management; State management with Redux; CSS-only design, no CSS libraries; Custom, reusable Hook called ImageLoad to lazy load images; Custom JSON data objects, simulating a local API; Separate and reusable components"
             github="https://github.com/jamesncox/the-boredinator/"
             url="https://boredinator.netlify.app/"
           />
@@ -34,8 +34,7 @@ export default function FeaturedProjects() {
             placeholder={GifFitTiny}
             id="collapsible-gif-fit"
             alt="Screenshot of GIF FIT app"
-            features={BoredinatorFeatures}
-            description="React front-end, Redux to manage state, and Material UI for styling. Gifs are sourced from Giphy.com (special thanks and credit to 8fit for uploading so many awesome exercises). Made with love to genuinely help others during these stressful and challenging times."
+            features={GifFitFeatures}
             github="https://github.com/jamesncox/gif-fit/"
             url="https://gif-fit.netlify.app/"
           />

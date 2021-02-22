@@ -1,30 +1,26 @@
 [
     {
         "id": 20,
-        "text": ""
+        "text": "React front-end"
     },
     {
         "id": 21,
-        "text": ""
+        "text": "Redux to manage state"
     },
     {
         "id": 22,
-        "text": ""
+        "text": "Material UI components and styles"
     },
     {
         "id": 23,
-        "text": ""
+        "text": "React hooks useState and useEffect"
     },
     {
         "id": 24,
-        "text": ""
+        "text": "Gifs sourced from Giphy.com (special thanks and credit to 8fit)"
     },
     {
         "id": 25,
-        "text": ""
-    },
-    {
-        "id": 26,
-        "text": ""
+        "text": "Made with love to genuinely help others during these stressful and challenging times"
     }
 ]
