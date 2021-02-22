@@ -15,7 +15,7 @@ const DisplayProject = React.memo(({ title, subtitle, src, placeholder, id, alt,
         />
         <input id={id} className="toggle" type="checkbox" />
         <label htmlFor={id} className="lbl-toggle">
-          Info & Links
+          LEARN MORE
         </label>
         <div className="collapsible-content">
           <div className="content-inner">
