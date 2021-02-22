@@ -28,6 +28,7 @@ const DisplayProject = React.memo(({ title, subtitle, src, placeholder, id, alt,
               )
             })}
             <div className="project-icon-wrapper">
+            {/* <p className="icon-description">github</p> */}
               <div className="icons">
                 <a href={github} rel="noopener noreferrer" target="_blank">
                   <svg viewBox="0 0 128 128">
@@ -41,6 +42,7 @@ const DisplayProject = React.memo(({ title, subtitle, src, placeholder, id, alt,
                   </svg>
                 </a>
               </div>
+              {/* <p className="icon-description">live</p> */}
               <div className="icons">
                 <a href={url} rel="noopener noreferrer" target="_blank">
                   <svg
