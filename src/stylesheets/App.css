@@ -439,12 +439,11 @@ body.dark {
 /* footer  */
 .footer {
     font-family: 'Roboto', sans-serif;
-    margin-top: 200px;
+    margin-top: 180px;
     margin-bottom: 2rem;
     padding: 1rem;
-    border-radius: 50px;
-    background-color: var(--footer-color);
-    color: var(--background-color);
+    border-top:  2px solid var(--bottom-border-color);
+    color: var(--description-color);
     text-align: center;
     transition: var(--theme-transition);
   }
