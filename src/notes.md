@@ -14,6 +14,8 @@
 
 [] Figure out how to remove clickable white space after SEE MORE POSTS and SEE MORE PROJECTS
 
+[] Update Github svg, it's not filling enough on :hover
+
 # Completed Todos
 
 # Removed from 1300px media query
