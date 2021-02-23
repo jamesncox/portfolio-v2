@@ -4,7 +4,12 @@ export default function Footer() {
 
     return (
         <div className="footer">
-            This will always appear at the bottom of the page
+            <span>Made with</span>
+            {' '}
+            ❤️‍🔥
+            {' '}
+            <span>{'Copyright © '}</span>
+            {new Date().getFullYear()}
         </div>
     )
 }
