@@ -14,6 +14,8 @@
 
 [] Figure out how to remove clickable white space after SEE MORE POSTS and SEE MORE PROJECTS
 
+[] Not in love with --brick-red, is there a better accent color for body.light color scheme?
+
 # Completed Todos
 
 # Removed from 1300px media query
