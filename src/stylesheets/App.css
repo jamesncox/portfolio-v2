@@ -90,6 +90,22 @@ body.dark {
     /* border: 1px solid black; */
 }
 
+/* buttons */
+.see-more-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: var(--description-color);
+    border: solid 1px var(--card-border);
+    border-radius: 5px;
+    padding: .5rem;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.see-more-text:hover {
+    color: var(--white);
+    background-color: var(--hightlighted-menu-color);
+}
+
 /* NavBar styles */
 .nav-parent {
     position: sticky;
@@ -126,7 +142,6 @@ body.dark {
     margin-top: 2rem;
     margin-bottom: -1rem;
     display: flex;
-    /* justify-content: space-between;  */
 }
 
 .bio-menu {
@@ -184,7 +199,6 @@ body.dark {
     justify-content: center;
     width: 100%;
     height: 100%;
-    /* margin-top: 2rem; */
 }
 
 .image {
@@ -211,7 +225,6 @@ body.dark {
 }
 
 /* skills grid */
-
 .skill-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -255,7 +268,6 @@ body.dark {
 .projects-wrapper {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 }
 
 .projects-card {
@@ -374,21 +386,6 @@ body.dark {
     margin-top: -1rem;
 }
 
-.see-more-text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    color: var(--description-color);
-    border: solid 1px var(--card-border);
-    border-radius: 5px;
-    padding: .5rem;
-    transition: background-color .3s ease-in-out, color .3s ease-in-out;
-}
-
-.see-more-text:hover {
-    color: var(--white);
-    background-color: var(--hightlighted-menu-color);
-}
-
 .arrow-icon {
     margin-left: .5rem;
     margin-top: 12px;
@@ -400,7 +397,6 @@ body.dark {
 }
 
 /* contact */
-
 .contact-links {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
