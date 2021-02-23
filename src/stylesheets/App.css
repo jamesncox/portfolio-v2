@@ -382,10 +382,13 @@ body.dark {
 
 /* contact */
 
-.email {
+.contact-links {
+    text-decoration: none;
+}
+
+.contact-text {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    text-decoration: none;
     color: var(--description-color);
     transition: var(--theme-transition);  
 }
