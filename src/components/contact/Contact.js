@@ -1,6 +1,7 @@
 import React from 'react'
 import Email from './Email'
 import Resume from './Resume'
+import Social from './Social'
 
 function Contact() {
 
@@ -9,6 +10,7 @@ function Contact() {
       <p className="section-title">contact</p>
       <Email />
       <Resume />
+      <Social />
     </div>
     )
 }

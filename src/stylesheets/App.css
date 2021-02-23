@@ -405,3 +405,24 @@ body.dark {
     color: var(--description-color);
     transition: var(--theme-transition);  
 }
+
+.social-grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--font-weight);
+    height: 50px;
+    transition: var(--theme-transition);
+}
+
+.twitter-icon {
+    fill: #3BA9EE;
+}
