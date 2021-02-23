@@ -90,6 +90,24 @@ body.dark {
     /* border: 1px solid black; */
 }
 
+/* buttons */
+.see-more-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    background-color: var(--background-color);
+    color: var(--description-color);
+    border: solid 1px var(--card-border);
+    border-radius: 5px;
+    padding: .5rem;
+    cursor: pointer;
+    transition: background-color .4s ease-in-out, color .4s ease-in-out;
+}
+
+.see-more-button:hover {
+    color: var(--white);
+    background-color: var(--hightlighted-menu-color);
+}
+
 /* NavBar styles */
 .nav-parent {
     position: sticky;
@@ -126,7 +144,6 @@ body.dark {
     margin-top: 2rem;
     margin-bottom: -1rem;
     display: flex;
-    /* justify-content: space-between;  */
 }
 
 .bio-menu {
@@ -184,7 +201,6 @@ body.dark {
     justify-content: center;
     width: 100%;
     height: 100%;
-    /* margin-top: 2rem; */
 }
 
 .image {
@@ -211,7 +227,6 @@ body.dark {
 }
 
 /* skills grid */
-
 .skill-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -246,16 +261,15 @@ body.dark {
     transition: fill .8s ease-in-out;
 }
 
+.github-wrapper:hover {
+    fill: var(--icon-color);
+    transition: fill .4s ease-in-out
+}
+
 /* projects */
 .projects-container {
     display: flex;
     flex-direction: column;
-}
-
-.projects-wrapper {
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
 }
 
 .projects-card {
@@ -313,7 +327,11 @@ body.dark {
 
 .icon-link {
     fill: var(--icon-color);
-    transition: fill .8s ease-in-out;
+    transition: fill .4s ease-in-out
+}
+
+.icon-link:hover{
+    fill: var(--hightlighted-menu-color);
 }
 
 .link-text {
@@ -328,11 +346,6 @@ body.dark {
 .blogs-container {
     display: flex;
     flex-direction: column;
-}
-
-.blogs-wrapper {
-    display: flex;
-    flex-direction: row;
 }
 
 .blog-icon-wrapper {
@@ -369,9 +382,9 @@ body.dark {
 }
 
 .see-more-blogs {
+    width: auto;
     display: flex;
     text-decoration: none;
-    margin-top: -1rem;
 }
 
 .arrow-icon {
@@ -385,7 +398,6 @@ body.dark {
 }
 
 /* contact */
-
 .contact-links {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
