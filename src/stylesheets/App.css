@@ -259,6 +259,11 @@ body.dark {
     transition: fill .8s ease-in-out;
 }
 
+.github-wrapper:hover {
+    fill: var(--icon-color);
+    transition: fill .4s ease-in-out
+}
+
 /* projects */
 .projects-container {
     display: flex;
@@ -325,7 +330,11 @@ body.dark {
 
 .icon-link {
     fill: var(--icon-color);
-    transition: fill .8s ease-in-out;
+    transition: fill .4s ease-in-out
+}
+
+.icon-link:hover{
+    fill: var(--hightlighted-menu-color);
 }
 
 .link-text {
