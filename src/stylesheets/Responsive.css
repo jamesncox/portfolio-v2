@@ -24,6 +24,10 @@
         margin: auto;
         width: 70%;
     }
+
+    .footer {
+        margin-top: 350px;
+    }
 }
 
 @media only screen and (min-width: 800px) {

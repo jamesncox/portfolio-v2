@@ -432,13 +432,15 @@ body.dark {
 }
 
 /* footer  */
-
 .footer {
-    position: absolute;
+    margin-top: 210px;
+    margin-bottom: 1rem;
     right: 0;
     bottom: 0;
     left: 0;
     padding: 1rem;
-    background-color: #efefef;
+    border-radius: 50px;
+    background-color: var(--off-white);
+    color: var(--black);
     text-align: center;
   }

@@ -6,7 +6,7 @@ import Social from './Social'
 function Contact() {
 
     return (
-      <div  id="contact" style={{height: "1000px"}}>
+      <div  id="contact">
       <p className="section-title">contact</p>
       <Email />
       <Resume />
