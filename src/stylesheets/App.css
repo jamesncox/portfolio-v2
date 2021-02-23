@@ -355,8 +355,6 @@ body.dark {
     font-family: 'Roboto', sans-serif;
     font-weight: var(--font-weight);
     color: var(--name-color);
-    /* border-bottom: solid 1px var(--card-border);
-    padding-bottom: 1rem; */
     transition: var(--theme-transition);
 }
 

@@ -1,6 +1,19 @@
 
 # Todos
 
+[] Update Gitconnected resume
+
+[] Update PDF (google doc into PDF) resume
+    [] replace updated PDF in assets/pdfs
+  
+[] Find new arrow icon for DisplayBlog.js / just doesn't look right
+
+[] Add social SVGs inside contact section
+
+[] Create Footer.js and place at bottom of contact section
+
+[] Figure out how to remove clickable white space after SEE MORE POSTS and SEE MORE PROJECTS
+
 # Completed Todos
 
 # Removed from 1300px media query
