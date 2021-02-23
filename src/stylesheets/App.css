@@ -374,6 +374,21 @@ body.dark {
     margin-top: -1rem;
 }
 
+.see-more-blogs-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: var(--description-color);
+    border: solid 1px var(--card-border);
+    border-radius: 5px;
+    padding: .5rem;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.see-more-blogs-text:hover {
+    color: var(--white);
+    background-color: var(--hightlighted-menu-color);
+}
+
 .arrow-icon {
     margin-left: .5rem;
     margin-top: 12px;
