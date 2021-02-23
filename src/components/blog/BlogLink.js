@@ -4,7 +4,7 @@ export default function BlogLink() {
 
     return (
         <a className="see-more-blogs" href="https://dev.to/jamesncox" rel="noopener noreferrer" target="_blank">
-            <p className="see-more-text">More Posts</p>
+            <button className="see-more-button">MORE POSTS</button>
         </a>
     )
 }

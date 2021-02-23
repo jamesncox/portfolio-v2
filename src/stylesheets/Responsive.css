@@ -10,17 +10,9 @@
         width: 60%;
     }
 
-    .projects-wrapper {
-        justify-content: center;
-    }
-
     .blogs-container {
         margin: auto;
         width: 60%
-    }
-
-    .blogs-wrapper {
-        justify-content: center;
     }
 
     .skill-grid {
