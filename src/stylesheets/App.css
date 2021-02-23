@@ -435,11 +435,9 @@ body.dark {
 
 /* footer  */
 .footer {
-    margin-top: 210px;
-    margin-bottom: 1rem;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 200px;
+    margin-bottom: 2rem;
     padding: 1rem;
     border-radius: 50px;
     background-color: var(--footer-color);
