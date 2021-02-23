@@ -384,9 +384,6 @@ body.dark {
 
 .contact-links {
     text-decoration: none;
-}
-
-.contact-text {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: var(--description-color);
