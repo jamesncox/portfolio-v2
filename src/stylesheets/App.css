@@ -419,7 +419,7 @@ body.dark {
     justify-content: center;
     align-items: center;
     font-weight: var(--font-weight);
-    height: 50px;
+    height: 60px;
     transition: var(--theme-transition);
 }
 
