@@ -7,21 +7,16 @@ export default function Social() {
             <p className="section-title">social</p>
             <div className="social-grid">
                 <a 
-                    href="https://twitter.com/MemRook" 
+                    href="https://www.linkedin.com/in/jamesnathanielcox/" 
                     rel="noopener noreferrer" 
                     target="_blank"
                 >
                     <div className="social-icons">
                         <svg 
-                            viewBox="0 50 512 512"
+                            xmlns="http://www.w3.org/2000/svg" 
+                            viewBox="0 0 24 24"
                             className="linkedIn-icon"
-                        >
-                            <path d="M150.65,100.682c0,27.992-22.508,50.683-50.273,50.683c-27.765,0-50.273-22.691-50.273-50.683
-                            C50.104,72.691,72.612,50,100.377,50C128.143,50,150.65,72.691,150.65,100.682z M143.294,187.333H58.277V462h85.017V187.333z
-                            M279.195,187.333h-81.541V462h81.541c0,0,0-101.877,0-144.181c0-38.624,17.779-61.615,51.807-61.615
-                            c31.268,0,46.289,22.071,46.289,61.615c0,39.545,0,144.181,0,144.181h84.605c0,0,0-100.344,0-173.915
-                            s-41.689-109.131-99.934-109.131s-82.768,45.369-82.768,45.369V187.333z"/>
-                        </svg>
+                        ><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
                     </div>
                 </a>
 
@@ -35,6 +30,7 @@ export default function Social() {
                                 viewBox="328 355 335 276"
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="twitter-icon"
+                                width="50"
                             >
                                 <path d="
                                     M 630, 425
