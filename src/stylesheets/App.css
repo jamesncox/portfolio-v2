@@ -329,6 +329,7 @@ body.dark {
     width: 25px;
     cursor: pointer;
     transition: fill .8s ease-in-out;
+    stroke: var(--icon-color);
 }
 
 .icon-link {
