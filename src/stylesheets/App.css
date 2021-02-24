@@ -262,11 +262,6 @@ body.dark {
     fill: var(--react-color);
 }
 
-/* .github-icon {
-    fill: var(--github-color);
-    transition: fill .8s ease-in-out;
-} */
-
 .github-wrapper:hover {
     fill: var(--icon-color);
     transition: fill .4s ease-in-out
@@ -409,8 +404,8 @@ body.dark {
 
 /* contact */
 .email-link {
-    margin-top: .5rem;
     display: inline-flex;
+    margin-top: .5rem;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
@@ -419,8 +414,8 @@ body.dark {
 }
 
 .at-symbol-link {
-    margin-top: .5rem;
     display: inline-flex;
+    margin-top: .5rem;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;

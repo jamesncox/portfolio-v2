@@ -11,6 +11,7 @@ function Contact() {
         <Email />
         <p className="section-title">resume</p>
         <Resume />
+        <p className="section-title">social</p>
         <Social />
       </div>
     )

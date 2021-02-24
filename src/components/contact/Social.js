@@ -4,7 +4,6 @@ export default function Social() {
     
     return (
         <>
-            <p className="section-title">social</p>
             <div className="social-grid">
                 <a 
                     href="https://www.linkedin.com/in/jamesnathanielcox/" 
