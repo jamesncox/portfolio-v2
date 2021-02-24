@@ -334,7 +334,7 @@ body.dark {
 
 .icons:hover {
     stroke: var(--hightlighted-menu-color);
-    /* transition: stroke .4s ease-in-out */
+    transition: stroke .2s ease-in-out
 }
 
 .icon-link {
@@ -342,16 +342,9 @@ body.dark {
     transition: fill .4s ease-in-out
 }
 
-.icon-link:hover{
+.icon-link:hover {
     fill: var(--hightlighted-menu-color);
-}
-
-.link-text {
-    margin-top: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: .85rem;
-    color: var(--description-color);
-    transition: var(--theme-transition);
+    transition: stroke .2s ease-in-out
 }
 
 /* blogs */
@@ -435,10 +428,6 @@ body.dark {
     transition: var(--theme-transition);
 }
 
-.github-icon:hover {
-    fill: var(--brick-red);
-}
-
 .twitter-icon {
     fill: #3BA9EE;
 }
@@ -450,6 +439,10 @@ body.dark {
 .github-icon {
     fill: var(--github-color);
     transition: fill .4s ease-in-out;
+}
+
+.github-icon:hover {
+    fill: var(--brick-red);
 }
 
 /* footer  */
