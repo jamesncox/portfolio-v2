@@ -437,7 +437,7 @@ body.dark {
     transition: var(--theme-transition);  
 }
 
-.contact-icon {
+.email-icon {
     margin-right: .5rem;
     margin-left: -1px;
     padding-bottom: 0;
