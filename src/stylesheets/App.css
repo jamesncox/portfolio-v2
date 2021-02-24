@@ -408,6 +408,16 @@ body.dark {
 }
 
 /* contact */
+.email-link {
+    margin-top: .5rem;
+    display: inline-flex;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: var(--description-color);
+    transition: var(--theme-transition); 
+}
+
 .at-symbol-link {
     margin-top: .5rem;
     display: inline-flex;
@@ -427,9 +437,21 @@ body.dark {
     transition: var(--theme-transition);  
 }
 
-.download-icon {
+.contact-icon {
     margin-right: .5rem;
-    margin-left: -3px;
+    margin-left: -1px;
+    padding-bottom: 0;
+    width: 24px;
+    margin-top: -2px;
+    cursor: pointer;
+    stroke:  var(--icon-color);
+    stroke-width: 2px;
+    transition: stroke .8s ease-in-out;
+}
+
+.resume-icon {
+    margin-right: .5rem;
+    margin-left: -1px;
     padding-bottom: 0;
     width: 24px;
     margin-top: -5px;
@@ -437,10 +459,6 @@ body.dark {
     stroke:  var(--icon-color);
     stroke-width: 2px;
     transition: stroke .8s ease-in-out;
-}
-
-download-icon:hover {
-    stroke-width: 3px;
 }
 
 .social-grid {
