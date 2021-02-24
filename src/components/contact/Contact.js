@@ -7,11 +7,12 @@ function Contact() {
 
     return (
       <div  id="contact">
-      <p className="section-title">contact</p>
-      <Email />
-      <Resume />
-      <Social />
-    </div>
+        <p className="section-title">contact</p>
+        <Email />
+        <p className="section-title">resume</p>
+        <Resume />
+        <Social />
+      </div>
     )
 }
 
