@@ -98,7 +98,7 @@ body.dark {
 /* buttons */
 .see-more-button {
     font-family: 'Roboto', sans-serif;
-    /* font-size: 1rem; */
+    font-size: 1rem;
     margin-left: -1px;
     background-color: var(--background-color);
     color: var(--description-color);
