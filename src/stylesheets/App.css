@@ -329,12 +329,12 @@ body.dark {
     width: 25px;
     cursor: pointer;
     stroke: var(--icon-color);
-    transition: stroke .8s ease-in-out;
+    transition: stroke .4s ease-in-out;
 }
 
 .icons:hover {
     stroke: var(--hightlighted-menu-color);
-    transition: stroke .4s ease-in-out
+    /* transition: stroke .4s ease-in-out */
 }
 
 .icon-link {
@@ -433,6 +433,10 @@ body.dark {
     font-weight: var(--font-weight);
     height: 70px;
     transition: var(--theme-transition);
+}
+
+.github-icon:hover {
+    fill: var(--brick-red);
 }
 
 .twitter-icon {
