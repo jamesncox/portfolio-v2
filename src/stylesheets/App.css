@@ -399,7 +399,12 @@ body.dark {
     cursor: pointer;
     stroke:  var(--icon-color);
     stroke-width: .8;
-    transition: fill .8s ease-in-out;
+    transition: stroke .8s ease-in-out;
+}
+
+.arrow-icon:hover {
+    stroke: var(--hightlighted-menu-color);
+    transition: .2s ease-in-out;
 }
 
 /* contact */
