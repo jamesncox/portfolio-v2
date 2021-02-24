@@ -408,7 +408,9 @@ body.dark {
 }
 
 /* contact */
-.contact-links {
+.at-symbol-link {
+    margin-top: .5rem;
+    display: inline-flex;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
@@ -416,10 +418,29 @@ body.dark {
     transition: var(--theme-transition);  
 }
 
-.contact-links:hover {
-    /* color: var(--hightlighted-menu-color); */
-    font-weight: bold;
-    /* transition: .2s ease-in-out; */
+.pdf-link {
+    display: inline-flex;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: var(--description-color);
+    transition: var(--theme-transition);  
+}
+
+.download-icon {
+    margin-right: .5rem;
+    margin-left: -3px;
+    padding-bottom: 0;
+    width: 24px;
+    margin-top: -5px;
+    cursor: pointer;
+    stroke:  var(--icon-color);
+    stroke-width: 2px;
+    transition: stroke .8s ease-in-out;
+}
+
+download-icon:hover {
+    stroke-width: 3px;
 }
 
 .social-grid {
