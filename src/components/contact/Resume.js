@@ -1,7 +1,7 @@
 import React from 'react'
+import MyResume from '../../assets/pdfs/James Cox Resume.pdf'
 
 export default function Resume() {
-
     return (
         <>
             <p className="section-title">resume</p>
@@ -11,7 +11,7 @@ export default function Resume() {
                 </a>
             </p>
             <p>
-                <a className="contact-links" href="../../assets/pdfs/James Cox Resume.pdf" download rel="noopener noreferrer" target="_blank">
+                <a className="contact-links" href={MyResume} download>
                     download PDF
                 </a>
             </p>
