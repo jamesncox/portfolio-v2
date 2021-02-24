@@ -5,9 +5,10 @@ export default function Footer() {
     return (
         <div className="footer">
             <p>
-                Made by James Cox with
+                Made with
                 {' '}
                 ❤️‍🔥
+                by James Cox
                 </p>
             <p>
                 {'Copyright © '}
