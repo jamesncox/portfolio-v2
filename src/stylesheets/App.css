@@ -262,10 +262,10 @@ body.dark {
     fill: var(--react-color);
 }
 
-.github-icon {
+/* .github-icon {
     fill: var(--github-color);
     transition: fill .8s ease-in-out;
-}
+} */
 
 .github-wrapper:hover {
     fill: var(--icon-color);
@@ -330,6 +330,11 @@ body.dark {
     cursor: pointer;
     stroke: var(--icon-color);
     transition: stroke .8s ease-in-out;
+}
+
+.icons:hover {
+    stroke: var(--hightlighted-menu-color);
+    transition: stroke .4s ease-in-out
 }
 
 .icon-link {
@@ -436,6 +441,11 @@ body.dark {
 
 .linkedIn-icon {
     fill: #0e76a8;
+}
+
+.github-icon {
+    fill: var(--github-color);
+    transition: fill .4s ease-in-out;
 }
 
 /* footer  */
