@@ -92,13 +92,14 @@ body.dark {
 .App {
     margin-left: 1rem;
     margin-right: 1rem;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 /* buttons */
 .see-more-button {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    /* font-size: 1rem; */
+    margin-left: -1px;
     background-color: var(--background-color);
     color: var(--description-color);
     border: solid 1px var(--card-border);
