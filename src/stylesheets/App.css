@@ -491,8 +491,6 @@ body.dark {
 .footer {
     font-family: 'Roboto', sans-serif;
     margin-top: 180px;
-    margin-bottom: 2rem;
-    padding: 1rem;
     border-top:  2px solid var(--bottom-border-color);
     color: var(--description-color);
     text-align: center;
