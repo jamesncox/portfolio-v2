@@ -4,12 +4,15 @@ export default function Footer() {
 
     return (
         <div className="footer">
-            <span>Made by James Cox with</span>
-            {' '}
-            ❤️‍🔥
-            {' '}
-            <span>{'Copyright © '}</span>
-            {new Date().getFullYear()}
+            <p>
+                Made by James Cox with
+                {' '}
+                ❤️‍🔥
+                </p>
+            <p>
+                {'Copyright © '}
+                {new Date().getFullYear()}
+            </p>
         </div>
     )
 }
