@@ -432,8 +432,18 @@ body.dark {
     fill: #3BA9EE;
 }
 
+.twitter-icon:hover {
+    fill: var(--brick-red);
+    transition: .2s ease-in-out;
+}
+
 .linkedIn-icon {
     fill: #0e76a8;
+}
+
+.linkedIn-icon:hover {
+    fill: var(--brick-red);
+    transition: .2s ease-in-out;
 }
 
 .github-icon {
@@ -443,6 +453,7 @@ body.dark {
 
 .github-icon:hover {
     fill: var(--brick-red);
+    transition: .2s ease-in-out;
 }
 
 /* footer  */
