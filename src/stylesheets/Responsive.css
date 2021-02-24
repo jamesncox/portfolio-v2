@@ -103,6 +103,18 @@
         stroke: var(--hightlighted-menu-color);
         transition: .2s ease-in-out;
     }
+
+    .email-link:hover {
+        font-weight: bold;
+    }
+
+    .at-symbol-link:hover {
+        font-weight: bold;
+    }
+
+    .pdf-link:hover {
+        font-weight: bold;
+    }
 }
 
 @media only screen and (min-width: 1300px) {
