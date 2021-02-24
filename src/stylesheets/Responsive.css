@@ -82,6 +82,32 @@
         margin: auto;
         width: 85%;
     }
+
+    .see-more-button:hover {
+        color: var(--white);
+        background-color: var(--hightlighted-menu-color);
+        transition: background-color .2s ease-in-out, color .2s ease-in-out;
+    }
+
+    /* .github-wrapper:hover {
+        fill: var(--icon-color);
+        transition: fill .4s ease-in-out
+    } */
+
+    .icons:hover {
+        stroke: var(--hightlighted-menu-color);
+        transition: stroke .2s ease-in-out
+    }
+
+    .icon-link:hover {
+        fill: var(--hightlighted-menu-color);
+        transition: stroke .2s ease-in-out
+    }
+
+    .arrow-icon:hover {
+        stroke: var(--hightlighted-menu-color);
+        transition: .2s ease-in-out;
+    }
 }
 
 @media only screen and (min-width: 1300px) {

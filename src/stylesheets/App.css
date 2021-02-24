@@ -109,12 +109,6 @@ body.dark {
     transition: var(--theme-transition);
 }
 
-.see-more-button:hover {
-    color: var(--white);
-    background-color: var(--hightlighted-menu-color);
-    transition: background-color .2s ease-in-out, color .2s ease-in-out;
-}
-
 /* NavBar styles */
 .nav-parent {
     position: sticky;
@@ -263,11 +257,6 @@ body.dark {
     fill: var(--react-color);
 }
 
-.github-wrapper:hover {
-    fill: var(--icon-color);
-    transition: fill .4s ease-in-out
-}
-
 /* projects */
 .projects-container {
     display: flex;
@@ -328,19 +317,9 @@ body.dark {
     transition: stroke .4s ease-in-out;
 }
 
-.icons:hover {
-    stroke: var(--hightlighted-menu-color);
-    transition: stroke .2s ease-in-out
-}
-
 .icon-link {
     fill: var(--icon-color);
     transition: fill .4s ease-in-out
-}
-
-.icon-link:hover {
-    fill: var(--hightlighted-menu-color);
-    transition: stroke .2s ease-in-out
 }
 
 /* blogs */
@@ -396,11 +375,6 @@ body.dark {
     stroke:  var(--icon-color);
     stroke-width: .8;
     transition: stroke .8s ease-in-out;
-}
-
-.arrow-icon:hover {
-    stroke: var(--hightlighted-menu-color);
-    transition: .2s ease-in-out;
 }
 
 /* contact */
