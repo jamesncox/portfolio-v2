@@ -25,3 +25,8 @@ I wanted a clean and simple aesthetic, and I believe I have achieved that.
 
 ## Desired Features
 
+- Light/dark theme switch: **Achieved with CSS variables and a custom CSS checkbox styled as a toggle/switch**
+
+- Smooth scrolling triggered by menu navbar: **Achieved with react-scroll, the only package in my portfolio**
+
+- Lazy load images: **Achieved with a custom React hook called "ImageLoad" that takes small .png version, displays that until the larger version has loaded**
