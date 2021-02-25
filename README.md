@@ -1,12 +1,12 @@
 # About My Portfolio Site
 
-<p> www.jamescox.dev is the third iteration of my portfolio. Each version is a React single page application, but this is the first one that does not use a CSS framework.</p>
+www.jamescox.dev is the third iteration of my portfolio. Each version is a React single page application, but this is the first one that does not use a CSS framework.
 
-<p> The first version was built following a tutorial, and made use of IBM's Carbon Components, which was so unwieldy and an incredibly large package to include for such a simple project. </p>
+The first version was built following a tutorial, and made use of IBM's Carbon Components, which was so unwieldy and an incredibly large package to include for such a simple project.
 
-<p> The second version I designed myself, this time using Material UI's components and design aesthetic. Material UI is a lot more intuitive, and definitely more light weight than Carbon Components, but there is no escaping that it looks very Material UI-ey, which means it looks like a lot of things on the web, as Google uses Material UI components for so many of its producsts. </p>
+The second version I designed myself, this time using Material UI's components and design aesthetic. Material UI is a lot more intuitive, and definitely more light weight than Carbon Components, but there is no escaping that it looks very Material UI-ey, which means it looks like a lot of things on the web, as Google uses Material UI components for so many of its producsts.
 
-<p> This version is the first version to use only CSS and the first one that is "single page" style, with smooth scrolling and no "pages". </p>
+This version is the first version to use only CSS and the first one that is "single page" style, with smooth scrolling and no "pages".
 
 ## Planning and Design
 
@@ -16,12 +16,12 @@
 
 - Using https://excalidraw.com/ I sketched a mockup, and I think I got very close to the original idea!
 
-<p> Design vs. Actual </p>
+Design vs. Actual
 
 ![portfoli side by side](https://user-images.githubusercontent.com/47455758/109177973-fc0f9980-774d-11eb-9266-90bd1a0967e3.png)
 
 
-<p> I wanted a clean and simple aesthetic, and I believe I have achieved that. </p>
+I wanted a clean and simple aesthetic, and I believe I have achieved that.
 
 ## Desired Features
 
