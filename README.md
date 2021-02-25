@@ -30,3 +30,9 @@ I wanted a clean and simple aesthetic, and I believe I have achieved that.
 - Smooth scrolling triggered by menu navbar: **Achieved with react-scroll, the only package in my portfolio**
 
 - Lazy load images: **Achieved with a custom React hook called "ImageLoad" that takes small .png version, displays that until the larger version has loaded**
+
+- Mini bio menu to select various lengths: **Achieved with useState to display selected bio length, short, medium, long or stalker**
+
+- Collapsible components to display projects: **Achieved with custom CSS, using a checkbox to determine whether the component has been checked or not**
+
+- Custom React hooks to display projects and blogs: **Very proud of this, having never built my own React hook before, I was able to create a hook each for projects and blog and they significantly cut down on the amount of code used to display each project or blog**
