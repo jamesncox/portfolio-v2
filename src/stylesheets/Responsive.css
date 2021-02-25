@@ -144,19 +144,4 @@
         margin-left: 33%;
         margin-right: 33%;
     }
-
-    .projects-container {
-        margin: auto;
-        width: 70%;
-    }
-
-    .blogs-container {
-        margin: auto;
-        width: 70%
-    }
-
-    .skill-grid {
-        margin: auto;
-        width: 90%;
-    }
 }
