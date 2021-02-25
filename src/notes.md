@@ -3,6 +3,8 @@
 
 [] Figure out how to remove clickable white space after SEE MORE POSTS and SEE MORE PROJECTS
 
+[] Why does the nav component blink when page reloads? Interesting!
+
 # Completed Todos
 
 [x] Add social SVGs inside contact section
