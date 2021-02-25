@@ -23,7 +23,7 @@ This version is the first version to use only CSS and the first one that is "sin
 
 I wanted a clean and simple aesthetic, and I believe I have achieved that.
 
-## Desired Features
+## Achieved Desired Features
 
 - Light/dark theme switch: **Achieved with CSS variables and a custom CSS checkbox styled as a toggle/switch**
 
@@ -36,3 +36,9 @@ I wanted a clean and simple aesthetic, and I believe I have achieved that.
 - Collapsible components to display projects: **Achieved with custom CSS, using a checkbox to determine whether the component has been checked or not**
 
 - Custom React hooks to display projects and blogs: **Very proud of this, having never built my own React hook before, I was able to create a hook each for projects and blog and they significantly cut down on the amount of code used to display each project or blog**
+
+## In-Progress Desired Features 
+
+- Preview image when portfolio site is linked to LinkedIn, Twitter, Facebook, etc.
+
+- Turn the see "more projects" and "more blogs" buttons into a toggle that expands to show more projects and blog posts directly in each component.
