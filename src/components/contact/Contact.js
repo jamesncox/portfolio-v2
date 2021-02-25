@@ -12,10 +12,10 @@ function Contact() {
         <Email />
         <p className="section-title">resume</p>
         <Resume />
-        <p className="section-title">social</p>
-        <Social />
         <p className="section-title">portfolio details</p>
         <ReadMeLink />
+        <p className="section-title">social</p>
+        <Social />
       </div>
     )
 }
