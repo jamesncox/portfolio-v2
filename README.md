@@ -4,7 +4,7 @@ www.jamescox.dev is the third iteration of my portfolio. Each version is a React
 
 The first version was built following a tutorial, and made use of IBM's Carbon Components, which was so unwieldy and an incredibly large package to include for such a simple project.
 
-The second version I designed myself, this time using Material UI's components and design aesthetic. Material UI is a lot more intuitive, and definitely more light weight than Carbon Components, but there is no escaping that it looks very Material UI-ey, which means it looks like a lot of things on the web, as Google uses Material UI components for so many of its producsts.
+The second version I designed myself, this time using Material UI's components and design aesthetic. Material UI is a lot more and light-weight than Carbon Components, but there is no escaping that it looks very Material UI-ey, which means it looks like a lot of things on the web, as Google uses Material UI components for so many of its products. You can check this 2nd version out here: https://jamescox.netlify.app/ and hopefully appreciate how much nicer my new one is!
 
 This version is the first version to use only CSS and the first one that is "single page" style, with smooth scrolling and no "pages".
 
