@@ -5,7 +5,8 @@
 
 [] Why does the nav component blink when page reloads? Interesting!
 
-[] See if you I can NavMenu :after attributes to work in Responsive.css
+[] See if you I can NavMenu selected-menu::before attributes to work in Responsive.css.
+    [] I think that the issue might be with NavBar.js activeClass property.
 
 # Completed Todos
 
