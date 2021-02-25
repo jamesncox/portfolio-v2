@@ -6,4 +6,4 @@ My goal was to use a minimalist design, utilizing just a few fonts and colors.
 
 Using https://excalidraw.com/ I sketched a mockup, and I think I got very close to the original idea!
 
-![](./src/assets/images/Excalidraw Portfolio Mockup.jpg)
+![](relative/assets/images/Excalidraw Portfolio Mockup.jpg)
