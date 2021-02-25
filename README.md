@@ -16,7 +16,7 @@ This version is the first version to use only CSS and the first one that is "sin
 
 - Using https://excalidraw.com/ I sketched a mockup, and I think I got very close to the original idea!
 
-<p align="justify"> Design vs. Actual </p>
+#### Design vs. Actual
 
 ![portfoli side by side](https://user-images.githubusercontent.com/47455758/109177973-fc0f9980-774d-11eb-9266-90bd1a0967e3.png)
 
