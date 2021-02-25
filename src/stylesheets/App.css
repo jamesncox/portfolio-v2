@@ -464,7 +464,7 @@ body.dark {
 /* footer  */
 .footer {
     font-family: 'Roboto', sans-serif;
-    margin-top: 180px;
+    margin-top: 50px;
     border-top:  2px solid var(--bottom-border-color);
     color: var(--description-color);
     text-align: center;
