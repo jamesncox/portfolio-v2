@@ -1,5 +1,13 @@
 # About My Portfolio Site
 
+www.jamescox.dev is the third iteration of my portfolio. Each version is a React single page application, but this is the first one that does not use a CSS framework. 
+
+The first version was built following a tutorial, and made use of IBM's Carbon Components, which was so unwieldy and an incredibly large package to include for such a simple project. 
+
+The second version I designed myself, this time using Material UI's components and design aesthetic. Material UI is a lot more intuitive, and definitely more light weight than Carbon Components, but there is no escaping that it looks very Material UI-ey, which means it looks like a lot of things on the web, as Google uses Material UI components for so many of its producsts.
+
+This version is the first version to use only CSS and the first one that is "single page" style, with smooth scrolling and no "pages".
+
 ## Planning and Design
 
 - I set out to re-design my portfolio site with only CSS (no libraries or frameworks). 
@@ -10,7 +18,7 @@
 
 ![Excalidraw Portfolio Mockup (1)](https://user-images.githubusercontent.com/47455758/109171065-fd899380-7746-11eb-8174-4422b905bee9.jpg)
 
-I wanted a clean and simple asthetic, and I believe I have achieved that. 
+I wanted a clean and simple aesthetic, and I believe I have achieved that. 
 
 ## Desired Features
 
