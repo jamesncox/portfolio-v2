@@ -37,7 +37,7 @@ I wanted a clean and simple aesthetic, and I believe I have achieved that.
 
 - Custom React hooks to display projects and blogs: **Very proud of this, having never built my own React hook before, I was able to create a hook each for projects and blog and they significantly cut down on the amount of code used to display each project or blog**
 
-- Preview image when portfolio site is linked to LinkedIn, Twitter, Facebook, etc. **Achieved with specific meta tags in public/index.html for LinkedIn and Twitter. The trick was using Twitter and LinkedIn's card preview tools to clear the cache!"
+- Preview image when portfolio site is linked to LinkedIn, Twitter, Facebook, etc. **Achieved with specific meta tags in public/index.html for LinkedIn and Twitter. The trick was using Twitter and LinkedIn's card preview tools to clear the cache!"**
 
 ## In-Progress Desired Features 
 
