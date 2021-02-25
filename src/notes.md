@@ -5,6 +5,8 @@
 
 [] Why does the nav component blink when page reloads? Interesting!
 
+[] See if you I can NavMenu :after attributes to work in Responsive.css
+
 # Completed Todos
 
 [x] Add social SVGs inside contact section
