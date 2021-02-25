@@ -1,7 +1,7 @@
 import React from 'react'
 import ImageLoad from '../../hooks/ImageLoad'
-import Dancing from '../../assets/images/dancing.gif'
-import DancingTiny from '../../assets/images/dancing-tiny.jpg'
+import Woods from '../../assets/images/woods.gif'
+import WoodsTiny from '../../assets/images/woods-tiny.jpg'
 
 export default function LongBio() {
 
@@ -13,8 +13,8 @@ export default function LongBio() {
             <div className="image-wrapper">
                 <ImageLoad
                     className="gif"
-                    src={Dancing}
-                    placeholder={DancingTiny}
+                    src={Woods}
+                    placeholder={WoodsTiny}
                     alt="Gif of a man on the same hills from The Sound of Music dancing in a similar fashion as Julie Andrews"
                 />
             </div>
