@@ -1,15 +1,7 @@
 
 # Todos
 
-[] Update Gitconnected resume
-
-[] Update PDF (google doc into PDF) resume
-    [] replace updated PDF in assets/pdfs
-    [x] PDF download not working. (had to remove _target blank)
-
 [] Figure out how to remove clickable white space after SEE MORE POSTS and SEE MORE PROJECTS
-
-[] Update Github svg, it's not filling enough on :hover
 
 # Completed Todos
 
@@ -20,3 +12,12 @@
 [x] Not in love with --brick-red, is there a better accent color for body.light color scheme?
 
 [x] Find new arrow icon for DisplayBlog.js / just doesn't look right
+
+
+[x] Update Gitconnected resume
+
+[x] Update PDF (google doc into PDF) resume
+    [x] replace updated PDF in assets/pdfs
+    [x] PDF download not working. (had to remove _target blank)
+
+[x] Update Github svg, it's not filling enough on :hover
