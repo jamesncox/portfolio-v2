@@ -14,7 +14,7 @@ function Contact() {
         <Resume />
         <p className="section-title">social</p>
         <Social />
-        <p className="section-title">info</p>
+        <p className="section-title">details</p>
         <ReadMeLink />
       </div>
     )
