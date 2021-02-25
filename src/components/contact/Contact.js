@@ -2,6 +2,7 @@ import React from 'react'
 import Email from './Email'
 import Resume from './Resume'
 import Social from './Social'
+import ReadMeLink from './ReadMeLink'
 
 function Contact() {
 
@@ -13,6 +14,8 @@ function Contact() {
         <Resume />
         <p className="section-title">social</p>
         <Social />
+        <p className="section-title">info</p>
+        <ReadMeLink />
       </div>
     )
 }
