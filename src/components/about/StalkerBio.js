@@ -62,8 +62,10 @@ export default function StalkerBio() {
 
             <p className="text">Twitter Top 5 (Myspace style):</p>
             <ul>
-                <li className="top-five-text"><a className="link-text" href="https://twitter.com/TheJackForge" rel="noopener noreferrer" target="_blank">@TheJackForge</a> - Good developer, funnier guy.</li>
+                <li className="top-five-text"><a className="link-text" href="https://twitter.com/TheJackForge" rel="noopener noreferrer" target="_blank">@TheJackForge</a> - Great developer. Funnier guy.</li>
                 <li className="top-five-text"><a className="link-text" href="https://twitter.com/shookcodes" rel="noopener noreferrer" target="_blank">@shookcodes</a> - Always willing to help. Knows her sh*t!</li>
+                <li className="top-five-text"><a className="link-text" href="https://twitter.com/CJDesiderio" rel="noopener noreferrer" target="_blank">@CJDesiderio</a> - Fellow Austonian. Blue hair. Killer coder.</li>
+
             </ul>
 
             <p className="text" style={{marginTop: "2rem"}}>Now please enjoy one of my favorite music videos, "Tongues" by Joywave.</p>
