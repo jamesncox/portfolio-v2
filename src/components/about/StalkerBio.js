@@ -69,12 +69,12 @@ export default function StalkerBio() {
                 <li className="top-five-text"><a className="link-text" href="https://twitter.com/julio_codes" rel="noopener noreferrer" target="_blank">@julio_codes</a> - Talented front-end developer. Hard-working and incredibly nice.</li>
             </ul>
 
-            <p className="text" style={{marginTop: "2rem"}}>Now please enjoy one of my favorite music videos, "Tongues" by Joywave.</p>
+            <p className="text" style={{marginTop: "2rem"}}>Now please enjoy one of my favorite music videos, "Like That" by Fox Stevenson.</p>
             <div className="video-wrapper">
-                <iframe className="video" title="JoyWave Tongues" src="https://www.youtube.com/embed/AqmwKi6KOSw" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe className="video" title="Like That by Fox Stevenson" src="https://www.youtube-nocookie.com/embed/4iU09oK_pI4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
 
-            <p className="text" style={{marginTop: "2rem"}}>If Joywave, or awesome music videos isn't your thing, check out the incredible engineering involved in this marble music machine.</p>
+            <p className="text" style={{marginTop: "2rem"}}>If fun music videos isn't your thing, check out the incredible engineering involved in this marble music machine.</p>
             <div className="video-wrapper">
                 <iframe className="video" title="Wintergartan Marble Machine" src="https://www.youtube.com/embed/IvUU8joBb1Q" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
