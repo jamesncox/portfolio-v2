@@ -57,7 +57,7 @@ export default function StalkerBio() {
             <p className="image-text">Any true Fulham fan will immediately know what night this was and remember THAT goal. (YES! Eagle-eyed readers will spot that IS Fulham legend Clint Dempsey, and the inspiration behind our puppy's name.)</p>
 
             <ul>
-                <li className="text">Fitness 🏋️ is another big part of my life. I run a lot, mainly to stay in shape for soccer. But lately I've started lifting weights more. My wife and recently built a home gym, and we use it almost daily. Having a kid makes you realize your own mortality, and this is my way of delaying the inevitable 😂.</li>
+                <li className="text">Fitness 🏋️ is another big part of my life. I run a lot, mainly to stay in shape for soccer. But lately I've started lifting weights more. I recently built a home gym, which I try to use daily. Having a kid makes you realize your own mortality, and this is my way of delaying the inevitable 😂.</li>
             </ul>
 
             <p className="text" style={{marginTop: "2rem"}}>Twitter Top 5 (Myspace style):</p>
