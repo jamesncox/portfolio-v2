@@ -76,7 +76,7 @@ export default function StalkerBio() {
 
             <p className="text" style={{marginTop: "2rem"}}>If fun music videos isn't your thing, check out the incredible engineering involved in this marble music machine.</p>
             <div className="video-wrapper">
-                <iframe className="video" title="Wintergartan Marble Machine" src="https://www.youtube.com/embed/IvUU8joBb1Q" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe className="video" title="Wintergartan Marble Machine" src="https://www.youtube-nocookie.com/embed/IvUU8joBb1Q" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
         </>
  )
