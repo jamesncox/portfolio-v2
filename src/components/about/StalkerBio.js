@@ -61,7 +61,7 @@ export default function StalkerBio() {
                 <li className="text">Fitness 🏋️ is another big part of my life. I run a lot, mainly to stay in shape for soccer. But lately I've started lifting weights more. My wife and recently built a home gym, and we use it almost daily. Having a kid makes you realize your own mortality, and this is my way of delaying the inevitable 😂.</li>
             </ul>
 
-            <p className="text">Now please one of my favorite music videos, "Tongues" by Joywave.</p>
+            <p className="text" style={{marginTop: "2rem"}}>Now please enjoy one of my favorite music videos, "Tongues" by Joywave.</p>
             <div className="video-wrapper">
                 <iframe className="video" title="JoyWave Tongues" src="https://www.youtube.com/embed/AqmwKi6KOSw" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
