@@ -497,6 +497,14 @@ body.dark {
     box-shadow: var(--box-shadow);
 }
 
+.top-five-text {
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: var(--description-color);
+    transition: var(--theme-transition);
+}
+
 .link-text {
     /* text-align: justify; */
     text-decoration: none;
