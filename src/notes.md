@@ -5,8 +5,7 @@
 
 [] Why does the nav component blink when page reloads? Interesting!
 
-[] See if you I can NavMenu selected-menu::before attributes to work in Responsive.css.
-    [] I think that the issue might be with NavBar.js activeClass property.
+[] Find/create a better pineapple sunglasses PNG for light toggle. Current one is good but not GREAT.
 
 # Completed Todos
 
@@ -28,3 +27,6 @@
 [x] Update Github svg, it's not filling enough on :hover
 
 [x] Create Image Preview for Socials....WORKING!! YAY!!!
+
+[x] See if you I can NavMenu selected-menu::before attributes to work in Responsive.css.
+    [x] I think that the issue might be with NavBar.js activeClass property.
