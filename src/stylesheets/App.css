@@ -167,7 +167,7 @@ body.dark {
 }
 
 .text {
-    text-align: justify;
+    /* text-align: justify; */
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: var(--description-color);
