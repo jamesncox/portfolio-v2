@@ -167,6 +167,7 @@ body.dark {
 }
 
 .text {
+    text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: var(--description-color);
@@ -225,6 +226,17 @@ body.dark {
     z-index: -1;
     box-shadow: var(--box-shadow);
     transition: var(--theme-transition);
+}
+
+.image-text {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+    color: var(--light-gray);
+    transition: var(--theme-transition);
+    width: 75%;
+    margin: auto;
+    margin-top: .5rem;
 }
 
 /* skills grid */
@@ -472,7 +484,6 @@ body.dark {
   }
 
 /* video */
-
 .video-wrapper {
     display: flex;
     justify-content: center;
