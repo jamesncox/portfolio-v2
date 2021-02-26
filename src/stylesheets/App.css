@@ -496,3 +496,12 @@ body.dark {
     width: 75%;
     box-shadow: var(--box-shadow);
 }
+
+.link-text {
+    /* text-align: justify; */
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: var(--hightlighted-menu-color);
+    transition: var(--theme-transition);
+}
