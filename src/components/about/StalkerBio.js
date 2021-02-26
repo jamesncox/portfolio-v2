@@ -26,7 +26,7 @@ export default function StalkerBio() {
                     alt="From left to right: my Rottweiler, Dempsey, my daughter Ellie, my wife, Emily, and myself, James."
                 />
             </div>
-            <p className="image-text">(Not pictured is our other pupper, Cocoa. I don't know what she was doing when I snapped this photo.)</p>
+            <p className="image-text">Not pictured is our other pupper, Cocoa. I don't know what she was doing when I snapped this photo.</p>
 
             <p className="text">Hobbies:</p>
             <ul>
@@ -41,7 +41,7 @@ export default function StalkerBio() {
                     alt="From left to right: my Rottweiler, Dempsey, my daughter Ellie, my wife, Emily, and myself, James."
                 />
             </div>  
-            <p className="image-text">Proof that I used to rock HARD</p>
+            <p className="image-text">Proof that I used to rock HARD, and rock the white jeans even HARDER</p>
                 
             <ul>
                 <li className="text">Soccer ⚽ is very important to me. My favorite team is Fulham, from London, England, and we ... well ... we do our best! I've been playing soccer since I was 19, and I've gotten pretty good. I think 37-year-old me would give 19-year-old me a run for his money!</li>
@@ -64,6 +64,11 @@ export default function StalkerBio() {
             <p className="text" style={{marginTop: "2rem"}}>Now please enjoy one of my favorite music videos, "Tongues" by Joywave.</p>
             <div className="video-wrapper">
                 <iframe className="video" title="JoyWave Tongues" src="https://www.youtube.com/embed/AqmwKi6KOSw" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
+
+            <p className="text" style={{marginTop: "2rem"}}>If Joywave, or awesome music videos isn't your thing, check out the incredible engineering involved in this marble music machine.</p>
+            <div className="video-wrapper">
+                <iframe className="video" src="https://www.youtube.com/embed/IvUU8joBb1Q" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
         </>
  )
