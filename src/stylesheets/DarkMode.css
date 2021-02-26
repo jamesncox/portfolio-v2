@@ -1,9 +1,9 @@
 #darkMode {
-    background: transparent url("../assets/images/pineapple.png") no-repeat center;
+    background: transparent url("../assets/images/pineapple 10.png") no-repeat center;
     transform: rotate(10deg);
-    background-size: 50px 50px;
+    background-size: 40px 40px;
     margin-top: .5rem;
-    /* margin-right: -.25rem; */
+    /* margin-right: -.5rem; */
     width: 40px;
     height: 40px;
     border: none;
@@ -20,9 +20,9 @@
   #darkMode.clicked {
     background: transparent url("../assets/images/pina-colada.png") no-repeat center;
     transform: rotate(25deg);
-    background-size: 45px 45px;
+    background-size: 40px  40px;
     margin-top: .5rem;
-    margin-right: -.25rem;
+    /* margin-right: -.5rem; */
     width: 40px;
     height: 40px;
     transition: 0.4s ease-in-out, filter 0.8s ease-in-out;
