@@ -15,7 +15,7 @@ export default function StalkerBio() {
             <p className="text">Well, I enjoy long walks on the beach 🌊....</p>
             <p className="text">Wait wait wait! This isn't THAT kind of bio. (Even though I actually do enjoy long walks on the beach.)</p>
             <p className="text">In all seriousness-ish:</p>
-            <p className="text">I am married to my incredible wife, Emily, who is a total badass. We've been together 12 years and married 10 year this July! We have a beautiful daughter, Ellie, who just turned 8, and is the reason I do anything.</p>
+            <p className="text">I am married to my incredible wife, Emily, who is a total badass. We've been together 12 years and married 10 years this July! We have a beautiful daughter, Ellie, who just turned 8, and is the reason I do anything.</p>
 
             <div className="image-wrapper">
                 <ImageLoad
