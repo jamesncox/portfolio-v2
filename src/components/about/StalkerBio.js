@@ -60,7 +60,7 @@ export default function StalkerBio() {
                 <li className="text">Fitness 🏋️ is another big part of my life. I run a lot, mainly to stay in shape for soccer. But lately I've started lifting weights more. My wife and recently built a home gym, and we use it almost daily. Having a kid makes you realize your own mortality, and this is my way of delaying the inevitable 😂.</li>
             </ul>
 
-            <p className="text">Twitter Top 5 (Myspace style):</p>
+            <p className="text" style={{marginTop: "2rem"}}>Twitter Top 5 (Myspace style):</p>
             <ul>
                 <li className="top-five-text"><a className="link-text" href="https://twitter.com/TheJackForge" rel="noopener noreferrer" target="_blank">@TheJackForge</a> - Freelance maestro. Funnier guy. Best known for drinking White Claws.</li>
                 <li className="top-five-text"><a className="link-text" href="https://twitter.com/shookcodes" rel="noopener noreferrer" target="_blank">@shookcodes</a> - Coding wizard. Always willing to help. Knows her stuff.</li>
