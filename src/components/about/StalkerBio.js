@@ -12,9 +12,9 @@ export default function StalkerBio() {
     return (
         <>
             <p className="text">So. You want to know EVERYTHING there is to know?</p>
-            <p className="text">Well, I enjoy long walks on the beach 🌊.....</p>
+            <p className="text">Well, I enjoy long walks on the beach 🌊....</p>
             <p className="text">Wait wait wait! This isn't THAT kind of bio. (Even though I actually do enjoy long walks on the beach.)</p>
-            <p className="text">Okay, time to get serious-ish</p>
+            <p className="text">In all seriousness-ish:</p>
             <p className="text">I have a beautiful daughter, Ellie, who just turned 8. My wife is a total badass, and we've been together 12 years and married 10 year this July!</p>
 
             <div className="image-wrapper">
