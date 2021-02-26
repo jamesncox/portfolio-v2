@@ -10,7 +10,7 @@
   color: var(--hightlighted-menu-color);
   text-transform: uppercase;
   cursor: pointer;
-  transition: var(--theme-transition), border-bottom .8s ease-in-out;
+  transition: var(--theme-transition) border-bottom color .4s ease-in-out;
   border-bottom: 6px solid var(--hightlighted-menu-color);
   padding-bottom: 4px;
 }
