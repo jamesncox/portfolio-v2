@@ -1,5 +1,6 @@
 #darkMode {
     background: transparent url("../assets/images/pineapple.png") no-repeat center;
+    transform: rotate(10deg);
     background-size: 50px 50px;
     margin-top: .5rem;
     /* margin-right: -.25rem; */
