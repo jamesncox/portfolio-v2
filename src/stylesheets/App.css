@@ -470,3 +470,16 @@ body.dark {
     text-align: center;
     transition: var(--theme-transition);
   }
+
+/* video */
+
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.video {
+    border-radius: 5px;
+}

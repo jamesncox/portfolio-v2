@@ -137,6 +137,11 @@
         margin: auto;
         width: 90%;
     }
+
+    .video {
+        width: 500px;
+        height: 300px;
+    }
 }
 
 @media only screen and (min-width: 1400px) {
