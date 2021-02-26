@@ -2,6 +2,8 @@ import React from 'react'
 import ImageLoad from '../../hooks/ImageLoad'
 import FulhamDempsey from '../../assets/images/Fulham Dempsey.jpg'
 import FulhamDempseyTiny from '../../assets/images/Fulham Dempsey Tiny.jpg'
+import Family from '../../assets/images/Family.jpg'
+import FamilyTiny from '../../assets/images/Family Tiny.jpg'
 
 export default function StalkerBio() {
 
@@ -13,6 +15,17 @@ export default function StalkerBio() {
             <p className="text">Okay let's get into it.</p>
             <p className="text">Family stuff:</p>
             <p className="text">I have a beautiful daughter, Ellie, who just turned 8. My wife is a total badass, and we've been together 12 years and married 10 year this July!</p>
+
+            <div className="image-wrapper">
+                <ImageLoad
+                    className="image"
+                    src={Family}
+                    placeholder={FamilyTiny}
+                    alt="From left to right: my Rottweiler, Dempsey, my daughter Ellie, my wife, Emily, and myself, James."
+                />
+            </div>
+            <p className="text">Not pictured is our Pitt mix, Cocoa. I don't know what she was doing when I snapped this photo.</p>
+
             <p className="text">Hobbies:</p>
             <ul>
                 <li className="text">Music is a big part of my life. I play guitar, drums, piano, sing a little and I listen to music pretty much every chance I get! Except for when I'm coding, strangely not then.</li>
@@ -22,7 +35,7 @@ export default function StalkerBio() {
 
             <div className="image-wrapper">
                 <ImageLoad
-                    className="gif"
+                    className="image"
                     src={FulhamDempsey}
                     placeholder={FulhamDempseyTiny}
                     alt="Dempsey, Konchesky and Etuhu celebrating Dempsey's wonder goal the night they beat Juventus 4-1 at home to advance to the semi-finals"
