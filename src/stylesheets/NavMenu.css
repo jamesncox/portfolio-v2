@@ -10,20 +10,14 @@
   color: var(--hightlighted-menu-color);
   text-transform: uppercase;
   cursor: pointer;
-  transition: var(--theme-transition);
+  transition: var(--theme-transition), border-bottom color .8s ease-in-out;
   border-bottom: 6px solid var(--hightlighted-menu-color);
   padding-bottom: 4px;
 }
 
-/* .selected-menu::before {
-  content: '';
-  position: absolute;
-  top: 25px;
-  height: 6px;
-  width: 100%;
-  background-color: var(--hightlighted-menu-color);
+.selected-menu::before {
   transition: var(--theme-transition);
-} */
+}
 
 .menu {
   font-family: 'Share Tech Mono', monospace;
