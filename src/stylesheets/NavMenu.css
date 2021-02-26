@@ -11,9 +11,11 @@
   text-transform: uppercase;
   cursor: pointer;
   transition: var(--theme-transition);
+  border-bottom: 6px solid var(--hightlighted-menu-color);
+  padding-bottom: 4px;
 }
 
-.selected-menu::before {
+/* .selected-menu::before {
   content: '';
   position: absolute;
   top: 25px;
@@ -21,7 +23,7 @@
   width: 100%;
   background-color: var(--hightlighted-menu-color);
   transition: var(--theme-transition);
-}
+} */
 
 .menu {
   font-family: 'Share Tech Mono', monospace;
