@@ -206,7 +206,7 @@ body.dark {
 
 .image {
     margin-top: 1rem;
-    width: 50%;
+    width: 75%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
@@ -218,7 +218,7 @@ body.dark {
 .gif {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    width: 50%;
+    width: 75%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
@@ -482,4 +482,6 @@ body.dark {
 
 .video {
     border-radius: 5px;
+    width: 75%;
+    box-shadow: var(--box-shadow);
 }

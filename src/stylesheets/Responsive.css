@@ -142,6 +142,14 @@
         width: 500px;
         height: 300px;
     }
+
+    .image {
+        width: 500px;
+    }
+
+    .gif {
+        width: 500px;
+    }
 }
 
 @media only screen and (min-width: 1400px) {
