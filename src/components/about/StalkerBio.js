@@ -44,7 +44,7 @@ export default function StalkerBio() {
             <p className="image-text">Proof that I used to rock HARD</p>
                 
             <ul>
-                <li className="text">Soccer is very important to me. My favorite team is Fulham, from London, England, and we ... well ... we do our best!</li>
+                <li className="text">Soccer is very important to me. My favorite team is Fulham, from London, England, and we ... well ... we do our best! I've been playing soccer since I was 19, and I've gotten pretty good. I think 37-year-old me would give 19-year-old me a run for his money!</li>
             </ul>
 
             <div className="image-wrapper">
