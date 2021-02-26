@@ -11,11 +11,10 @@ export default function StalkerBio() {
 
     return (
         <>
-            <p className="text">So you want to know EVERYTHING there is to know?</p>
-            <p className="text">I enjoy long walks on the beach 🌊.....</p>
+            <p className="text">So. You want to know EVERYTHING there is to know?</p>
+            <p className="text">Well, I enjoy long walks on the beach 🌊.....</p>
             <p className="text">Wait wait wait! This isn't THAT kind of bio. (Even though I actually do enjoy long walks on the beach.)</p>
-            <p className="text">Alright, let's get to it.</p>
-            <p className="text">Family stuff:</p>
+            <p className="text">Okay, time to get serious-ish</p>
             <p className="text">I have a beautiful daughter, Ellie, who just turned 8. My wife is a total badass, and we've been together 12 years and married 10 year this July!</p>
 
             <div className="image-wrapper">
@@ -68,7 +67,7 @@ export default function StalkerBio() {
 
             <p className="text" style={{marginTop: "2rem"}}>If Joywave, or awesome music videos isn't your thing, check out the incredible engineering involved in this marble music machine.</p>
             <div className="video-wrapper">
-                <iframe className="video" src="https://www.youtube.com/embed/IvUU8joBb1Q" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe className="video" title="Wintergartan Marble Machine" src="https://www.youtube.com/embed/IvUU8joBb1Q" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
         </>
  )
