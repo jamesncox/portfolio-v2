@@ -5,7 +5,7 @@
 
     [] Why does the nav component blink when page reloads? Interesting!
 
-    [] Find/create a better pineapple sunglasses PNG for light toggle. Current one is good but not GREAT.
+    [] Bump up the pineapple theme/color scheme?
 
 # Completed Todos
 
@@ -30,3 +30,5 @@
 
     [x] See if you I can NavMenu selected-menu::before attributes to work in Responsive.css.
         [x] I think that the issue might be with NavBar.js activeClass property.
+
+    [x] Find/create a better pineapple sunglasses PNG for light toggle. Current one is good but not GREAT.
