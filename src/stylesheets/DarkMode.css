@@ -1,13 +1,13 @@
 #darkMode {
-    background: transparent url("../assets/images/pineapple sunglasses.png") no-repeat center;
-    transform: rotate(10deg);
-    background-size: 40px 40px;
+    background: transparent url("../assets/images/sun.png") no-repeat center;
+    /* transform: rotate(50deg); */
+    background-size: 30px 30px;
     margin-top: .5rem;
     /* margin-right: -.5rem; */
     width: 40px;
     height: 40px;
     border: none;
-    transition: 0.4s ease-in-out;
+    transition: 0.5s ease-in-out;
     outline: none;
   }
   
@@ -18,13 +18,13 @@
   }
   
   #darkMode.clicked {
-    background: transparent url("../assets/images/pina-colada.png") no-repeat center;
-    transform: rotate(25deg);
-    background-size: 40px  40px;
+    background: transparent url("../assets/images/pale-moon.png") no-repeat center;
+    transform: rotate(360deg);
+    background-size: 35px  35px;
     margin-top: .5rem;
     /* margin-right: -.5rem; */
     width: 40px;
     height: 40px;
-    transition: 0.4s ease-in-out;
+    transition: 0.5s ease-in-out;
     outline: none;
   }
