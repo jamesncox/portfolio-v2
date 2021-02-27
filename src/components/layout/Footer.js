@@ -7,7 +7,7 @@ export default function Footer() {
             <p>
                 Made with
                 {' '}
-                ❤️‍🤍🖤
+                ❤️‍
                 by James Cox
                 </p>
             <p>
