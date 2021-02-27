@@ -84,7 +84,7 @@
     }
 
     .see-more-button:hover {
-        color: var(--white);
+        color: var(--background-color);
         background-color: var(--hightlighted-menu-color);
         transition: background-color .2s ease-in-out, color .2s ease-in-out;
     }

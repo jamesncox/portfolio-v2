@@ -41,6 +41,12 @@ body {
     /* shadows */
     --black-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     --light-shadow: 0 4px 8px 1px var(--black);
+
+    /* pineapple theme */
+    --green: rgb(15, 168, 54);
+    --bright-green: rgb(41, 199, 41);
+    --yellow: rgb(230, 230, 67);
+    --brown: rgb(39, 31, 22);
 }
 
 body.light {
@@ -48,11 +54,11 @@ body.light {
     --background-color: var(--white);
 
     /* titles, headers and text */
-    --name-color: var(--black);
+    --name-color: var(--brown);
     --menu-color: var(--gray);
     --description-color: var(--gray);
     --font-weight: var(--bold);
-    --hightlighted-menu-color: var(--brick-red);
+    --hightlighted-menu-color: var(--green);
 
     /* features */
     --bottom-border-color: var(--light-gray);
@@ -68,14 +74,14 @@ body.light {
 
 body.dark {
     /* body */
-    --background-color: var(--dark-gray);
+    --background-color: var(--brown);
 
     /* titles, headers and text */
-    --name-color: var(--coral-red);
+    --name-color: var(--bright-green);
     --menu-color: var(--lightest-gray);
     --description-color: var(--lightest-gray);
     --font-weight: var(--bold);
-    --hightlighted-menu-color: var(--sky-blue);
+    --hightlighted-menu-color: var(--yellow);
 
     /* features */
     --bottom-border-color: var(--lightest-gray);
