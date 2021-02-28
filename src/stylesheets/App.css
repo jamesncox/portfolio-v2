@@ -150,6 +150,7 @@ body.dark {
 .bio-menu {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.15rem;
+    font-weight: 400;
     color: var(--description-color);
     transition: var(--theme-transition);
     margin-right: 1rem;

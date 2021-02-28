@@ -42,27 +42,27 @@ function BioSelect() {
     return (
         <>
             <nav className="bio-menu-wrapper">
-                <p 
+                <h2 
                     className={short ? "selected-bio" : "bio-menu"}
                     onClick={(e) => handleShort(e)}
                 >
                     short
-                </p>
-                <p 
+                </h2>
+                <h2 
                     className={medium ? "selected-bio" : "bio-menu"} 
                     onClick={(e) => handleMedium(e)}>
                     medium
-                </p>
-                <p 
+                </h2>
+                <h2 
                     className={long ? "selected-bio" : "bio-menu"} 
                     onClick={(e) => handleLong(e)}>
                     long
-                </p>
-                <p 
+                </h2>
+                <h2 
                     className={stalker ? "selected-bio" : "bio-menu"} 
                     onClick={(e) => handleStalker(e)}>
                     stalker
-                </p>
+                </h2>
             </nav>
             {short ? <ShortBio /> : null}
             {medium ? <MediumBio /> : null}
