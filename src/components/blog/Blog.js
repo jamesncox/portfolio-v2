@@ -6,7 +6,7 @@ function Blog() {
 
     return (
       <div id="blog">
-        <p className="section-title">featured blog posts</p>
+        <h2 className="section-title">featured blog posts</h2>
         <div className="blogs-container">
           <FeaturedBlogs />
           <BlogLink />
