@@ -6,7 +6,7 @@ function Projects() {
 
     return (
       <div id="projects">
-        <p className="section-title">featured projects</p>
+        <h2 className="section-title">featured projects</h2>
         <div className="projects-container">
           <FeaturedProjects />
           <ProjectLink />
