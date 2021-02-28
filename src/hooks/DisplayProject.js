@@ -30,7 +30,9 @@ const DisplayProject = React.memo(({ title, subtitle, src, placeholder, id, alt,
             <div className="project-icon-wrapper">
               <div className="icons">
                 <a href={github} rel="noopener noreferrer" target="_blank">
-                  <svg viewBox="0 0 128 128">
+                  <svg viewBox="0 0 128 128" aria-labelledby="title">
+                    <title id="title" lang="en">Github icon</title>
+                    <desc>Click the Github icon to visit {title} Github repo</desc>
                     <path
                       className="icon-link"
                       fillRule="evenodd"
@@ -43,7 +45,9 @@ const DisplayProject = React.memo(({ title, subtitle, src, placeholder, id, alt,
               </div>
               <div className="icons">
                 <a href={url} rel="noopener noreferrer" target="_blank">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-labelledby="title">
+                  <title id="title" lang="en">Desktop computer icon</title>
+                  <desc>Click the computer icon to visit {title}</desc>
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </a>
