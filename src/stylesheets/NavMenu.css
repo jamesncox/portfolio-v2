@@ -3,6 +3,7 @@
 .selected-menu {
   font-family: 'Share Tech Mono', monospace;
   font-size: 1.15rem;
+  margin-top: .5rem;
   border: none;
   background: none;
   outline: none;
@@ -22,6 +23,8 @@
 .menu {
   font-family: 'Share Tech Mono', monospace;
   position: relative;
+  margin-top: .5rem;
+  margin-bottom: 0;
   cursor: pointer;
   text-transform: uppercase;
   font-size: 1.15rem;

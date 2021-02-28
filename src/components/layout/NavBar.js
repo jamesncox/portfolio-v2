@@ -5,7 +5,7 @@ function NavBar() {
 
     return (
       <nav className="menu-wrapper">
-        <div
+        <h2
           className="menu"
         >
           <Link
@@ -17,8 +17,8 @@ function NavBar() {
           >
             ABOUT
           </Link>
-        </div>
-        <div
+        </h2>
+        <h2
           className="menu"
         >
           <Link
@@ -30,8 +30,8 @@ function NavBar() {
           >
             PROJECTS
           </Link>
-        </div>
-        <div 
+        </h2>
+        <h2 
           className="menu"
         >
           <Link
@@ -43,8 +43,8 @@ function NavBar() {
           >
             BLOG
           </Link>
-        </div>
-        <div
+        </h2>
+        <h2
           className="menu"
         >
           <Link
@@ -56,7 +56,7 @@ function NavBar() {
           >
             CONTACT
           </Link>
-        </div>
+        </h2>
       </nav>
     );
 }
