@@ -112,7 +112,6 @@ body.dark {
 /* NavBar styles */
 .nav-parent {
     position: sticky;
-    top: 0;
     background-color: var(--background-color);
     border-bottom: 2px solid var(--bottom-border-color);
     padding-bottom: .5em;
@@ -128,7 +127,6 @@ body.dark {
 .my-name {
     font-family: 'Share Tech Mono', monospace;
     margin-top: 1rem;
-    margin-bottom: 1rem;
     font-size: 1.15rem;
     font-weight: var(--font-weight);
     color: var(--name-color);
