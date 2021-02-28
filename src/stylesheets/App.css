@@ -112,6 +112,7 @@ body.dark {
 /* NavBar styles */
 .nav-parent {
     position: sticky;
+    top: 0;
     background-color: var(--background-color);
     border-bottom: 2px solid var(--bottom-border-color);
     padding-bottom: .5em;
