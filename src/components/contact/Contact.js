@@ -8,13 +8,13 @@ function Contact() {
 
     return (
       <div  id="contact">
-        <p className="section-title">contact</p>
+        <h2 className="section-title">contact</h2>
         <Email />
-        <p className="section-title">resume</p>
+        <h2 className="section-title">resume</h2>
         <Resume />
-        <p className="section-title">portfolio details</p>
+        <h2 className="section-title">portfolio details</h2>
         <ReadMeLink />
-        <p className="section-title">social</p>
+        <h2 className="section-title">social</h2>
         <Social />
       </div>
     )
