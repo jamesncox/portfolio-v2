@@ -127,7 +127,7 @@ body.dark {
 
 .my-name {
     font-family: 'Share Tech Mono', monospace;
-    /* margin-top: 1rem; */
+    margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 1.15rem;
     font-weight: var(--font-weight);

@@ -7,7 +7,7 @@ function Header() {
     return (
       <div className="nav-parent">
         <header className="navbar-wrapper">
-          <p className="my-name">James Cox</p>
+          <h1 className="my-name">James Cox</h1>
           <Toggle />
         </header>
         <NavBar />
