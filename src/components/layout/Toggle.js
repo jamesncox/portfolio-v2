@@ -40,8 +40,8 @@ export default function Toggle() {
             onClick={(e) => switchTheme(e)}
             aria-labelledby="toggle-icon toggle-desc"
         >
-            <title id="toggle-icon" lang="en">Light dark toggle</title>
-            <desc id="toggle-desc">Toggle light and dark themes</desc>
+            {/* <title id="toggle-icon" lang="en">Light dark toggle</title>
+            <desc id="toggle-desc"></desc> */}
         </button>
     )
 }
