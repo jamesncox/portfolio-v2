@@ -34,14 +34,13 @@ export default function Toggle() {
     }
 
     return (
-        <button
+        <div
             className={theme === "dark" ? clickedClass : ""}
             id="darkMode"
             onClick={(e) => switchTheme(e)}
-            aria-labelledby="toggle-icon toggle-desc"
         >
             {/* <title id="toggle-icon" lang="en">Light dark toggle</title>
             <desc id="toggle-desc"></desc> */}
-        </button>
+        </div>
     )
 }
