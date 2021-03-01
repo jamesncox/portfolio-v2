@@ -28,10 +28,10 @@ export default function Social() {
                         <svg 
                             viewBox="0 0 128 128"
                             width="60"
-                            aria-labelledby="github-social"
+                            aria-labelledby="github-social github-social-desc"
                         >
                         <title id="github-social" lang="en">Github icon</title>
-                        <desc>Link to James Cox's Github profile</desc>
+                        <desc id="github-social-desc">Link to James Cox's Github profile</desc>
                         <path
                             className="github-icon"
                             fillRule="evenodd"
