@@ -6,7 +6,7 @@ const DisplayBlog = React.memo(({ title, src, placeholder, alt, description, url
     return (
       <div className="blog-card">
         <div className="blog-icon-wrapper">
-        <h4 className="blog-title">{title}</h4>
+        <h3 className="blog-title">{title}</h3>
           <div className="arrow-icon">
             <a href={url} rel="noopener noreferrer" target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-labelledby="arrow-title arrow-desc">

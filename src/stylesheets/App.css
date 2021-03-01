@@ -286,10 +286,18 @@ body.dark {
 
 .project-title {
     font-family: 'Roboto', sans-serif;
-    font-weight: var(--font-weight);
+    font-size: 1rem;
     color: var(--name-color);
     margin-bottom: 0;
     margin-top: 0;
+    transition: var(--theme-transition);
+}
+
+.project-subtitle {
+    font-family: 'Roboto', sans-serif;
+    color: var(--description-color);
+    border-bottom: solid 1px var(--card-border);
+    padding-bottom: 1rem;
     transition: var(--theme-transition);
 }
 
@@ -300,14 +308,6 @@ body.dark {
     z-index: -1;
     padding-bottom: 1rem;
     border-bottom: solid 1px var(--card-border);
-    transition: var(--theme-transition);
-}
-
-.project-subtitle {
-    font-family: 'Roboto', sans-serif;
-    color: var(--description-color);
-    border-bottom: solid 1px var(--card-border);
-    padding-bottom: 1rem;
     transition: var(--theme-transition);
 }
 
@@ -359,7 +359,7 @@ body.dark {
 
 .blog-title {
     font-family: 'Roboto', sans-serif;
-    font-weight: var(--font-weight);
+    font-size: 1rem;
     color: var(--name-color);
     margin-bottom: 0;
     margin-top: 0;
