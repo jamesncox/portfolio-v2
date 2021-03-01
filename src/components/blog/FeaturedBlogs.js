@@ -18,6 +18,8 @@ export default function FeaturedBlogs() {
                     alt="Black background with the word useState written in bold and white"
                     description="Part one in my React Hooks Series. I examine the useState hook in a basic timer app with examples from Codesandbox."
                     url="https://dev.to/jamesncox/react-hooks-series-usestate-12ne"
+                    ariaTitle="useState arrow"
+                    ariaDesc="useState desc"
                 />
             </div>
 
@@ -29,6 +31,8 @@ export default function FeaturedBlogs() {
                     alt="Black background with the word useEffect written in bold blue"
                     description="Part two in my React Hooks Series takes a look at the useEffect hook and how I implememnt in a small timer app I created in Codesandbox."
                     url="https://dev.to/jamesncox/react-hook-series-useeffect-in2"
+                    ariaTitle="useEffect arrow"
+                    ariaDesc="useEffect desc"
                 />
             </div>
 
@@ -40,6 +44,8 @@ export default function FeaturedBlogs() {
                     alt="Black background with the word useRef written in bold orange"
                     description="Part three in the React Hooks Series talks about my personal favorite hook: useRef. We look at how useRef solves a problem with pausing and starting the timer in my Codesandbox example."
                     url="https://dev.to/jamesncox/react-hooks-series-useref-27mk"
+                    ariaTitle="useRef arrow"
+                    ariaDesc="useRef desc"
                 />
             </div>
         </>
