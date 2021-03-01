@@ -16,7 +16,9 @@ export default function Resume() {
             <br />
             <a className="pdf-link" href={MyResume} download>
                 <div className="resume-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-labelledby="pdf-title pdf-desc">
+                        <title id="pdf-title" lang="en">PDF icon</title>
+                        <desc id="pdf-desc">Download James Cox PDF resume</desc>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                     </svg>
                 </div>   
