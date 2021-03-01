@@ -361,6 +361,8 @@ body.dark {
     font-family: 'Roboto', sans-serif;
     font-weight: var(--font-weight);
     color: var(--name-color);
+    margin-bottom: 0;
+    margin-top: 0;
     transition: var(--theme-transition);
 }
 
@@ -382,7 +384,8 @@ body.dark {
 
 .arrow-icon {
     margin-left: .5rem;
-    margin-top: 12px;
+    margin-top: 0;
+    margin-bottom: .5rem;
     width: 25px;
     cursor: pointer;
     stroke:  var(--icon-color);

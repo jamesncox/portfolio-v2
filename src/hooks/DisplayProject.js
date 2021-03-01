@@ -5,7 +5,7 @@ const DisplayProject = React.memo(({ title, subtitle, src, placeholder, id, alt,
 
     return (
       <div className="projects-card">
-        <p className="project-title">{title}</p>
+        <h4 className="project-title">{title}</h4>
         <p className="project-subtitle">{subtitle}</p>
         <ImageLoad
           className="project-image"
