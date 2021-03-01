@@ -38,9 +38,6 @@ export default function Toggle() {
             className={theme === "dark" ? clickedClass : ""}
             id="darkMode"
             onClick={(e) => switchTheme(e)}
-        >
-            {/* <title id="toggle-icon" lang="en">Light dark toggle</title>
-            <desc id="toggle-desc"></desc> */}
-        </div>
+        />
     )
 }
