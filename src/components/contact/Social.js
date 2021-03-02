@@ -16,7 +16,7 @@ export default function Social() {
                             viewBox="0 0 24 24"
                             aria-labelledby="linkedIn-social linkedIn-social-desc"
                         >
-                            <title id="linkedIn-social" lang="en">LinkedIn icon</title>
+                            <title id="linkedIn-social" lang="en">LinkedIn</title>
                             <desc id="linkedIn-social-desc">Link to James Cox's LinkedIn profile</desc>
                             <path 
                                 className="linkedIn-icon" 
@@ -37,7 +37,7 @@ export default function Social() {
                             width="60"
                             aria-labelledby="github-social github-social-desc"
                         >
-                            <title id="github-social" lang="en">Github icon</title>
+                            <title id="github-social" lang="en">Github</title>
                             <desc id="github-social-desc">Link to James Cox's Github profile</desc>
                             <path
                                 className="github-icon"
@@ -63,7 +63,7 @@ export default function Social() {
                                 width="60"
                                 aria-labelledby="twitter-social twitter-social-desc"
                             >
-                                <title id="twitter-social" lang="en">Twitter icon</title>
+                                <title id="twitter-social" lang="en">Twitter</title>
                                 <desc id="twitter-social-desc">Link to James Cox's Twitter profile</desc>
                                 <path d="
                                     M 630, 425
