@@ -19,8 +19,8 @@ export default function LongBio() {
                 />
             </div>
             <p className="text">My favorite language is Ruby. My favorite library is React. JavaScript and I have a tumultuous past, but we've come to a mutual understanding, despite its idiosyncrasies.</p>
-            <p className="text">Next, I plan on learning headless CMS.</p>
-            <p className="text">And by the end of the year I want to dig into PHP and build at least one app with PHP.</p>
+            <p className="text">Currently I am learning Next.js and quite enjoying it!</p>
+            <p className="text">By the end of the year I want to dig into PHP and build at least one working app.</p>
         </>
  )
 }
