@@ -36,7 +36,7 @@ body {
     --weight-400: 400;
 
     /* transition */
-   --theme-transition: background-color .4s ease-in-out, color .4s ease-in-out;
+   --theme-transition: background-color .2s ease-in-out, color .2s ease-in-out;
 
     /* shadows */
     --black-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
@@ -327,12 +327,12 @@ body.dark {
     width: 25px;
     cursor: pointer;
     stroke: var(--icon-color);
-    transition: stroke .4s ease-in-out;
+    transition: stroke .2s ease-in-out;
 }
 
 .icon-link {
     fill: var(--icon-color);
-    transition: fill .4s ease-in-out
+    transition: fill .2s ease-in-out
 }
 
 /* blogs */
@@ -390,7 +390,7 @@ body.dark {
     cursor: pointer;
     stroke:  var(--icon-color);
     stroke-width: .8;
-    transition: stroke .4s ease-in-out;
+    transition: stroke .2s ease-in-out;
 }
 
 /* contact */
@@ -432,7 +432,7 @@ body.dark {
     cursor: pointer;
     stroke:  var(--icon-color);
     stroke-width: 2px;
-    transition: stroke .4s ease-in-out;
+    transition: stroke .2s ease-in-out;
 }
 
 .resume-icon {
@@ -444,7 +444,7 @@ body.dark {
     cursor: pointer;
     stroke:  var(--icon-color);
     stroke-width: 2px;
-    transition: stroke .4s ease-in-out;
+    transition: stroke .2s ease-in-out;
 }
 
 .social-grid {
@@ -474,7 +474,7 @@ body.dark {
 
 .github-icon {
     fill: var(--github-color);
-    transition: fill .4s ease-in-out;
+    transition: fill .2s ease-in-out;
 }
 
 /* footer  */
