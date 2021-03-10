@@ -11,8 +11,8 @@
   color: var(--hightlighted-menu-color);
   text-transform: uppercase;
   cursor: pointer;
-  transition: var(--theme-transition) border-bottom color .4s ease-in-out;
   border-bottom: 6px solid var(--hightlighted-menu-color);
+  transition: var(--theme-transition), border-bottom .4s ease-in-out;
   padding-bottom: 4px;
 }
 
@@ -33,5 +33,5 @@
   border: none;
   background: none;
   outline: none;
-  transition: var(--theme-transition);
+  transition: var(--theme-transition), border-bottom .4s ease-in-out;
 }
