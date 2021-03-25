@@ -1,17 +1,15 @@
-import React from 'react'
-import DisplayProject from '../../hooks/DisplayProject'
-import TheBoredinator from '../../assets/images/the-boredinator.jpg'
-import TheBoredinatorTiny from '../../assets/images/the-boredinator-tiny.jpg'
-import GifFit from '../../assets/images/GIF-FIT.jpg'
-import GifFitTiny from '../../assets/images/GIF-FIT-tiny.jpg'
-import DoDidDone from '../../assets/images/do-did-done.jpg'
-import DoDidDoneTiny from '../../assets/images/do-did-done-tiny.jpg'
-import BoredinatorFeatures from '../../data/boredinatorFeatures.json'
-import GifFitFeatures from '../../data/gifFitFeatures.json'
-import DoDidDoneFeatures from '../../data/doDidDoneFeatures.json'
+import DisplayProject from "../../hooks/DisplayProject";
+import TheBoredinator from "../../assets/images/the-boredinator.jpg";
+import TheBoredinatorTiny from "../../assets/images/the-boredinator-tiny.jpg";
+import GifFit from "../../assets/images/GIF-FIT.jpg";
+import GifFitTiny from "../../assets/images/GIF-FIT-tiny.jpg";
+import DoDidDone from "../../assets/images/do-did-done.jpg";
+import DoDidDoneTiny from "../../assets/images/do-did-done-tiny.jpg";
+import BoredinatorFeatures from "../../data/boredinatorFeatures.json";
+import GifFitFeatures from "../../data/gifFitFeatures.json";
+import DoDidDoneFeatures from "../../data/doDidDoneFeatures.json";
 
 export default function FeaturedProjects() {
-
   return (
     <>
       <div className="projects-wrapper">
