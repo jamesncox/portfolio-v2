@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import LongBio from "./LongBio";
 import MediumBio from "./MediumBio";
 import ShortBio from "./ShortBio";
@@ -21,7 +21,7 @@ function BioSelect() {
   return (
     <>
       <nav className="bio-menu-wrapper">
-        {lengthOptions.map(({ type, Component }) => (
+        {lengthOptions.map(({ type }) => (
           <h2
             key={type}
             id={type}
