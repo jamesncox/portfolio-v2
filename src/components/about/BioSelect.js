@@ -33,7 +33,8 @@ function BioSelect() {
         ))}
       </nav>
       {lengthOptions.map(
-        ({ type, Component }) => selectedLength === type && <Component />
+        ({ type, Component }) =>
+          selectedLength === type && <Component key={type} />
       )}
     </>
   );
