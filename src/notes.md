@@ -1,13 +1,14 @@
-
 # Todos
+
+    [] Add Next.js icon to "Skills" section
 
     [] Figure out how to remove clickable white space after SEE MORE POSTS and SEE MORE PROJECTS
 
     [] Why does the nav component blink when page reloads? Interesting!
 
-    [] Bump up the pineapple theme/color scheme?
-
 # Completed Todos
+
+    [x] Bump up the pineapple theme/color scheme? NAHHHH
 
     [x] Add social SVGs inside contact section
 
