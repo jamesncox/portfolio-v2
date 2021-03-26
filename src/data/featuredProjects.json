@@ -1,6 +1,21 @@
-[
+[  
     {
         "id": 1,
+        "name": "ELLIE'S LEGO LAND",
+        "image": "lego-land.jpg",
+        "summary": "Blog for my daughter to showcase her favorite Lego builds",
+        "description": "My daughter's very own blog to showcase her Lego builds. Created with Next.js, Sanity.io and Tailwind CSS.",
+        "github": "https://github.com/jamesncox/ellies-lego-land",
+        "url": "https://ellies-lego-land.vercel.app/",
+        "technologies": [
+            "React",
+            "Next.js",
+            "Tailwind",
+            "Sanity.io"
+        ]
+    },
+    {
+        "id": 2,
         "name": "THE BOREDINATOR",
         "image": "boredinator-portfolio-alt.jpg",
         "summary": "Activities and inspiration to stave off boredom",
@@ -15,7 +30,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "GIF FIT",
         "image": "gif fit resized collage.jpg",
         "github": "https://github.com/jamesncox/gif-fit",
@@ -30,7 +45,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "DO DID DONE",
         "image": "do did done collage.jpg",
         "github": "https://github.com/jamesncox/do-did-done-react",

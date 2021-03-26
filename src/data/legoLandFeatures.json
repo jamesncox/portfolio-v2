@@ -1,0 +1,30 @@
+[
+    {
+        "id": 40,
+        "text": "Next.js with dynamic page routing, slug generation and use of both static site generation and server side rendering"
+    },
+    {
+        "id": 41,
+        "text": "React with useState and useEffect to handle custom image lazy loading and conditional styles"
+    },
+    {
+        "id": 42,
+        "text": "Tailwind CSS to help maintain styles, responsiveness and accessibility"
+    },
+    {
+        "id": 43,
+        "text": "Sanity.io headless CMS integrated as an API"
+    },
+    {
+        "id": 44,
+        "text": "Navigation that filters by custom or standard build types"
+    },
+    {
+        "id": 45,
+        "text": "Responsive design with custom media queries to handle multiple screen sizes"
+    },
+    {
+        "id": 46,
+        "text": "Portable Text converted to block content to render blog markup"
+    }
+]

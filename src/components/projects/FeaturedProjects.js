@@ -8,11 +8,30 @@ import DoDidDoneTiny from "../../assets/images/do-did-done-tiny.jpg";
 import BoredinatorFeatures from "../../data/boredinatorFeatures.json";
 import GifFitFeatures from "../../data/gifFitFeatures.json";
 import DoDidDoneFeatures from "../../data/doDidDoneFeatures.json";
+import LegoLand from "../../assets/images/lego-land.jpg";
+import LegoLandTiny from "../../assets/images/lego-land-tiny.jpg";
+import LegoLandFeatures from "../../data/legoLandFeatures.json";
 
 export default function FeaturedProjects() {
   return (
     <>
       <div className="projects-wrapper">
+        <DisplayProject
+          title="Ellie's Lego Land"
+          subtitle="Blog for my daughter to showcase her favorite Lego builds"
+          src={LegoLand}
+          placeholder={LegoLandTiny}
+          id="collapsible-lego-land"
+          alt="Screenshot of Ellie's Lego Land homepage"
+          features={LegoLandFeatures}
+          github="https://github.com/jamesncox/ellies-lego-land"
+          url="https://ellies-lego-land.vercel.app/"
+          gitHubAriaTitle="LegoLandGithub"
+          githubAriaDesc="LegoLandGithubDesc"
+          desktopAriaTitle="LegoLandDesktop"
+          desktopAriaDesc="LegoLandDesktopDesc"
+        />
+
         <DisplayProject
           title="The Boredinator"
           subtitle="Activities and inspiration to stave off boredom"
