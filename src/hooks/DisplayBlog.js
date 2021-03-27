@@ -31,12 +31,14 @@ const DisplayBlog = React.memo(
             </a>
           </div>
         </div>
-        <ImageLoad
-          className="project-image"
-          src={src}
-          placeholder={placeholder}
-          alt={alt}
-        />
+        <a href={url} rel="noopener noreferrer" target="_blank">
+          <ImageLoad
+            className="project-image"
+            src={src}
+            placeholder={placeholder}
+            alt={alt}
+          />
+        </a>
         <p className="project-description">{description}</p>
       </div>
     );
