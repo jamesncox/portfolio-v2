@@ -24,12 +24,14 @@ const DisplayProject = React.memo(
       <div className="projects-card">
         <h3 className="project-title">{title}</h3>
         <p className="project-subtitle">{subtitle}</p>
-        <ImageLoad
-          className="project-image"
-          src={src}
-          placeholder={placeholder}
-          alt={alt}
-        />
+        <a href={url} rel="noopener noreferrer" target="_blank">
+          <ImageLoad
+            className="project-image"
+            src={src}
+            placeholder={placeholder}
+            alt={alt}
+          />
+        </a>
         <input id={id} className="toggle" type="checkbox" />
         <label htmlFor={id} className="lbl-toggle">
           LEARN MORE
