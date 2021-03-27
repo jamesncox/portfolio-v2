@@ -6,6 +6,8 @@
 
     [] Why does the nav component blink when page reloads? Interesting!
 
+    [] Turn projects image into a link to project itself?
+
 # Completed Todos
 
     [x] Bump up the pineapple theme/color scheme? NAHHHH
