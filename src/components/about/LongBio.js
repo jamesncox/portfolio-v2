@@ -32,7 +32,7 @@ export default function LongBio() {
         despite its idiosyncrasies.
       </p>
       <p className="text">
-        Currently I am learning Next.js and WordPress and quite enjoying it!
+        Currently I am learning Next.js and WordPress and quite enjoying them!
       </p>
       <p className="text">
         By the end of the year I want to have 3 freelance WordPress sites
