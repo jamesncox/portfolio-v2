@@ -7,7 +7,8 @@ export default function MediumBio() {
     <>
       <p className="text">
         I am a 37-year-old career changer. I have been coding for 3 years now,
-        and I want to build things that help people while paying the bills!
+        and I want to build tools that real people will use to help improve
+        their lives.
       </p>
       <p className="text">
         You absolutely can consider me a "full stack" developer. I enjoy coding
