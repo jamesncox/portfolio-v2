@@ -12,7 +12,8 @@ export default function MediumBio() {
       </p>
       <p className="text">
         You absolutely can consider me a "full stack" developer. I enjoy coding
-        backends and working with databases. But my first love is the front end.
+        backends and working with databases. However, my first love is the front
+        end.
       </p>
       <p className="text">FUN FACT:</p>
       <p className="text">
