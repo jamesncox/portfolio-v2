@@ -35,8 +35,8 @@ export default function LongBio() {
         Currently I am learning Next.js and WordPress and quite enjoying them!
       </p>
       <p className="text">
-        By the end of the year I want to have 3 freelance WordPress sites
-        featured in my portfolio.
+        By the end of the year I want to feature at least 3 freelance WordPress
+        sites in my portfolio.
       </p>
     </>
   );
