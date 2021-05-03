@@ -195,4 +195,12 @@
   .blog-title {
     font-size: 1.25rem;
   }
+
+  .email-link {
+    font-size: 1.25rem;
+  }
+
+  .email-icon {
+    width: 30px;
+  }
 }
