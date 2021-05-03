@@ -154,6 +154,14 @@
     width: 90%;
   }
 
+  .skills {
+    height: 100px;
+  }
+
+  .skills-description {
+    font-size: 0.8rem;
+  }
+
   .video {
     width: 500px;
     height: 300px;
