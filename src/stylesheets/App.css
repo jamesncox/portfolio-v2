@@ -477,6 +477,16 @@ body.dark {
   transition: var(--theme-transition);
 }
 
+.footer-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--name-color);
+}
+
+.footer-link:hover {
+  color: var(--hightlighted-menu-color);
+}
+
 /* video */
 .video-wrapper {
   display: flex;
