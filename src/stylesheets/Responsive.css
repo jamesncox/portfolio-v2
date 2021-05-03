@@ -203,4 +203,16 @@
   .email-icon {
     width: 30px;
   }
+
+  .at-symbol-link {
+    font-size: 1.25rem;
+  }
+
+  .pdf-link {
+    font-size: 1.25rem;
+  }
+
+  .resume-icon {
+    width: 30px;
+  }
 }
