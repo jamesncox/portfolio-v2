@@ -304,6 +304,7 @@ body.dark {
   font-family: "Roboto", sans-serif;
   color: var(--description-color);
   transition: var(--theme-transition);
+  font-size: 1.25rem;
 }
 
 .project-icon-wrapper {
