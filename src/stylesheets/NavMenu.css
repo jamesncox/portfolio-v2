@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 
 .selected-menu {
-  font-family: 'Share Tech Mono', monospace;
+  font-family: "Share Tech Mono", monospace;
   font-size: 1.15rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   border: none;
   background: none;
   outline: none;
@@ -12,7 +12,7 @@
   text-transform: uppercase;
   cursor: pointer;
   border-bottom: 6px solid var(--hightlighted-menu-color);
-  transition: var(--theme-transition), border-bottom-color .2s ease-in-out;
+  transition: var(--theme-transition), border-bottom-color 0.2s ease-in-out;
   padding-bottom: 4px;
 }
 
@@ -21,9 +21,9 @@
 }
 
 .menu {
-  font-family: 'Share Tech Mono', monospace;
+  font-family: "Share Tech Mono", monospace;
   position: relative;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   margin-bottom: 0;
   cursor: pointer;
   text-transform: uppercase;
@@ -33,5 +33,15 @@
   border: none;
   background: none;
   outline: none;
-  transition: var(--theme-transition), border-bottom-color .2s ease-in-out;
+  transition: var(--theme-transition), border-bottom-color 0.2s ease-in-out;
+}
+
+@media only screen and (min-width: 1300px) {
+  .menu {
+    font-size: 1.25rem;
+  }
+
+  .selected-menu {
+    font-size: 1.25rem;
+  }
 }
