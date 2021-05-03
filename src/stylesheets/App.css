@@ -181,9 +181,10 @@ body.dark {
   transition: var(--theme-transition);
 }
 
-.description {
+/* .description {
   font-family: "Roboto", sans-serif;
-}
+  font-size: 2rem;
+} */
 
 /* images */
 .image-wrapper {
