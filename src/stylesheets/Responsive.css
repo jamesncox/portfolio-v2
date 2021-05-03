@@ -215,4 +215,8 @@
   .resume-icon {
     width: 30px;
   }
+
+  .footer {
+    font-size: 1.25rem;
+  }
 }
