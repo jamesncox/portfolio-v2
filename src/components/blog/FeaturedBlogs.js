@@ -5,10 +5,25 @@ import UseEffect from "../../assets/images/useEffect.jpg";
 import UseEffectTiny from "../../assets/images/useEffectTiny.jpg";
 import UseRef from "../../assets/images/useRef.jpg";
 import UseRefTiny from "../../assets/images/useRefTiny.jpg";
+import ArrayMethods from "../../assets/images/array-methods.jpg";
+import ArrayMethodsTiny from "../../assets/images/array-methods-tiny.jpg";
 
 export default function FeaturedBlogs() {
   return (
     <>
+      <div>
+        <DisplayBlog
+          title="JavaScript Building Blocks Series: Array Methods"
+          src={ArrayMethods}
+          placeholder={ArrayMethodsTiny}
+          alt="Array methods with buttons for .map, .filter, .find, and .reduce"
+          description="Part one in my essential JavaScript building blocks for React series in which I explore the .map, .filter, .find and .reduce methods."
+          url="https://dev.to/jamesncox/array-methods-33ii"
+          ariaTitle="ArrayMethodsArrow"
+          ariaDesc="ArrayMethodsDesc"
+        />
+      </div>
+
       <div>
         <DisplayBlog
           title="React Hooks Series: useState"
