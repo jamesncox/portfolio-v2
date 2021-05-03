@@ -127,6 +127,14 @@
     font-size: 1.5rem;
   }
 
+  .bio-menu {
+    font-size: 1.25rem;
+  }
+
+  .selected-bio {
+    font-size: 1.25rem;
+  }
+
   .projects-container {
     margin: auto;
     width: 70%;
@@ -155,10 +163,3 @@
     width: 500px;
   }
 }
-
-/* @media only screen and (min-width: 1400px) {
-  .App {
-    margin-left: 25%;
-    margin-right: 25%;
-  }
-} */
