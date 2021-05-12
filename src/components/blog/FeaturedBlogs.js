@@ -24,7 +24,7 @@ export default function FeaturedBlogs() {
 
       <div>
         <DisplayBlog
-          title="Essential JavaScript Building Blocks for React"
+          title="Essential JavaScript for React"
           src={BuildingBlocks}
           placeholder={BuildingBlocksTiny}
           alt="Array methods with buttons for .map, .filter, .find, and .reduce"
