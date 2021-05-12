@@ -5,22 +5,22 @@ import UseEffect from "../../assets/images/useEffect.jpg";
 import UseEffectTiny from "../../assets/images/useEffectTiny.jpg";
 import UseRef from "../../assets/images/useRef.jpg";
 import UseRefTiny from "../../assets/images/useRefTiny.jpg";
-import ArrayMethods from "../../assets/images/array-methods.jpg";
-import ArrayMethodsTiny from "../../assets/images/array-methods-tiny.jpg";
+import BuildingBlocks from "../../assets/images/building-blocks.jpg";
+import BuildingBlocksTiny from "../../assets/images/building-blocks-tiny.jpg";
 
 export default function FeaturedBlogs() {
   return (
     <>
       <div>
         <DisplayBlog
-          title="JavaScript Building Blocks Series: Array Methods"
-          src={ArrayMethods}
-          placeholder={ArrayMethodsTiny}
+          title="Essential JavaScript Building Blocks for React"
+          src={BuildingBlocks}
+          placeholder={BuildingBlocksTiny}
           alt="Array methods with buttons for .map, .filter, .find, and .reduce"
-          description="Part one in my essential JavaScript building blocks for React series in which I explore the .map, .filter, .find and .reduce methods."
-          url="https://dev.to/jamesncox/array-methods-33ii"
-          ariaTitle="ArrayMethodsArrow"
-          ariaDesc="ArrayMethodsDesc"
+          description="Part one in my essential JavaScript building blocks for React series. I explore several JavaScript concepts that are common in React, and showcase examples for each one."
+          url="https://dev.to/jamesncox/essential-javascript-building-blocks-for-react-9m9"
+          ariaTitle="BuildingBlocksArrow"
+          ariaDesc="BuildingBlocksDesc"
         />
       </div>
 
