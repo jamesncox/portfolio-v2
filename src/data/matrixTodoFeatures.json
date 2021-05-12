@@ -1,0 +1,31 @@
+[
+    
+    {
+        "id": 50,
+        "text": "React.js front end featurhing useState and useEffect"
+    },
+    {
+        "id": 51,
+        "text": "Rails API back end with custom routes and session handling"
+    },
+    {
+        "id": 55,
+        "text": "Designed with Tailwind CSS custom utility classes and configuration"
+    },
+    {
+        "id": 53,
+        "text": "Redux for state management"
+    },
+    {
+        "id": 54,
+        "text": "Error messaging handled by Rails validations and managed server-side with React"
+    },
+    {
+        "id": 55,
+        "text": "Loading prompt for data transfer"
+    },
+    {
+        "id": 56,
+        "text": "Responsive for all screen sizes"
+    }
+]

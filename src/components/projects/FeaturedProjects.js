@@ -13,6 +13,7 @@ import LegoLandTiny from "../../assets/images/lego-land-tiny.jpg";
 import LegoLandFeatures from "../../data/legoLandFeatures.json";
 import MatrixTodo from "../../assets/images/matrix-todo.jpg";
 import MatrixTodoTiny from "../../assets/images/matrix-todo-tiny.jpg";
+import MatrixTodoFeatures from "../../data/matrixTodoFeatures.json";
 
 export default function FeaturedProjects() {
   return (
@@ -25,7 +26,7 @@ export default function FeaturedProjects() {
           placeholder={MatrixTodoTiny}
           id="collapsible-matrix-todo"
           alt="Screenshot of The Todo Matrix with green Matrix code"
-          features={LegoLandFeatures}
+          features={MatrixTodoFeatures}
           github="https://github.com/jamesncox/tonic-todo-react"
           url="https://the-matrix-todo.netlify.app/"
           gitHubAriaTitle="MatrixTodoGithub"
