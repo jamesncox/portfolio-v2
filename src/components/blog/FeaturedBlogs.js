@@ -47,19 +47,6 @@ export default function FeaturedBlogs() {
           ariaDesc="useStateDesc"
         />
       </div>
-      {/* 
-      <div>
-        <DisplayBlog
-          title="React Hooks Series: useRef"
-          src={UseRef}
-          placeholder={UseRefTiny}
-          alt="Black background with the word useRef written in bold orange"
-          description="Part three in the React Hooks Series talks about my personal favorite hook: useRef. We look at how useRef solves a problem with pausing and starting the timer in my Codesandbox example."
-          url="https://dev.to/jamesncox/react-hooks-series-useref-27mk"
-          ariaTitle="useRefArrow"
-          ariaDesc="useRefDesc"
-        />
-      </div> */}
     </>
   );
 }
