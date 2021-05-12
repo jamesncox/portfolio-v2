@@ -11,11 +11,29 @@ import DoDidDoneFeatures from "../../data/doDidDoneFeatures.json";
 import LegoLand from "../../assets/images/lego-land.jpg";
 import LegoLandTiny from "../../assets/images/lego-land-tiny.jpg";
 import LegoLandFeatures from "../../data/legoLandFeatures.json";
+import MatrixTodo from "../../assets/images/matrix-todo.jpg";
+import MatrixTodoTiny from "../../assets/images/matrix-todo-tiny.jpg";
 
 export default function FeaturedProjects() {
   return (
     <>
       <div className="projects-wrapper">
+        <DisplayProject
+          title="The Matrix Todo"
+          subtitle="Todo app for fans of The Matrix"
+          src={MatrixTodo}
+          placeholder={MatrixTodoTiny}
+          id="collapsible-matrix-todo"
+          alt="Screenshot of The Todo Matrix with green Matrix code"
+          features={LegoLandFeatures}
+          github="https://github.com/jamesncox/tonic-todo-react"
+          url="https://the-matrix-todo.netlify.app/"
+          gitHubAriaTitle="MatrixTodoGithub"
+          githubAriaDesc="MatrixTodoGithubDesc"
+          desktopAriaTitle="MatrixTodoDesktop"
+          desktopAriaDesc="MatrixTodoDesktopDesc"
+        />
+
         <DisplayProject
           title="Ellie's Lego Land"
           subtitle="Blog for my daughter to showcase her favorite Lego builds"
