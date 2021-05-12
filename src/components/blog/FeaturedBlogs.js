@@ -15,7 +15,7 @@ export default function FeaturedBlogs() {
           src={DarthMosaic}
           placeholder={DarthMosaicTiny}
           alt="Black background with the word DarthMosaic written in bold blue"
-          description="Part one in my #TIL series, in which I briefly discuss a different coding topic each day."
+          description="Part one in my #TIL series, in which I briefly discuss a different coding topic each day. Part one showcases HTML's awesome color picker element."
           url="https://dev.to/jamesncox/html-s-color-picker-4ej3"
           ariaTitle="DarthMosaicArrow"
           ariaDesc="DarthMosaicDesc"

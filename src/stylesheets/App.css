@@ -181,11 +181,6 @@ body.dark {
   transition: var(--theme-transition);
 }
 
-/* .description {
-  font-family: "Roboto", sans-serif;
-  font-size: 2rem;
-} */
-
 /* images */
 .image-wrapper {
   display: flex;
@@ -304,7 +299,7 @@ body.dark {
   font-family: "Roboto", sans-serif;
   color: var(--description-color);
   transition: var(--theme-transition);
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .project-icon-wrapper {
