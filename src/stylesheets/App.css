@@ -7,6 +7,10 @@ body {
   transition: var(--theme-transition);
 }
 
+html {
+  font-size: 100%;
+}
+
 :root {
   /* neutrals */
   --black: black;
