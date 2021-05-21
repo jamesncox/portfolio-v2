@@ -4,7 +4,6 @@
 
 body {
   background-color: var(--background-color);
-  /* background-color: #ffffff; */
   transition: var(--theme-transition);
 }
 
@@ -202,7 +201,6 @@ body.dark {
   height: 100%;
   object-fit: cover;
   border-radius: 5px;
-  z-index: -1;
   box-shadow: var(--box-shadow);
   transition: var(--theme-transition);
 }
@@ -214,7 +212,6 @@ body.dark {
   height: 100%;
   object-fit: cover;
   border-radius: 5px;
-  z-index: -1;
   box-shadow: var(--box-shadow);
   transition: var(--theme-transition);
 }
