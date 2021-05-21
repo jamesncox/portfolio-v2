@@ -67,7 +67,8 @@
   .App {
     margin-left: 20%;
     margin-right: 20%;
-    background-color: white;
+    background-color: var(--background-color);
+    transition: var(--theme-transition);
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
