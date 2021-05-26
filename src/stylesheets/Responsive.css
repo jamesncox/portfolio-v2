@@ -69,8 +69,8 @@
     margin-right: 20%;
     background-color: var(--background-color);
     transition: var(--theme-transition);
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .projects-container {
