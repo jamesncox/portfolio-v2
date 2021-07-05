@@ -3,14 +3,18 @@ export default function Work() {
     <>
       <h2 className="section-title">work</h2>
       <p className="text">
-        I am a former restaurant manager turned stay-at-home father looking for
-        my first developer role. I am open to all new opportunities. However, in
-        5 to 10 years I see myself working and thriving in product development.
+        I am a former restaurant manager turned web developer. I am employed at{' '} 
+        <a
+          className="footer-link"
+          href="https://www.webstaurantstore.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          WebstaurantStore
+        </a> as a Front End Developer.
       </p>
       <p className="text">
-        If you believe I would be a good fit for your team, please do not
-        hesitate to reach out and I would love to chat with you. Thank you so
-        much for checking out my portfolio!
+        Currently I am not looking for new opportunities, but I am always happy to connect with other professionals in the industry and help anyone however I can!
       </p>
     </>
   );

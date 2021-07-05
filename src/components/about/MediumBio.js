@@ -15,6 +15,17 @@ export default function MediumBio() {
         backends and working with databases. However, my first love is the front
         end.
       </p>
+      <p className="text">
+        My passion is connecting developers of all backrounds and experience levels to create small communities like{' '}
+        <a
+          className="footer-link"
+          href="https://twitter.com/codesharegrow"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          @codesharegrow
+        </a>, which literally changed my life for the better in every way.
+      </p>
       <p className="text">FUN FACT:</p>
       <p className="text">
         I have a new puppy. 🐶 His name is Dempsey, and he is the goodest boy.
